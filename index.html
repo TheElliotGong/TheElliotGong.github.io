@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <!--Author: Elliot Gong
+        Purpose: Create a personal portfolio page
+        Restrictions: Must be responsive, use HTML and CSS, as well as flexbox and grid
+        Date: 10/3/2021-->
+    <head>
+        <title>Elliot Gong</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--Import custom fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> -->
+        <!--Add style sheet(s)-->
+        <link rel="stylesheet" href="css/p1Specs.css">
+        <link rel="stylesheet" href="css/slideshow.css">
+        <script src = "scripts/main.js"></script>
+    </head>
+    <body>
+        <header id = "myHeader">
+            <h1 style = "font-weight: bold;">ELLIOT GONG</h1>
+            <nav>
+                <a href = "#wrapper">About</a>
+                <a href = "#experience">Experience</a>
+                <a href = "#skillTop">Skills</a>
+                <a href = "#projects">Projects</a>   
+                <a href = "#contactMe">Contact</a>
+            </nav>
+        </header>
+        <div id = "wrapper">
+            <div id = "bio">
+                <img id = "headshot" src = "media/images/my-face.jpg" alt = "">
+                <div id = "quickContact">
+                    <a class = "contact" href = "https://github.com/TheElliotGong" target = "_blank">
+                        <img src = "media/images/logos_and_icons/github.png" alt = "">
+                    </a>
+                    <a class = "contact" href = "mailto:ewcgong@hotmail.com" >
+                        <img src = "media/images/logos_and_icons/R.png" alt = "">
+                    </a>
+                    <a class = "contact" href = "https://www.linkedin.com/in/elliot-gong/" target = "_blank">
+                        <img src = "media/images/logos_and_icons/linkedin.png" alt = "">
+                    </a>
+                    <a class = "contact" href = "https://sketchfab.com/Taterblock17" target = "_blank">
+                        <img src = "media/images/logos_and_icons/sketchfab.png" alt = "">
+                    </a>
+                    <a class = "contact" href = "https://www.artstation.com/elliot_gong" target = "_blank">
+                        <img src = "media/images/logos_and_icons/artstation.png" alt = "">
+                    </a>
+                </div>   
+                <div id = "Intro">
+                    <h1 >Hi, I'm Elliot!</h1>
+                    <h2>Game & Frontened Developer</h2>
+                    <h3>
+                    I'm a current Game Design/Dev student at the Rochester Institute of Technology.
+                    <br>
+                    I enjoy combining innovation and imagination to create simple and creative solutions.
+                    <br>
+                    In my free time, I like to play games, watch tv, read, draw, model, and exercise.
+                    </h3>   
+                </div>
+            </div> 
+            <hr>
+            <div id = "experience">
+                <h1>EXPERIENCE</h1>
+                <div class = "employment">
+                    <div class = "employmentInfo">
+                        <h2>3D Modeling and Animation Intern</h2>
+                        <div class = "jobInfo">
+                            <h3>Great Lakes Gaming</h3>
+                            <h3>May 2022 - July 2022</h3>
+                            <h3>Remote</h3>
+                        </div>
+                    </div>
+                    
+                    <ul>
+                        <li>Updated and maintained textures, poses, and quality of 3D game assets. </li>
+                        <li>Created models and renders of characters and assets.</li>
+                        <li>Research new and more efficient techniques for 3D design and animation.</li>
+                    </ul>
+                    
+                </div>
+            </div>
+            <hr>
+            <div id = "skills">
+               
+                <h1>SKILLS</h1>
+                <div class = "Section" id = "general_skills">
+                <h2>Disciplines</h2>
+                    Game/Level Design, Game Programming, Front End Development, UI/UX Design, 3D Modeling/Sculpting, Digital Illustration  
+                </div>
+                <div class = "Section" id = "languages">
+                <h2>Languages</h2>
+                    C++, FreeGLUT, C#, HTML5, CSS3, Javascript
+                </div>
+                <div class = "Section" id = "software">
+                <h2>Software</h2>
+                    Visual Studio(2 yr), Blender, Maya, Zbrush, Adobe Substance 3D Painter, Unity, Unreal(1 yr), 
+                    Filezilla, Axure RP, Figma, Adobe Photoshop, Adobe Fresco, Adobe After Effects, Gimp, Paint 3D 
+                </div>
+                <div class = "Section" id = "software">
+                <h2>Other</h2>
+                    Project Management, Teamwork, Problem Solving, Communication, Customer Service, Self-Motivation
+                </div>
+            </div>
+            <hr >
+            <div id = "projects">
+                <h1>PROJECTS</h1>
+                <h2>Games & Web Applications</h2>
+                <div class = "projectContent">    
+                    <div class = "project" id = "AudioVisualizer">
+                        <h2>Audio Visualizer(2023)</h2>
+                        <img src = "media/images/audio_visualizer.png" alt = "">
+                        <ul>
+                            <li><strong>Link:</strong> <a href = "https://people.rit.edu/ewg3393/330/HW/gong-e-hw2/" target = "_blank">Audio Visualizer: Nutcracker Edition</a></li>
+                            <li><strong>About:</strong> Individually created an audio visualizer that specializes in music from the Nutcracker.</li>
+                            <li><strong>What I did:</strong> Implemented AudioNodes and node.js to </li>
+                            <li><strong>Team Size: </strong> Self</li>
+                            <li><strong>Project Length:</strong>4 weeks</li>
+                            <li><strong>Software/Languages:</strong> HTML5, CSS3, Javascript</li>
+                        </ul>
+                    </div>
+                    <div class = "project" id = "PotionWorks">
+                        <h2>PotionWorks(2022)</h2>
+                        <img src = "media/images/potionworks.png" alt = "">
+                        <ul>
+                            <li><strong>Link:</strong> <a href = "https://taterpixl17.itch.io/potionworks" target = "_blank">Game Page</a></li>
+                            <li><strong>About:</strong> Worked in a team of 5 to create a Casual 2D Puzzle game set in the fantasy world of Ethshar.</li>
+                            <li><strong>What I did:</strong> Acted as project manager, game/UI programmer, and designer.</li>
+                            <li><strong>Team Size: </strong> 5 students</li>
+                            <li><strong>Project Length:</strong>5 weeks</li>
+                            <li><strong>Software/Languages:</strong> Unity</li>
+                        </ul>
+                    </div>
+                    
+                    <div  class = "project" id = "thirdProject">
+                        
+                        <h2>Polygon Defense(2021)</h2>
+                        <img src = "media/images/polygon_defense.png" alt = "">
+                        <ul>
+                            <li><strong>Link:</strong> <a href = "https://people.rit.edu/ewg3393/235/project3/" target = "_blank">Polygon Defense</a></li>
+                            <li><strong>About:</strong> Polygon Defense is a top-down defense shooter where you defend against endless waves of enemies.</li>
+                            <li><strong>What I did:</strong> Use Javascript and the PixiJS tech stack to create a functioning game as the sole developer.</li>
+                            <li><strong>Team Size:</strong> Self</li>
+                            <li><strong>Project Length:</strong>1 month.</li>
+                            <li><strong>Software/Languages:</strong> HTML, CSS, Javascript, Visual Studio Code, </li>
+                            
+                        </ul> 
+                    </div>
+                    <div  class = "project" id = "secondProject">
+                        <h2>Amiibo Wiki(2021)</h2>
+                        <img src = "media/images/amiibo_wiki.png" alt = "" id = "stockPhoto">
+                        
+                        <ul>
+                            <li><strong>Link:</strong> <a href = "https://people.rit.edu/ewg3393/235/project2/" target = "_blank">Amiibo Wiki</a></li>
+                            <li><strong>About:</strong> Academic Project is a custom Amiibo wiki page utilizing the public Amiibo API.</li>
+                            <li><strong>What I did:</strong>Design, build, and maintain a functioning website as a solo web developer</li>
+                            <li><strong>Goal:</strong>Create an interactive web page that uses an external Web Services</li>
+                            <li><strong>Challenges:</strong> Figuring out how to access and return data from the external data using a new method was the most difficult portion.</li>
+                            <li><strong>Software/Languages:</strong> HTML5, CSS3, Javascript, Visual Studio Code</li>
+                            
+                        </ul>    
+                    </div>
+                    <div class = "project" id = "SuperFruit">
+                        <h2>Super Fruit Attack(2021)</h2>
+                        <img src = "media/images/super_fruit_attack.png" alt = "">
+                        <ul>
+                            <li><strong>Link:</strong> <a href = "https://github.com/JohnW1455/106GroupRepo/tree/main/SuperFruitAttack" target = "_blank">Github Repo</a></li>
+                            <li><strong>About:</strong> Worked in a team of 4 to create a 2D platformer shooter.</li>
+                            <li><strong>What I did:</strong> Acted as project manager, game designer/programmer, and UI artist.</li>
+                            <li><strong>Team Size: </strong> 4</li>
+                            <li><strong>Project Length:</strong>2 months</li>
+                            <li><strong>Software/Languages:</strong> C#, Visual Studio 2019, Monogame</li>
+                        </ul>      
+                    </div>
+                    
+                    <div class = "project" id = "fifthProject">
+                        <h2>Lunch in the Garden(2022)</h2>
+                        <img src = "media/images/lunch_in_the_garden.png" alt = "">
+                        
+                        <ul>
+                            <li><strong>Link:</strong> <a href = "https://andressmartin.itch.io/lunch-in-the-garden" target = "_blank">Lunch in the Garden</a></li>
+                            <li><strong>About:</strong> Personal Project, an educational, puzzle cooking game where you must find ingredients in a garden to prepare your lunch.</li>
+                            <li><strong>What I did:</strong>Acted as game designer and the concept/game artist.</li>
+                            <li><strong>Team Size:</strong> 3</li>
+                            <li><strong>Project Length:</strong> 3 days</li>
+                            <li><strong>Software/Languages:</strong> Pixilart, Unity, C#</li>
+                            
+                        </ul> 
+                    </div>   
+                </div>
+                <h2>3D Models</h2>
+                <div class = "projectContent">
+                    <div class = "project">
+                        <h2>Hammer of Nurgle</h2>
+                        <img src = "media/images/3D_models_and_renders/hammer.png" alt = "Hammer Render">
+                        <ul>
+                            <li><strong>Link:</strong> <a href = "https://www.artstation.com/artwork/Om8DmK" target = "_blank">Sketchfab page</a></li>
+                            <li><strong>About:</strong> A low poly axe of my own design, complete with baked textures from a high poly mesh.</li>
+                            <li><strong>Team Size: </strong> Self</li>
+                            <li><strong>Project Length:</strong>2 weeks.</li>
+                            <li><strong>Software/Languages:</strong> Maya, Blender, Substance Painter</li>
+                        </ul>
+                    </div>
+                    <div class = "project">
+                        <h2>Axe of Khorne</h2>
+                        <img src = "media/images/3D_models_and_renders/axe.png" alt = "Axe Render">
+                        <ul>
+                            <li><strong>Link:</strong> <a href = "https://sketchfab.com/3d-models/nurgle-hammer-bdcc3680090246fa98a01d413bcc264a" target = "_blank">Artstation page</a></li>
+                            <li><strong>About:</strong> A low poly hammer of my own design, complete with baked textures from a high poly mesh.</li>
+                            <li><strong>Team Size: </strong> Self</li>
+                            <li><strong>Project Length:</strong>2.5 weeks.</li>
+                            <li><strong>Software/Languages:</strong> Maya, Blender, Substance Painter</li>
+                        </ul>
+                    </div>
+                    <div class = "project">
+                        <h2>Chess Set</h2>
+                        <img src = "media/images/3D_models_and_renders/2022-12-22 (3).png" alt = "">
+                        <ul>
+                            <li><strong>Link:</strong> <a href = "https://taterpixl17.itch.io/potionworks" target = "_blank">Sketchfab page</a></li>
+                            <li><strong>About:</strong> A low poly chess set, mod3eled and textured by me.</li>
+                            <li><strong>Team Size: </strong> Self</li>
+                            <li><strong>Project Length:</strong>2 weeks.</li>
+                            <li><strong>Software/Languages:</strong> Maya, Substance Painter</li>
+                        </ul>
+                    </div>
+                    <div class = "project">
+                        <h2>Halo Sword</h2>
+                        <img src = "media/images/3D_models_and_renders/energy_sword.png" alt = "">
+                        <ul>
+                            <li><strong>Link:</strong> <a href = "https://taterpixl17.itch.io/potionworks" target = "_blank">Sketchfab page</a></li>
+                            <li><strong>About:</strong> A low poly energy sword from Halo, modeled and textured by me.</li>   
+                            <li><strong>Team Size: </strong> Self</li>
+                            <li><strong>Project Length:</strong>1 week.</li>
+                            <li><strong>Software/Languages:</strong> Maya, Substance Painter</li>
+                        </ul>
+                    </div>
+                    
+                    
+                </div>
+                <h2>Levels</h2>
+                <div class = "projectContent">
+                    <div class = "project">
+                        <h2>Portal 2 Levels</h2>
+                        <img src = "media/images/portal2workshop.png" alt = "Workshop page">
+                        <ul>
+                            <li><strong>Link:</strong> <a href = "https://steamcommunity.com/profiles/76561198367702438/myworkshopfiles/?appid=620" target = "_blank">Steam Page</a></li>
+                            <li><strong>About:</strong>Implement design and gameflow principles for a 3D puzzle platformer level. Responsible for all aspects.</li>
+                            <li><strong>Team Size: </strong> Self</li>
+                            <li><strong>Project Length:</strong>3 weeks.</li>
+                            <li><strong>Software/Languages:</strong> Portal 2 Level editor</li>
+                        </ul>
+                    </div>
+                    <div class = "project">
+                        <h2>Custom Battleblock Theatre Level</h2>
+                        <img src = "media/images/2023-02-17.png" alt = "Screenshot">
+                        <ul>
+                            <li><strong>Link:</strong> <a href = "https://steamcommunity.com/sharedfiles/filedetails/?id=2936439139" target = "_blank">Steam Page</a></li>
+                            <li><strong>About:</strong>Implement design and gameflow principles for a 2D platformer level. Responsible for all aspects.</li>
+                            <li><strong>Team Size: </strong> Self</li>
+                            <li><strong>Project Length:</strong>3 weeks.</li>
+                            <li><strong>Software/Languages:</strong> Battleblock Theatre level editor</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+            <footer>
+                <h1>Contact</h1>
+                <div id = "contactMe">
+                    <ul>
+                        <li>Phone: <strong>(626)-262-8374</strong></li>
+                        <li>Email: <strong>ewcgong@hotmail.com</strong></li>
+                        <li>Linkedin: <a href = "https://www.linkedin.com/in/elliot-gong" target = "_blank">Elliot Gong</a></li>
+                        <li>Resume: <a href = "media/Game Design & Development.pdf" id = "resume" target="_blank">Game Design Resume</a></li>
+                        <li>Github: <a href = "https://github.com/thetyper101">thetyper101</a></li>
+                    </ul>
+                </div>                
+            </footer>
+        </div>
+        <script>
+            "use strict"
+            let headerHeight = document.querySelector("#myHeader");
+            let wrapperElement = document.querySelector("#wrapper");
+            function reorderHeader()
+            {
+                wrapperElement.style.paddingTop = `${headerHeight.offsetHeight.toString()}px`;
+                wrapperElement.style.padddingBottom = 0;
+            }
+            window.onresize = reorderHeader;
+            window.onload = reorderHeader;
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,467 @@
+/* Author: Elliot Gong
+   Purpose: Create a portfolio page primarily using HTML, CSS, Flexbox, and Grid
+   Restrictions: Can't use bootstrap, ideally 1 page, must have necessary elements.
+   Date: 10/5/2021*/
+
+html, body{
+    min-width: 400px;
+    box-sizing: border-box;
+    background-color: #5863F8;
+    color: #fdfbff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+#wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+}
+header{
+    color: #5863F8;
+    background-color: #fdfbff;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    text-align: center;
+    height: fit-content;
+}
+header h1{
+    color: #5863F8;
+    margin: 3% 0;
+    font-size: 7vw;
+}
+nav{
+    
+    font-size: 0.9em;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    font-size: 4vw;
+    background-color: #fdfbff;
+    transition: 0.3s;
+    display: flex;
+    padding: 13px 3%;
+    text-decoration: none;
+    width: 19%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(114, 114, 114);
+}
+nav a:hover{
+    background-color: rgb(114, 114, 114);
+    color: #fdfbff;
+}
+#bio{
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    width: 80%;
+    height: fit-content;
+
+    color: #fdfbff; /*EFE9f*/
+    align-self: center;
+    justify-self: center;
+    padding: 40px 10% 0;
+    text-align: center;
+}
+#headshot{
+    grid-area: photo;
+    width: 45%;
+    max-width: 220px;
+    border: 5px solid #fdfbff;
+    margin: 0 auto;
+    border-radius: 50%;
+    
+}
+
+#Intro
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: intro;
+}
+#Intro h1
+{
+    font-size: 3em;
+}
+#quickContact
+{
+    padding-top: 15px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#quickContact img
+{
+    width: 2em;
+    height: 2em;
+}
+
+#skills, #projects, #experience{
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: fit-content;
+    width: 80%;
+    padding: 0;
+
+}
+.employment
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.employment ul
+{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.employmentInfo, .jobInfo
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.jobInfo
+{
+    width: 60%;
+}
+.employment h2
+{
+    margin: auto 0
+}
+
+.Skill h3, .Skill h4{
+    box-sizing: border-box;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    background-color: #171D1C;
+    height: 15%;
+    max-height: 60px;
+    color: white;  
+}
+.Skill hr{
+    margin: 0;
+}
+.Skill img{
+    width: 100%;
+    max-width: 200px;
+    height: 70%;
+    padding-top: 0;
+}
+
+#projects{   
+    margin-bottom: 20px;
+    height: fit-content;
+}
+
+.projectContent{
+    margin: 0 auto;
+    width:100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0.7em;
+    padding: 0;
+}
+.project{
+    box-sizing: content-box;
+    width: 100%;
+    align-items: center;
+    height: fit-content;
+    margin-bottom: 15px;
+}
+.links{
+    width:fit-content;
+    margin: 10px auto;
+    text-align: center;
+}
+.project ul{
+    list-style-type: none;
+    box-sizing: content-box;
+    margin-top: 1em;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 2em;
+    width: 100%;
+}
+.project li{
+    margin: 7px 0;
+}
+.project img, .projectInfo img{
+    height: auto;
+    display: block;
+    margin-bottom: 8px;
+    width: 100%;
+    max-height: 300px;
+
+}
+.project h2, .projectInfo h2{
+    text-align: left;
+    margin: 6px auto;
+    width: 100%;
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+#subsection{
+    margin-top: 0;
+    padding-top: 20px;
+    border-top: 0;
+}
+.projectInfo{
+    height: fit-content;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #E5E5E5;
+    border-bottom: 3px solid black;
+}
+.projectInfo p{
+    font-size: 1.5em;
+}
+#project1{
+    margin-top: 0;
+}
+#project4{
+    border-bottom: none;
+}
+footer{
+    background-color: #EFE9F4;
+    color: black;
+    box-sizing: content-box;
+    padding: 25px 15%;
+    justify-content: center;
+    width: 70%;
+    grid-area: footer;
+}
+footer h1
+{
+    width: fit-content;
+    color: #5863F8;
+}
+#contactMe{
+    font-size: small;
+    display: grid;
+    /*
+    grid-template-columns: 40% 60%;
+    grid-template-areas: "contact-information contact-form";*/
+    margin: 0 auto;
+    width: fit-content;
+}
+#contactMe ul{
+    line-height: 200%;
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+    /*grid-area: contact-information;*/
+}
+h1{
+    color:rgb(175, 243, 255);
+    width: 100%;
+    margin: 0 auto 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+h2{
+    font-size: x-large;
+    margin: 10px auto;
+    font-weight: bold;
+}
+h3{
+    font-size: larger;
+    margin: 10px auto;
+}
+h5{
+    font-size: medium;
+}
+.project a{
+    color:rgb(74, 228, 255);
+}
+.project a:hover{
+    color:rgb(229, 251, 255);
+}
+a
+{
+    font-weight: bold;
+}
+
+.links a{
+    width: fit-content;
+    font-size: 1.8em;
+}
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+li{
+    font-size: medium;
+    word-wrap: break-word;
+}
+hr
+{
+    border-top: 8px solid #c0c0c0;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 80%;
+}
+/*For Desktop*/
+@media screen and (min-width: 768px)
+{
+    header{
+        height: 12vh;
+        min-height: 100px;
+        box-sizing: content-box;
+        width: 95%;
+        padding-left: 5%;
+        padding-right: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header h1{
+        text-align: left;
+        margin: auto 0;
+        font-size: 2rem;
+        width: 50%;
+        max-width: 300px;
+        
+    }
+    header h1{
+       height: fit-content;
+    }
+    nav{   
+        padding: 0;
+        margin: 0;
+        width: 50%;
+        max-width: 550px;
+        font-size: medium;
+        align-items: center;
+    }
+    nav a 
+    {
+        font-size: larger;
+        padding: 0;
+        width:25%;
+        height: 100%;
+        align-items: center;
+    }
+    #bio{
+        display: grid;
+        grid-template-columns: 35% 65%;
+        grid-template-rows: 80% 20%;
+        grid-template-areas: "photo intro" 
+                             "contact intro";
+    }
+
+    #headshot
+    {
+        height: 90%; 
+        width: auto;
+        margin: auto;
+        grid-area: photo;
+    }
+    #quickContact
+    {
+        grid-area: contact;
+    }
+    #Intro h2
+    {
+        font-size: 2em;
+        margin: 2% auto;
+    }
+    #Intro h1
+    {
+    font-size: 5em;
+    }
+    .Skill{
+        height: fit-content;
+    }
+    .Skill img{
+        display: block;
+        height: 70%;
+        max-width: 80%;
+        flex-basis: 150px;
+        min-height: 250px;
+        padding: 4% 0;
+    }
+    .Skill h3{
+        box-sizing: border-box;
+        height: 18%;
+        padding: 5% 0;
+    }
+    .Skill h5{
+        box-sizing: border-box;
+        height: 55px;
+    }
+    .projectContent{
+        display: grid;
+        grid-template-columns: 47.5% 47.5%;
+        grid-template-rows: repeat(auto-fit, minmax(450px, 1.5fr));
+        gap: 30px;
+        
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        border-bottom: none;
+    }
+
+
+    .project img, .projectInfo img{
+        width: minmax(150px, 250px);
+        height: minmax(100px, 300px);
+        margin-bottom: 0;
+    }
+    .projectInfo{
+        border-bottom: none;
+        width: 28%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin: 0 auto;
+        height: fit-content;
+    }
+    #subsections {
+        height: auto;
+    }
+
+    footer{
+        box-sizing: content-box;
+        width: 70%;
+        font-size: medium;    
+    }
+    #notes{
+        width: 100%;
+    }
+    #contactMe ul{
+        font-size: larger;
+        padding-left: 0;
+    }
+    ul p {
+        font-size: medium;
+    }
+
+}
