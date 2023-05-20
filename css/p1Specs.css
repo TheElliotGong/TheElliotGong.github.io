@@ -18,6 +18,7 @@ html, body{
     display: flex;
     flex-direction: column;
     padding-bottom: 0;
+    scroll-padding-top: 12vh;
 }
 header{
     color: #5863F8;
@@ -45,7 +46,7 @@ nav{
     justify-content: space-between;
 }
 nav a{
-    font-size: 4vw;
+    font-size: 100%;
     background-color: #fdfbff;
     transition: 0.3s;
     display: flex;
@@ -134,9 +135,10 @@ nav a:hover{
 }
 .employment ul
 {
-    list-style-type: none;
+    list-style-type:disc;
     padding-left: 0;
     margin: 0;
+    margin-left: 5%;
 }
 
 .employmentInfo, .jobInfo
@@ -148,7 +150,7 @@ nav a:hover{
 }
 .jobInfo
 {
-    width: 60%;
+    width: 40%;
 }
 .employment h2
 {
@@ -272,11 +274,12 @@ footer h1
 #contactMe{
     font-size: small;
     display: grid;
-    /*
-    grid-template-columns: 40% 60%;
-    grid-template-areas: "contact-information contact-form";*/
+
     margin: 0 auto;
     width: fit-content;
+}
+#contactMe a{
+    font-size: x-large;
 }
 #contactMe ul{
     line-height: 200%;
@@ -298,7 +301,7 @@ h2{
     font-weight: bold;
 }
 h3{
-    font-size: larger;
+    font-size: small;
     margin: 10px auto;
 }
 h5{
@@ -334,6 +337,7 @@ hr
     margin: 20px auto;
     width: 80%;
 }
+
 /*For Desktop*/
 @media screen and (min-width: 768px)
 {
@@ -341,8 +345,7 @@ hr
         height: 12vh;
         min-height: 100px;
         box-sizing: content-box;
-        width: 95%;
-        padding-left: 5%;
+
         padding-right: 0;
         display: flex;
         justify-content: space-between;
@@ -351,6 +354,7 @@ hr
     header h1{
         text-align: left;
         margin: auto 0;
+        margin-left: 25px;
         font-size: 2rem;
         width: 50%;
         max-width: 300px;
@@ -362,14 +366,14 @@ hr
     nav{   
         padding: 0;
         margin: 0;
-        width: 50%;
-        max-width: 550px;
+        width: 55%;
+        max-width: 700px;
         font-size: medium;
         align-items: center;
     }
     nav a 
     {
-        font-size: larger;
+        font-size: 110%;
         padding: 0;
         width:25%;
         height: 100%;
@@ -471,5 +475,8 @@ hr
     ul p {
         font-size: medium;
     }
-
+    h3 
+    {
+        font-size: large;
+    }
 }
