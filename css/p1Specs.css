@@ -133,7 +133,7 @@ nav a:hover{
     flex-direction: column;
     justify-content: space-between;
 }
-.employment ul
+.employment ul, .Section ul
 {
     list-style-type:disc;
     padding-left: 0;
@@ -141,16 +141,20 @@ nav a:hover{
     margin-left: 2.5%;
 }
 
-.employmentInfo, .jobInfo
+.employmentInfo
 {
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
+
 .jobInfo
 {
-    width: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .employment h2
 {
@@ -408,6 +412,14 @@ hr
     {
     font-size: 5em;
     }
+    .employmentInfo
+    {
+        flex-direction: row;
+    }
+    .jobInfo
+    {
+        width: 50%;
+    }
     .Skill{
         height: fit-content;
     }
@@ -478,6 +490,10 @@ hr
     }
     h3 
     {
-        font-size: large;
+        font-size: larger;
+    }
+    .jobInfo h3
+    {
+        font-size: 1.5em;
     }
 }
