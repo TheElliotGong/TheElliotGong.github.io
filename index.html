@@ -19,6 +19,7 @@
             <h1 style = "font-weight: bold;">ELLIOT GONG</h1>
             <nav>
                 <a href = "#bio">About</a>
+                <a href = "#education">Education</a>
                 <a href = "#experience">Experience</a>
                 <a href = "#skills">Skills</a>
                 <a href = "#projects">Projects</a>   
@@ -58,7 +59,26 @@
                 </div>
             </div> 
             <hr>
-            <div id = "experience">
+            <div class = "section" id = "education">
+                <h1>EDUCATION</h1>
+                <div class="education">
+                    <div class="educationTitle">
+                        <h2>B.S. Game Design and Development, Minor in Communication</h2>
+                        <h2>Expected May 2024</h2>
+                    </div>
+                    
+                    Rochester Institute of Technology
+                </div>
+                <div class="education">
+                    <div class="educationTitle">
+                        <h2>Professional Certificate in UX Design</h2>
+                        <h2>Expected August 2023</h2>
+                    </div>
+                    Google
+                </div>
+            </div>
+            <hr>
+            <div class = "section" id = "experience">
                 <h1>EXPERIENCE</h1>
                 <div class="employment">
                     <div class = "employmentInfo">
@@ -74,38 +94,37 @@
                         <li>Research new and more efficient techniques for 3D design and animation.</li>
                     </ul>
                 </div>
-                </div>
                 
             </div>
             <hr>
-            <div id = "skills">
+            <div class = "section" id = "skills">
                
                 <h1>SKILLS</h1>
-                <div class = "Section" id = "general_skills">
-                <h2>Disciplines</h2>
-                    Game/Level Design, Game/UI Programming, Front End Development, UI/UX Design, 3D Modeling/Sculpting, Digital Illustration, 3D Printing  
+                <div class = "skillType" id = "generalSkills">
+                    <h2>Disciplines</h2>
+                    Game/Level Design, Game/UI Programming, Front End Development, UI/UX Design, 3D Modeling, Digital Illustration, 3D Printing  
                 </div>
-                <div class = "Section" id = "languages">
-                <h2>Languages</h2>
+                <div class = "skillType" id = "languages">
+                    <h2>Languages</h2>
                     C++, C#, HTML5, CSS3, Javascript, Lua
                 </div>
-                <div class = "Section" id = "software">
+                <div class = "skillType" id = "software">
                 <h2>Software</h2>
                     <ul>
-                        <li><strong>Game Engines</strong> - Unreal, Unity</li>
+                        <li><strong>Game Engines</strong> - Unreal, Unity, Roblox Studio</li>
                         <li><strong>Coding Tools</strong>  - Visual Studio 2019, Visual Studio Code, Git</li>
                         <li><strong>Web Development Tools</strong> - Filezilla, Axure RP 10, Figma</li>
                         <li><strong>3D Creative Software</strong> - Blender, Maya, Zbrush, Adobe Substance Painter, Flashprint-MP</li>
-                        <li><strong>2D Creative Software</strong> - Adobe Creative Suite(Photoshop, Fresco, After Effects, Animate), Gimp, Paint 3D</li>
+                        <li><strong>2D Creative Software</strong> - Adobe Creative Suite(Photoshop, Fresco, After Effects, Animate, XD), Gimp, Paint 3D</li>
                     </ul>
                 </div>
-                <div class = "Section" id = "software">
-                <h2>Other</h2>
-                    Project Management, Teamwork, Problem Solving, Communication, Customer Service
+                <div class = "skillType" id = "other">
+                    <h2>Other</h2>
+                    Leadership, Project Management, Teamwork, Problem Solving, Communication, Customer Service
                 </div>
             </div>
             <hr >
-            <div id = "projects">
+            <div class = "section" id = "projects">
                 <h1>PROJECTS</h1>
                 <h2>Games & Web Applications</h2>
                 <div class = "projectContent">    
@@ -325,7 +344,10 @@
                     </div>
                     
                 </div>
-            </div>
+            </div>    
+        </div>
+            
+
         <script>
             "use strict"
             let headerHeight = document.querySelector("#myHeader");

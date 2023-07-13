@@ -31,6 +31,7 @@ header{
     z-index: 5;
     text-align: center;
     height: fit-content;
+    top: 0;
 }
 header h1{
     color: #5863F8;
@@ -112,7 +113,7 @@ nav a:hover{
     height: 2em;
 }
 
-#skills, #projects, #experience{
+.section{
     box-sizing: border-box;
     margin: 0 auto;
     height: fit-content;
@@ -142,7 +143,7 @@ nav a:hover{
     margin-left: 2.5%;
 }
 
-.employmentInfo
+.employmentInfo, .educationTitle
 {
 
     display: flex;
@@ -157,11 +158,14 @@ nav a:hover{
     flex-direction: row;
     justify-content: space-between;
 }
-.employment h2
+.employment h2, .education h2
 {
     margin: auto 0
 }
-
+.employment h2, .employment h3
+{
+    margin-top: 0;
+}
 .Skill h3, .Skill h4{
     box-sizing: border-box;
     display: table-cell;
@@ -418,7 +422,7 @@ hr
     {
     font-size: 5em;
     }
-    .employmentInfo
+    .employmentInfo, .educationTitle
     {
         flex-direction: row;
     }
