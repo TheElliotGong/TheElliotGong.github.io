@@ -28,7 +28,7 @@
             </nav>
         </header>
         <div id = "wrapper">
-            <div id = "bio">
+            <div class = "section" id = "bio" >
                 <img id = "headshot" src = "media/images/face.jpg" alt = "">
                 <div id = "quickContact">
                     <a class = "contact" href = "https://github.com/TheElliotGong" target = "_blank">
@@ -59,8 +59,9 @@
                     <a href = "https://formsubmit.co/el/fuhozi">Get in Touch</a>  
                 </div>
             </div> 
-            <hr>
+            
             <div class = "section" id = "education">
+                <hr>
                 <h1>EDUCATION</h1>
                 <div class="education">
                     <div class="educationTitle">
@@ -77,8 +78,9 @@
                     Google, Coursera
                 </div>
             </div>
-            <hr>
+            
             <div class = "section" id = "experience">
+                <hr>
                 <h1>EXPERIENCE</h1>
                 <div class="employment">
                     <div class = "employmentInfo">
@@ -89,16 +91,28 @@
                         </div>
                     </div>
                     <ul>
-                        <li>Updated and maintained textures, poses, and quality of 3D game assets. </li>
-                        <li>Created models and renders of characters and assets.</li>
-                        <li>Research new and more efficient techniques for 3D design and animation.</li>
+                        <li>Created and edited skins, models, and renders centered around Valorant. Client now possesses a recreated map, 4 original 3D assets, and content for 9 different characters. </li>
+                        <li>Work was used to promote the 100th Pit of Valor, the company’s largest Valorant tournament to date.</li>
                     </ul>
                 </div>
-                
+                <div class="employment">
+                    <div class = "employmentInfo">
+                        <h2>Freelance 3D Artist</h2>
+                        <div class = "jobInfo">
+                            <h3>Great Lakes Gaming</h3>
+                            <h3>August 2022 - January 2023</h3>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>Completed rendering and texturing commissions for previous employer Great Lakes Gaming. </li>
+                        <li>Updated existing projects and assets within the company repository.
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <hr>
+            
             <div class = "section" id = "skills">
-               
+                <hr>
                 <h1>SKILLS</h1>
                 <div class = "skillType" id = "generalSkills">
                     <h2>Disciplines</h2>
@@ -112,7 +126,7 @@
                 <h2>Software</h2>
                     <ul>
                         <li><strong>Game Engines</strong> - Unreal, Unity, Roblox Studio</li>
-                        <li><strong>Coding Tools</strong>  - Visual Studio 2019, Visual Studio Code, Git</li>
+                        <li><strong>Code Editors/Version Controls</strong> - Visual Studio 2019, Visual Studio Code, Git</li>
                         <li><strong>Web Development Tools</strong> - Filezilla, Axure RP 10, Figma</li>
                         <li><strong>3D Creative Software</strong> - Blender, Maya, Zbrush, Adobe Substance Painter, Flashprint-MP</li>
                         <li><strong>2D Creative Software</strong> - Adobe Creative Suite(Photoshop, Fresco, After Effects, Animate, XD), Gimp, Paint 3D</li>
@@ -123,8 +137,9 @@
                     Leadership, Project Management, Teamwork, Problem Solving, Communication, Customer Service
                 </div>
             </div>
-            <hr >
+            
             <div class = "section" id = "projects">
+                <hr >
                 <h1>PROJECTS</h1>
                 <h2>Games & Web Applications</h2>
                 <div class = "projectContent">    
@@ -176,7 +191,19 @@
                             <li><strong>Software/Languages:</strong> Visual Studio 2019, C++</li>
                         </ul>
                     </div>
-                    
+                    <div class = "project" id = "LunchInTheGarden">
+                        <h2>Lunch in the Garden(2022)</h2>
+                        <img src = "media/images/lunchinthegarden.png" alt = "">
+                        
+                        <ul>
+                            <li><strong>Link:</strong> <a href = "https://andressmartin.itch.io/lunch-in-the-garden" target = "_blank">Lunch in the Garden</a></li>
+                            <li><strong>About:</strong> Personal Project, an educational, puzzle cooking game where you must find ingredients in a garden to prepare your lunch.</li>
+                            <li><strong>What I did:</strong> Acted as game designer and the concept/game artist.</li>
+                            <li><strong>Team Size:</strong> 3</li>
+                            <li><strong>Project Length:</strong> 3 days</li>
+                            <li><strong>Software/Languages:</strong> Pixilart, Unity, C#</li>
+                        </ul> 
+                    </div> 
                     <div  class = "project" id = "PolygonDefense">
                         
                         <h2>Polygon Defense(2021)</h2>
@@ -191,6 +218,7 @@
                             
                         </ul> 
                     </div>
+                      
                     <div  class = "project" id = "AmiiboWiki">
                         <h2>Amiibo Wiki(2021)</h2>
                         <img src = "media/images/amiibo_wiki.png" alt = "">
@@ -217,21 +245,8 @@
                             <li><strong>Software/Languages:</strong> C#, Visual Studio 2019, Monogame</li>
                         </ul>      
                     </div>
+                     -->
                     
-                    <div class = "project" id = "fifthProject">
-                        <h2>Lunch in the Garden(2022)</h2>
-                        <img src = "media/images/lunch_in_the_garden.png" alt = "">
-                        
-                        <ul>
-                            <li><strong>Link:</strong> <a href = "https://andressmartin.itch.io/lunch-in-the-garden" target = "_blank">Lunch in the Garden</a></li>
-                            <li><strong>About:</strong> Personal Project, an educational, puzzle cooking game where you must find ingredients in a garden to prepare your lunch.</li>
-                            <li><strong>What I did:</strong> Acted as game designer and the concept/game artist.</li>
-                            <li><strong>Team Size:</strong> 3</li>
-                            <li><strong>Project Length:</strong> 3 days</li>
-                            <li><strong>Software/Languages:</strong> Pixilart, Unity, C#</li>
-                            
-                        </ul> 
-                    </div>    -->
                 </div>
                 <h2>3D Assets</h2>
                 <div class = "projectContent">
@@ -351,11 +366,21 @@
         <script>
             "use strict"
             let headerHeight = document.querySelector("#myHeader");
-            let wrapperElement = document.querySelector("#wrapper");
+            let sections = document.querySelectorAll(".section");
+            let scrolling = link => 
+            {
+                for(let section of sections)
+                {
+                    i
+                }
+            };
             function reorderHeader()
             {
-                wrapperElement.style.paddingTop = `${headerHeight.offsetHeight.toString()}px`;
-                wrapperElement.style.padddingBottom = 0;
+                document.querySelector("#wrapper").style.paddingTop = `${headerHeight.offsetHeight.toString()}px`;
+                // for(let section of sections)
+                // {
+                //     section.style.paddingTop = `${headerHeight.offsetHeight.toString()}px`;
+                // }
             }
             window.onresize = reorderHeader;
             window.onload = reorderHeader;

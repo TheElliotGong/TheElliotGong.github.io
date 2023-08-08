@@ -350,10 +350,9 @@ li{
 }
 hr
 {
-    border-top: 8px solid #c0c0c0;
+    border-top: 6px solid #c0c0c0;
     border-radius: 5px;
     margin: 20px auto;
-    width: 80%;
 }
 
 /*For Desktop*/
