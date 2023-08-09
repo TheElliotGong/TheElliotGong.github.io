@@ -13,6 +13,7 @@ html, body{
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 #wrapper{
     width: 100%;
@@ -74,7 +75,7 @@ nav a:hover{
     color: #fdfbff; /*EFE9f*/
     align-self: center;
     justify-self: center;
-    padding: 40px 10% 0;
+    padding: 0 10%;
     text-align: center;
 }
 #headshot{
@@ -350,9 +351,10 @@ li{
 }
 hr
 {
+    width: 80%;
     border-top: 6px solid #c0c0c0;
     border-radius: 5px;
-    margin: 20px auto;
+    margin: auto 10%;
 }
 
 /*For Desktop*/
