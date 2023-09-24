@@ -356,7 +356,35 @@ hr
     border-radius: 5px;
     margin: auto 10%;
 }
-
+.education
+{
+    display: grid;
+    grid-template-areas: 'achievement achievement date'
+                         'institution institution .'
+                         'milestone milestone .';
+    gap: 10px;
+}
+.education h3, .education h2
+{
+    margin: 0;
+}
+.achievement
+{
+    grid-area: achievement;
+}
+.institution
+{
+    grid-area: institution;
+}
+.milestone
+{
+    grid-area: milestone;
+}
+.date
+{
+    text-align: right;
+    grid-area: date;
+}
 /*For Desktop*/
 @media screen and (min-width: 768px)
 {
@@ -426,7 +454,7 @@ hr
     {
     font-size: 5em;
     }
-    .employmentInfo, .educationTitle
+    .employmentInfo
     {
         flex-direction: row;
     }
