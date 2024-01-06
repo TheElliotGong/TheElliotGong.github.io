@@ -337,6 +337,10 @@ a
     font-weight: bold;
     color: #fdfbff;
 }
+#contactForm
+{
+    font-size: x-large;
+}
 .links a{
     width: fit-content;
     font-size: 1.8em;
