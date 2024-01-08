@@ -2,11 +2,13 @@
    Purpose: Create a portfolio page primarily using HTML, CSS, Flexbox, and Grid
    Restrictions: Can't use bootstrap, ideally 1 page, must have necessary elements.
    Date: 10/5/2021*/
-
+:root{
+    --darkBlue: #1D4E89;
+}
 html, body{
     min-width: 400px;
     box-sizing: border-box;
-    background-color: #5863F8;
+    background-color: var(--darkBlue);
     color: #fdfbff;
     margin: 0;
     padding: 0;
@@ -23,7 +25,7 @@ html, body{
     scroll-padding-top: 12vh;
 }
 header{
-    color: #5863F8;
+    color: var(--darkBlue);
     background-color: #fdfbff;
     justify-content: center;
     margin: 0;
@@ -35,7 +37,7 @@ header{
     top: 0;
 }
 header h1{
-    color: #5863F8;
+    color: var(--darkBlue);
     margin: 3% 0;
     font-size: 7vw;
 }
@@ -287,7 +289,7 @@ footer{
 footer h1
 {
     width: fit-content;
-    color: #5863F8;
+    color: var(--darkBlue);
 }
 #contactMe{
     font-size: small;
