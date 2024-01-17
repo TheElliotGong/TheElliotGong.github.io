@@ -83,7 +83,6 @@ nav a:hover{
 #headshot{
     grid-area: photo;
     width: 45%;
-    max-width: 220px;
     border: 5px solid #fdfbff;
     margin: 0 auto;
     border-radius: 50%;
@@ -442,8 +441,7 @@ hr
 
     #headshot
     {
-        height: 90%; 
-        width: auto;
+        height: 80%;
         margin: auto;
         grid-area: photo;
     }
