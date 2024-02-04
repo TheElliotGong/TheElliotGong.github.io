@@ -505,9 +505,10 @@ hr {
 
     /* Links inside the dropdown */
     .dropdown-content a {
+        text-align: left;
         color: rgb(114, 114, 114);
         padding: 10px;
-        width: 300px;
+        width: 250px;
         text-decoration: none;
         display: block;
     }
