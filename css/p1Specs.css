@@ -2,10 +2,12 @@
    Purpose: Create a portfolio page primarily using HTML, CSS, Flexbox, and Grid
    Restrictions: Can't use bootstrap, ideally 1 page, must have necessary elements.
    Date: 10/5/2021*/
-:root{
+:root {
     --darkBlue: #1D4E89;
 }
-html, body{
+
+html,
+body {
     min-width: 400px;
     box-sizing: border-box;
     background-color: var(--darkBlue);
@@ -17,14 +19,16 @@ html, body{
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
-#wrapper{
+
+#wrapper {
     width: 100%;
     display: flex;
     flex-direction: column;
     padding-bottom: 0;
     scroll-padding-top: 12vh;
 }
-header{
+
+header {
     color: var(--darkBlue);
     background-color: #fdfbff;
     justify-content: center;
@@ -36,13 +40,15 @@ header{
     height: fit-content;
     top: 0;
 }
-header h1{
+
+header h1 {
     color: var(--darkBlue);
     margin: 3% 0;
     font-size: 7vw;
 }
-nav{
-    
+
+nav {
+
     font-size: 0.9em;
     margin: 0;
     width: 100%;
@@ -50,7 +56,8 @@ nav{
     display: flex;
     justify-content: space-between;
 }
-nav a{
+
+nav a {
     font-size: 100%;
     background-color: #fdfbff;
     transition: 0.3s;
@@ -63,59 +70,62 @@ nav a{
     align-items: center;
     color: rgb(114, 114, 114);
 }
-nav a:hover{
+
+nav a:hover {
     background-color: rgb(114, 114, 114);
     color: #fdfbff;
 }
-#bio{
+
+#bio {
     display: flex;
     flex-direction: column;
     box-sizing: content-box;
     width: 80%;
     height: fit-content;
 
-    color: #fdfbff; /*EFE9f*/
+    color: #fdfbff;
+    /*EFE9f*/
     align-self: center;
     justify-self: center;
     padding: 0 10%;
     text-align: center;
 }
-#headshot{
+
+#headshot {
     grid-area: photo;
     width: 45%;
     border: 5px solid #fdfbff;
     margin: 0 auto;
     border-radius: 50%;
-    
+
 }
 
-#Intro
-{
+#Intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     grid-area: intro;
 }
-#Intro h1
-{
+
+#Intro h1 {
     font-size: 3em;
 }
-#quickContact
-{
+
+#quickContact {
     padding-top: 15px;
-    width: 95%;
+    width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    
+
 }
-#quickContact img
-{
+
+#quickContact img {
     width: 2em;
     height: 2em;
 }
 
-.section{
+.section {
     box-sizing: border-box;
     margin: 0 auto;
     height: fit-content;
@@ -123,52 +133,56 @@ nav a:hover{
     padding: 0;
 
 }
-.employment
-{
+
+.employment {
     width: 100%;
     display: flex;
     flex-direction: column;
-    
+
 }
-.employmentContent
-{
-    
+
+.employmentContent {
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.employment ul, .Section ul
-{
-    list-style-type:disc;
+
+.employment ul,
+.Section ul {
+    list-style-type: disc;
     padding-left: 0;
     margin: 0;
     margin-left: 2.5%;
 }
 
-.employmentInfo, .educationTitle
-{
+.employmentInfo,
+.educationTitle {
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.jobInfo
-{
+.jobInfo {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.employment h2, .education h2
-{
+
+.employment h2,
+.education h2 {
     margin: auto 0
 }
-.employment h2, .employment h3
-{
+
+.employment h2,
+.employment h3 {
     margin-top: 0;
 }
-.Skill h3, .Skill h4{
+
+.Skill h3,
+.Skill h4 {
     box-sizing: border-box;
     display: table-cell;
     vertical-align: middle;
@@ -178,26 +192,28 @@ nav a:hover{
     background-color: #171D1C;
     height: 15%;
     max-height: 60px;
-    color: white;  
+    color: white;
 }
-.Skill hr{
+
+.Skill hr {
     margin: 0;
 }
-.Skill img{
+
+.Skill img {
     width: 100%;
     max-width: 200px;
     height: 70%;
     padding-top: 0;
 }
 
-#projects{   
+#projects {
     margin-bottom: 20px;
     height: fit-content;
 }
 
-.projectContent{
+.projectContent {
     margin: 0 auto;
-    width:100%;
+    width: 100%;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -205,23 +221,26 @@ nav a:hover{
     font-size: 0.7em;
     padding: 0;
 }
-.project{
+
+.project {
     box-sizing: content-box;
     width: 100%;
     align-items: center;
     height: fit-content;
     margin-bottom: 15px;
 }
-.sketchfab-embed-wrapper
-{
+
+.sketchfab-embed-wrapper {
     width: 100%;
 }
-.links{
-    width:fit-content;
+
+.links {
+    width: fit-content;
     margin: 10px auto;
     text-align: center;
 }
-.project ul{
+
+.project ul {
     list-style-type: none;
     box-sizing: content-box;
     margin-top: 1em;
@@ -230,22 +249,25 @@ nav a:hover{
     font-size: 2em;
     width: 100%;
 }
-.project li{
+
+.project li {
     margin: 7px 0;
 }
-.project img{
+
+.project img {
     height: auto;
     display: block;
     margin-bottom: 8px;
     width: 100%;
     max-height: 350px;
 }
-.youtube
-{
+
+.youtube {
     width: 100%;
     height: 350px;
 }
-.project h2{
+
+.project h2 {
     text-align: left;
     margin: 6px auto;
     width: 100%;
@@ -254,12 +276,13 @@ nav a:hover{
     font-weight: 400;
 }
 
-#subsection{
+#subsection {
     margin-top: 0;
     padding-top: 20px;
     border-top: 0;
 }
-.projectInfo{
+
+.projectInfo {
     height: fit-content;
     width: 90%;
     margin: 0 auto;
@@ -267,16 +290,20 @@ nav a:hover{
     background-color: #E5E5E5;
     border-bottom: 3px solid black;
 }
-.projectInfo p{
+
+.projectInfo p {
     font-size: 1.5em;
 }
-#project1{
+
+#project1 {
     margin-top: 0;
 }
-#project4{
+
+#project4 {
     border-bottom: none;
 }
-footer{
+
+footer {
     background-color: #EFE9F4;
     color: black;
     box-sizing: content-box;
@@ -285,115 +312,129 @@ footer{
     width: 70%;
     grid-area: footer;
 }
-footer h1
-{
+
+footer h1 {
     width: fit-content;
     color: var(--darkBlue);
 }
-#contactMe{
+
+#contactMe {
     font-size: small;
     display: grid;
 
     margin: 0 auto;
     width: fit-content;
 }
-#contactMe a{
+
+#contactMe a {
     font-size: x-large;
 }
-#contactMe ul{
+
+#contactMe ul {
     line-height: 200%;
     list-style-type: none;
     padding-left: 0;
     margin-top: 0;
     /*grid-area: contact-information;*/
 }
-h1{
-    color:rgb(175, 243, 255);
+
+h1 {
+    color: rgb(175, 243, 255);
     width: 100%;
     margin: 0 auto 10px;
     font-size: 2em;
     font-weight: bold;
 }
-h2{
+
+h2 {
     font-size: x-large;
     margin: 10px auto;
     font-weight: bold;
 }
-h3{
+
+h3 {
     font-size: small;
     margin: 10px auto;
 }
-h5{
+
+h5 {
     font-size: medium;
 }
-.project a, #Intro a:hover{
-    color:rgb(74, 228, 255);
+
+.project a,
+#Intro a:hover {
+    color: rgb(74, 228, 255);
 }
-.project a:hover{
-    color:rgb(229, 251, 255);
+
+.project a:hover {
+    color: rgb(229, 251, 255);
 }
-a
-{
+
+a {
     font-size: large;
     font-weight: bold;
     color: #fdfbff;
 }
-#contactForm
-{
+
+#contactForm {
     font-size: x-large;
 }
-.links a{
+
+.links a {
     width: fit-content;
     font-size: 1.8em;
 }
-p{
+
+p {
     margin-left: 5%;
     margin-right: 5%;
 }
-li{
+
+li {
     font-size: medium;
     word-wrap: break-word;
 }
-hr
-{
+
+hr {
     width: 80%;
     border-top: 6px solid #c0c0c0;
     border-radius: 5px;
     margin: auto 10%;
 }
-.education
-{
+
+.education {
     display: grid;
     grid-template-areas: 'achievement achievement date'
-                         'institution institution .'
-                         'milestone milestone .';
+        'institution institution .'
+        'milestone milestone .';
     gap: 10px;
 }
-.education h3, .education h2
-{
+
+.education h3,
+.education h2 {
     margin: 0;
 }
-.achievement
-{
+
+.achievement {
     grid-area: achievement;
 }
-.institution
-{
+
+.institution {
     grid-area: institution;
 }
-.milestone
-{
+
+.milestone {
     grid-area: milestone;
 }
-.date
-{
+
+.date {
     text-align: right;
     grid-area: date;
 }
+
 /*For Desktop*/
-@media screen and (min-width: 768px)
-{
-    header{
+@media screen and (min-width: 768px) {
+    header {
         height: 12vh;
         min-height: 100px;
         box-sizing: content-box;
@@ -403,19 +444,21 @@ hr
         justify-content: space-between;
     }
 
-    header h1{
+    header h1 {
         text-align: left;
         margin: auto 0;
         margin-left: 25px;
         font-size: 2rem;
         width: 50%;
         max-width: 300px;
-        
+
     }
-    header h1{
-       height: fit-content;
+
+    header h1 {
+        height: fit-content;
     }
-    nav{   
+
+    nav {
         padding: 0;
         margin: 0;
         width: 70%;
@@ -424,54 +467,91 @@ hr
         font-size: medium;
         align-items: center;
     }
-    nav a
-    {
+
+    nav a,
+    .dropdown {
         font-size: 110%;
         padding: 0;
-        width:25%;
-        
+        width: 16.66%;
+
         height: 100%;
         align-items: center;
     }
-    #bio{
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropbtn {
+        background-color: #ffffff;
+        color: rgb(114, 114, 114);
+        height: 100%;
+        margin: auto;
+        font-weight: bold;
+        font-size: 110%;
+
+        border: none;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        right: 0;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: rgb(114, 114, 114);
+        padding: 10px;
+        width: 300px;
+        text-decoration: none;
+        display: block;
+    }
+
+    #bio {
         display: grid;
         grid-template-columns: 35% 65%;
         grid-template-rows: 80% 20%;
-        grid-template-areas: "photo intro" 
-                             "contact intro";
+        grid-template-areas: "photo intro"
+            "contact intro";
     }
 
-    #headshot
-    {
+    #headshot {
         height: 80%;
         margin: auto;
         grid-area: photo;
     }
-    #quickContact
-    {
+
+    #quickContact {
         grid-area: contact;
     }
-    #Intro h2
-    {
+
+    #Intro h2 {
         font-size: 3em;
         margin: 1% auto;
     }
-    #Intro h1
-    {
-    font-size: 5em;
+
+    #Intro h1 {
+        font-size: 5em;
     }
-    .employmentInfo
-    {
+
+    .employmentInfo {
         flex-direction: row;
     }
-    .jobInfo
-    {
+
+    .jobInfo {
         width: 50%;
     }
-    .Skill{
+
+    .Skill {
         height: fit-content;
     }
-    .Skill img{
+
+    .Skill img {
         display: block;
         height: 70%;
         max-width: 80%;
@@ -479,23 +559,27 @@ hr
         min-height: 250px;
         padding: 4% 0;
     }
-    .Skill h3{
+
+    .Skill h3 {
         box-sizing: border-box;
         height: 18%;
         padding: 5% 0;
     }
-    .Skill h5{
+
+    .Skill h5 {
         box-sizing: border-box;
         height: 55px;
     }
-    .projectContent{
+
+    .projectContent {
         display: grid;
         grid-template-columns: 31% 31% 31%;
         grid-template-rows: repeat(auto-fit, minmax(450px, 1.5fr));
         gap: 30px;
-        
+
     }
-    .project{
+
+    .project {
         display: flex;
         flex-direction: column;
         margin: 0;
@@ -504,12 +588,14 @@ hr
     }
 
 
-    .project img, .projectInfo img{
+    .project img,
+    .projectInfo img {
         width: minmax(150px, 250px);
         height: minmax(100px, 300px);
         margin-bottom: 0;
     }
-    .projectInfo{
+
+    .projectInfo {
         border-bottom: none;
         width: 28%;
         padding-left: 2%;
@@ -517,31 +603,35 @@ hr
         margin: 0 auto;
         height: fit-content;
     }
+
     #subsections {
         height: auto;
     }
 
-    footer{
+    footer {
         box-sizing: content-box;
         width: 70%;
-        font-size: medium;    
+        font-size: medium;
     }
-    #notes{
+
+    #notes {
         width: 100%;
     }
-    #contactMe ul{
+
+    #contactMe ul {
         font-size: larger;
         padding-left: 0;
     }
+
     ul p {
         font-size: medium;
     }
-    h3 
-    {
+
+    h3 {
         font-size: larger;
     }
-    .jobInfo h3
-    {
+
+    .jobInfo h3 {
         font-size: 1.5em;
     }
 }
