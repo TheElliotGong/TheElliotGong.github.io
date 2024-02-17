@@ -56,7 +56,10 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-
+#logo img
+{
+    max-width: 30px;
+}
 nav a {
     font-size: 100%;
     background-color: #fdfbff;
@@ -93,7 +96,8 @@ nav a:hover {
 
 #headshot {
     grid-area: photo;
-    width: 45%;
+    width: 50%;
+    /* min-width: 200px; */
     border: 5px solid #fdfbff;
     margin: 0 auto;
     border-radius: 50%;
@@ -431,9 +435,12 @@ hr {
     text-align: right;
     grid-area: date;
 }
+@media screen and (max)
+{
 
+}
 /*For Desktop*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px)  {
     header {
         height: 12vh;
         min-height: 100px;
@@ -454,9 +461,6 @@ hr {
 
     }
 
-    header h1 {
-        height: fit-content;
-    }
 
     nav {
         padding: 0;

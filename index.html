@@ -20,6 +20,9 @@
 
 <body>
     <header id="myHeader">
+        <!-- <a id = "logo" href = "/">
+            <img  src = "media/images/logos_and_icons/personal logo.png">
+        </a> -->
         <h1 style="font-weight: bold;">ELLIOT GONG</h1>
         <nav>
             <a href="#bio">About</a>
@@ -580,6 +583,7 @@
         let headerHeight = document.querySelector("#myHeader");
         let dividers = document.querySelectorAll("hr");
         function reorderHeader() {
+            
             let navBarHeight = headerHeight.offsetHeight + 40;
             document.querySelector("#bio").style.paddingTop = `${navBarHeight}px`;
             for (let divider of dividers) {
