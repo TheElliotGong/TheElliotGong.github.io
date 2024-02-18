@@ -4,19 +4,29 @@
   --darkBlue: #1D4E89;
   --liteBlue: rgb(175, 243, 255);
   --white: #FFFFFF;
-  --liteGray: #e9e6ec;
+  --liteGray: #e1e1e1;
+}
+html
+{
+  scroll-behavior: smooth;
 }
 body
 {
-  padding-top: 60px;
   font-family: 'Roboto', sans-serif;
-  scroll-behavior: smooth;
   color: var(--white);
   background-color: var(--darkBlue);
 }
+#about
+{
+  padding-bottom: 50px;
+}
 section
 {
-  padding: 2% 5%;
+  padding: 3% 5%;
+}
+section h1
+{
+  padding: 1rem 0;
 }
 #headshot
 {
@@ -29,12 +39,17 @@ section
   width: 80%;
   height: auto;
   margin: auto;
-  box-shadow: 0 5px 18px rgba(255, 255, 255, 0.6);
+  box-shadow: 0 5px 18px var(--liteGray);
 
 }
 footer
 {
   background-color: var(--liteGray);
+}
+h1, h2
+{
+  color: var(--liteBlue);
+
 }
 /*CSS Properties for Mobile Phones*/
 @media screen and (max-width: 767px)
@@ -50,18 +65,7 @@ footer
 /*CSS Properties for Desktop and Beyond*/
 @media screen and (min-width: 1024px)
 {
-  /* #headshot
-  {
-    max-width: 350px;
-    max-height: 437px;
-  } */
-  .projectContent
-  {
-    display: grid;
-    grid-template-columns: 31% 31% 31%;
-    grid-template-rows: repeat(auto-fit, minmax(450px, 1.5fr));
-    gap: 30px;
-  }
+
   
   
 }

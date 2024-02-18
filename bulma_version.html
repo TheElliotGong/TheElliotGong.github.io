@@ -6,20 +6,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="media/images/logos_and_icons/logo.svg">
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="styles/bulma_version.css">
-    <link rel="icon" href="media/images/logos_and_icons/logo.svg">
-    <script type="text/javascript" src="/node_modules/bulma-accordion/dist/js/bulma-accordion.min.js"></script>
+    
 </head>
 
 <body>
     <header>
-        <nav class="navbar has-shadow has-background-light is-fixed-top">
+        <nav class="navbar has-shadow  is-fixed-top">
             <div class="navbar-brand">
-                <a class="navbar-item">
-                    <img width="35" style="max-height: 5rem;" src="media/images/logos_and_icons/personal logo.png">
+                <a class="navbar-item" href = "/bulma_version.html">
+                    <img width="40" style="max-height: 5rem;" src="media/images/logos_and_icons/personal logo.png">
                 </a>
 
 
@@ -32,30 +32,33 @@
             </div>
             <div class="navbar-menu" id="nav-links">
                 <div class="navbar-end">
-                    <a href="#bio" class="navbar-item is-size-4">About </a>
-                    <a href="#experience" class="navbar-item is-size-4">Experience</a>
-                    <a href="#projects" class="navbar-item is-size-4">Projects</a>
-                    <a href="#skills" class="navbar-item is-size-4">Skills</a>
+                    <a href="#about" class="navbar-item is-size-3">About </a>
+                    <a href="#experience" class="navbar-item is-size-3">Experience</a>
+                    <a href="#projects" class="navbar-item is-size-3">Projects</a>
+                    <a href="#skills" class="navbar-item is-size-3">Skills</a>
 
-                    <a href="#education " class="navbar-item is-size-4">Education</a>
+                    <a href="#education " class="navbar-item is-size-3">Education</a>
                     <div class="navbar-item has-dropdown is-hoverable ">
-                        <a class="navbar-link">
+                        <div class="navbar-link is-size-3">
                             Resumes
-                        </a>
+                        </div>
 
                         <div class="navbar-dropdown is-right">
-                            <a class="navbar-item" href="media/resumes/Full-Stack-resume.pdf" target="_blank">
+                            <div><a class="navbar-item" href="media/resumes/Full-Stack-resume.pdf" target="_blank">
                                 Full Stack Development
-                            </a>
-                            <a class="navbar-item" href="media/resumes/Game-Dev-resume.pdf" target="_blank">
+                            </a></div>
+                            <div>
+                                <a class="navbar-item" href="media/resumes/Game-Dev-resume.pdf" target="_blank">
                                 Game Design & Development
                             </a>
-                            <a class="navbar-item" href="media/resumes/UX-design-resume.pdf" target="_blank">
+                            </div>
+                            <div><a class="navbar-item" href="media/resumes/UX-design-resume.pdf" target="_blank">
                                 UX Design
-                            </a>
-                            <a class="navbar-item" href="media/resumes/3D-art-resume.pdf" target="_blank">
+                            </a></div>
+                            <div><a class="navbar-item" href="media/resumes/3D-art-resume.pdf" target="_blank">
                                 3D Modeling & Animation
-                            </a>
+                            </a></div>
+                            
                         </div>
                     </div>
                 </div>
@@ -63,7 +66,8 @@
         </nav>
     </header>
     <main>
-        <section id="bio">
+        <div id = "about"></div>
+        <section >
             <div class="container">
                 <div class="columns is-vcentered">
                     <div class="column is-one-third" id="photoAndQuickContacts">
@@ -72,34 +76,34 @@
                         </figure>
                         <div id="quickContact" class="columns is-1 is-mobile">
                             <a class = "column" href="https://github.com/TheElliotGong" target="_blank">
-                                <img width="50" src="media/images/logos_and_icons/github.png" alt="">
+                                <img class = "socialMedia" width="50" src="media/images/logos_and_icons/github.png" alt="">
                             </a>
                             <a class = "column" href="mailto:ewcgong@hotmail.com" target="_blank">
-                                <img width="50" src="media/images/logos_and_icons/R.png" alt="">
+                                <img class = "socialMedia" width="50" src="media/images/logos_and_icons/R.png" alt="">
                             </a>
                             <a class = "column" href="https://www.linkedin.com/in/elliot-gong/" target="_blank">
-                                <img width="50" src="media/images/logos_and_icons/linkedin.png" alt="">
+                                <img class = "socialMedia" width="50" src="media/images/logos_and_icons/linkedin.png" alt="">
                             </a>
                             <a class = "column" href="https://sketchfab.com/Taterblock17" target="_blank">
-                                <img width="50" src="media/images/logos_and_icons/sketchfab.png" alt="">
+                                <img class = "socialMedia" width="50" src="media/images/logos_and_icons/sketchfab.png" alt="">
                             </a>
                             <a class = "column" href="https://www.artstation.com/elliot_gong" target="_blank">
-                                <img width="50" src="media/images/logos_and_icons/artstation.png" alt="">
+                                <img class = "socialMedia" width="50" src="media/images/logos_and_icons/artstation.png" alt="">
                             </a>
                         </div>
                     </div>
                     <div class="column">
-                        <h1>Hi, I'm Elliot Gong</h1>
-                        <h2>Full-Stack and Game Developer, Hobby Artist</h2>
-                        <h3>
-                            I'm a 4th Game Design/Dev student attending the Rochester Institute of Technology and I am
-                            looking
-                            for entry-level opportunities to
-                            apply my skills in creating innovative and fun experiences.
+                        <h1 class = "has-text-weight-bold is-size-1-tablet is-size-3-mobile">Hi, I'm Elliot Gong</h1>
+                        <h2 class = "has-text-weight-bold is-size-2-tablet is-size-4-mobile">Full-Stack/Game Developer, Hobby Artist</h2>
+                        <h3 class = "has-text-weight-bold is-size-3-tablet">Objective</h3>
+                        <p>I am currently looking for opportunities to apply my skills in full-stack development, UX Design, game design/development, 3D asset creation, or similar fields.</p>
+                        <h3 class = "has-text-weight-bold is-size-3-tablet">About Me</h3>
+                        <p>
+                            I'm a 4th Game Design/Dev student with a focus in full-stack development, UX design, game design/development, and 3D modelling.
                             In my free time, I like to create 3D models and digital illustrations, read, watch tv, game
                             and
                             exercise.
-                        </h3>
+                        </p>
                         <a id="contactForm" href="https://formsubmit.co/el/fuhozi">Get in Touch</a>
                     </div>
                 </div>
@@ -107,15 +111,16 @@
             </div>
 
         </section>
-        <section id="experience">
-            <h1>EXPERIENCE</h1>
-            <br>
-            <div class="employment">
+        <hr id = "experience" class = "my-6 mx-auto" style = "width: 80%">
+        <section >
+            <h2 class = "has-text-weight-bold is-size-2">EXPERIENCE</h2>
+            
+            <div class="employment block">
                 <div class="employmentInfo block">
-                    <h2>Web Developer Intern</h2>
+                    <h3 class = "has-text-weight-bold is-size-3">Web Developer Intern</h3>
                     <div class="jobInfo">
-                        <h3>Changeling VR</h3>
-                        <h3>January 2024 - Present</h3>
+                        <h3 class = "has-text-weight-bold is-size-4">Changeling VR</h3>
+                        <h3 class = "has-text-weight-bold is-size-4">January 2024 - Present</h3>
                     </div>
                 </div>
                 <ul>
@@ -126,13 +131,13 @@
                     <li>Updated and reorganized the databases containing project and developer information.</li>
                 </ul>
             </div>
-            <br>
-            <div class="employment">
+            
+            <div class="employment block">
                 <div class="employmentInfo block">
-                    <h2>3D Modeling and Animation Intern</h2>
+                    <h2 class = "has-text-weight-bold is-size-3">3D Modeling and Animation Intern</h2>
                     <div class="jobInfo">
-                        <h3>Great Lakes Gaming</h3>
-                        <h3>May 2022 - July 2022</h3>
+                        <h3 class = "has-text-weight-bold is-size-4">Great Lakes Gaming</h3>
+                        <h3 class = "has-text-weight-bold is-size-4">May 2022 - July 2022</h3>
                     </div>
                 </div>
                 <ul>
@@ -145,12 +150,13 @@
                         date.</li>
                 </ul>
             </div>
-            <br>
-            <div class="employment">
+            
+            <div class="employment block">
                 <div class="employmentInfo block">
-                    <h2>Freelance 3D Artist</h2>
+                    <h2 class = "has-text-weight-bold is-size-3">Freelance 3D Artist</h2>
                     <div class="jobInfo">
-                        <h3>August 2022 - January 2023</h3>
+                        <h3 class = "has-text-weight-bold is-size-4">Great Lakes Gaming</h3>
+                        <h3 class = "has-text-weight-bold is-size-4">August 2022 - January 2023</h3>
                     </div>
                 </div>
                 <ul>
@@ -160,12 +166,13 @@
                 </ul>
             </div>
         </section>
-        <section id="projects">
-            <h1>PROJECTS</h1>
-            <h2>Web Sites/Applications</h2>
-            <div class="projectContent">
-                <div class="project" id="Changeling_VR">
-                    <h2>Changeling VR(2024)</h2>
+        <hr id = "projects" class = "my-6 mx-auto" style = "width: 80%">
+        <section>
+            <h2 class = "has-text-weight-bold is-size-2">PROJECTS</h2>
+            <h3 class = "has-text-weight-bold is-size-3">Web Sites & Applications</h3>
+            <div class=" columns is-multiline rows projectContent">
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop project" id="Changeling_VR">
+                    <h4 class = "has-text-weight-bold is-size-4">Changeling VR(2024)</h4>
                     <a href="https://www.changelingvr.com/" target="_blank">
                         <img src="media/images/changeling.png" alt="">
                     </a>
@@ -180,8 +187,8 @@
                             Deramhost, Vercel</li>
                     </ul>
                 </div>
-                <div class="project" id="Netflix_Clone">
-                    <h2>Netflix Clone(2023)</h2>
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop" id="Netflix_Clone">
+                    <h4 class = "has-text-weight-bold is-size-4">Netflix Clone(2023)</h4>
                     <a href="https://my-netflix-clone-c8b995d374b2.herokuapp.com/" target="_blank">
                         <img src="media/images/netflix_clone.png" alt="">
                     </a>
@@ -197,8 +204,8 @@
                             Heroku, CircleCI </li>
                     </ul>
                 </div>
-                <div class="project" id="Color_Palette_Generator">
-                    <h2>Color Palette Generator(2023)</h2>
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop" id="Color_Palette_Generator">
+                    <h4 class = "has-text-weight-bold is-size-4">Color Palette Generator(2023)</h4>
                     <a href="https://custom-color-palette-generator-3157d50d955c.herokuapp.com/" target="_blank">
                         <img src="media/images/color_palette_generator.png" alt="">
                     </a>
@@ -213,8 +220,8 @@
                         <li><strong>Tools:</strong> Visual Studio Code, Javascript, HTML5, CSS3, Heroku, CircleCI </li>
                     </ul>
                 </div>
-                <div class="project" id="AudioVisualizer">
-                    <h2>Audio Visualizer(2023)</h2>
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop" id="AudioVisualizer">
+                    <h4 class = "has-text-weight-bold is-size-4">Audio Visualizer(2023)</h4>
                     <a href="https://people.rit.edu/ewg3393/330/HW/gong-e-hw2/" target="_blank"><img
                             src="media/images/audio_visualizer.png" alt=""></a>
                     <ul>
@@ -227,8 +234,8 @@
                         <li><strong>Tools:</strong> Visual Studio Code, Javascript, HTML5, CSS3 </li>
                     </ul>
                 </div>
-                <div class="project" id="AmiiboWiki">
-                    <h2>Amiibo Wiki(2021)</h2>
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop" id="AmiiboWiki">
+                    <h4 class = "has-text-weight-bold is-size-4">Amiibo Wiki(2021)</h4>
                     <a href="https://people.rit.edu/ewg3393/235/project2/" target="_blank"><img
                             src="media/images/amiibo_wiki.png" alt=""> </a>
 
@@ -245,11 +252,11 @@
                 </div>
 
             </div>
-            <h2>Games & Levels</h2>
-            <div class="projectContent">
+            <h3 class = "has-text-weight-bold is-size-3">Games & Levels</h3>
+            <div class="columns is-multiline rows projectContent">
 
-                <div class="project">
-                    <h2>Combine Prison Escape</h2>
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop">
+                    <h4 class = "has-text-weight-bold is-size-4">Combine Prison Escape(2023)</h4>
                     <iframe class="youtube" src="https://www.youtube.com/embed/1sFP2Gm9lcQ"></iframe>
                     <ul>
 
@@ -263,8 +270,8 @@
                         <li><strong>Tools:</strong> Hammer++</li>
                     </ul>
                 </div>
-                <div class="project">
-                    <h2>Portal 2 Levels</h2>
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop">
+                    <h4 class = "has-text-weight-bold is-size-4">Portal 2 Playlist(2023)</h4>
                     <iframe class="youtube" src="https://www.youtube.com/embed/Dvqc_EcZprk"></iframe>
                     <ul>
 
@@ -278,8 +285,8 @@
                         <li><strong>Tools:</strong> Portal 2 Level editor</li>
                     </ul>
                 </div>
-                <div class="project">
-                    <h2>Custom Battleblock Theatre Level</h2>
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop">
+                    <h4 class = "has-text-weight-bold is-size-4">Battleblock Theater Level(2023)</h4>
                     <iframe class="youtube" src="https://www.youtube.com/embed/jgiwf84uNhc"></iframe>
                     <ul>
 
@@ -294,8 +301,8 @@
                     </ul>
                 </div>
 
-                <div class="project" id="PotionWorks">
-                    <h2>PotionWorks(2022)</h2>
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop" id="PotionWorks">
+                    <h4 class = "has-text-weight-bold is-size-4">PotionWorks(2022)</h4>
                     <iframe class="youtube" src="https://www.youtube.com/embed/OQ7aY4HT4TI"></iframe>
                     <ul>
                         <li><strong>About:</strong> Worked in a team of 5 to create a Casual 2D Puzzle game set in the
@@ -307,8 +314,8 @@
                         <li><strong>Tools:</strong> Unity, Photoshop</li>
                     </ul>
                 </div>
-                <div class="project" id="PotionWorks">
-                    <h2>The Rolling Scrolls(2022)</h2>
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop" id="PotionWorks">
+                    <h4 class = "has-text-weight-bold is-size-4">The Rolling Scrolls(2022)</h4>
                     <a
                         href="https://docs.google.com/presentation/d/e/2PACX-1vTNHxk2UnlCU7Rku6t8L7sWJ4L7Lz6_Z9JO0aB7x1RQaYwA8oOJ1pG3mIADhqnEnvwQjtJ6bzutFXpJ/pub?start=false&loop=false&delayms=3000"><img
                             src="media/images/rolling_scrolls.png" alt="rolling_scrolls_cover_art"></a>
@@ -323,9 +330,9 @@
                         <li><strong>Tools:</strong> Unity, Photoshop</li>
                     </ul>
                 </div>
-                <div class="project" id="PolygonDefense">
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop" id="PolygonDefense">
 
-                    <h2>Polygon Defense(2021)</h2>
+                    <h4 class = "has-text-weight-bold is-size-4">Polygon Defense(2021)</h4>
                     <a href="https://people.rit.edu/ewg3393/235/project3/" target="_blank"><img
                             src="media/images/polygon_defense.png" alt=""></a>
                     <ul>
@@ -342,9 +349,9 @@
 
             </div>
             <h2>UX Case Studies</h2>
-            <div class="projectContent">
-                <div class="project" id="UX_Project">
-                    <h2>Texastry Delivery App - UX Design Case Study(2023)</h2>
+            <div class="columns is-multiline rows projectContent">
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop" id="UX_Project">
+                    <h4 class = "has-text-weight-bold is-size-4">Bakery Delivery App(2023)</h4>
                     <a href="https://www.linkedin.com/pulse/my-first-google-ux-design-certificate-project-elliot-gong-ockgc/"
                         target="_blank">
                         <img src="media/images/Mockups.png" alt="">
@@ -359,8 +366,9 @@
                         <li><strong>Tools:</strong> Figma</li>
                     </ul>
                 </div>
-                <div class="project" id="SIS">
-                    <h2>RIT Student Information Systems Redesign(2022)</h2>
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop" id="SIS">
+                    <h4 class = "has-text-weight-bold is-size-4">RIT Student Information Systems Redesign(2022)</h4>
+                   
                     <a href="https://eqzxsk.axshare.com/#id=a8fi5d&p=login" target="_blank"><img
                             src="media/images/sis_prototype.png" alt=""></a>
                     <ul>
@@ -378,9 +386,9 @@
 
             </div>
             <h2>3D Assets</h2>
-            <div class="projectContent">
-                <div class="project">
-                    <h2>Sword of Nurgle</h2>
+            <div class="columns is-multiline rows projectContent">
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop">
+                    <h4 class = "has-text-weight-bold is-size-4">Sword of Nurgle(2024)</h4>
                     <div class="sketchfab-embed-wrapper"> <iframe title="Sword of Nurgle" frameborder="0"
                             allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
                             allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
@@ -390,15 +398,14 @@
                     <ul>
                         <li><strong>Link:</strong> <a href="https://www.artstation.com/artwork/dKwN63"
                                 target="_blank">Artstation page</a></li>
-                        <li><strong>About:</strong> My own design for a sword of Nurgle, complete with baked textures
-                            from a high poly mesh.</li>
+                        <li><strong>About:</strong> Designed and modelled a Nurgle-themed sword for Warhammer Fantasy.</li>
                         <li><strong>Team Size:</strong> Self</li>
                         <li><strong>Project Length:</strong> 4 weeks.</li>
                         <li><strong>Tools:</strong> Maya, Blender, Substance Painter</li>
                     </ul>
                 </div>
-                <div class="project">
-                    <h2>Hammer of Nurgle</h2>
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop">
+                    <h4 class = "has-text-weight-bold is-size-4">Hammer of Nurgle(20243)</h4>
                     <div class="sketchfab-embed-wrapper"> <iframe title="Hammer of Nurgle" frameborder="0"
                             allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
                             allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
@@ -408,15 +415,15 @@
                     <ul>
                         <li><strong>Link:</strong> <a href="https://www.artstation.com/artwork/5v8gew"
                                 target="_blank">Artstation page</a></li>
-                        <li><strong>About:</strong> My own design for a hammer of Nurgle, complete with baked textures
-                            from a high poly mesh.</li>
+                        <li><strong>About:</strong> Designed and modelled a Nurgle-themed hammer for Warhammer Fantasy.</li>
                         <li><strong>Team Size:</strong> Self</li>
                         <li><strong>Project Length:</strong> 3 weeks.</li>
                         <li><strong>Tools:</strong> Maya, Blender, Substance Painter</li>
                     </ul>
                 </div>
-                <div class="project">
-                    <h2>Axe of Khorne</h2>
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop">
+                    <h4 class = "has-text-weight-bold is-size-4">Axe of Khorne(2023)</h4>
+
                     <div class="sketchfab-embed-wrapper"> <iframe title="Khorne Axe" frameborder="0" allowfullscreen
                             mozallowfullscreen="true" webkitallowfullscreen="true"
                             allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
@@ -426,16 +433,14 @@
                     <ul>
                         <li><strong>Link:</strong> <a href="https://www.artstation.com/artwork/Om8DmK"
                                 target="_blank">Artstation page</a></li>
-                        <li><strong>About:</strong> My own design for an axe of Khorne, complete with baked textures
-                            from a
-                            high poly mesh.</li>
+                        <li><strong>About:</strong>Designed and modelled a Khorne-themed axe for Warhammer Fantasy.</li>
                         <li><strong>Team Size:</strong> Self</li>
                         <li><strong>Project Length:</strong> 3 weeks.</li>
                         <li><strong>Tools:</strong> Maya, Blender, Substance Painter</li>
                     </ul>
                 </div>
-                <div class="project">
-                    <h2>Alien</h2>
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop">
+                    <h4 class = "has-text-weight-bold is-size-4">Alien Character(2023)</h4>
                     <div class="sketchfab-embed-wrapper"> <iframe title="Alien" frameborder="0" allowfullscreen
                             mozallowfullscreen="true" webkitallowfullscreen="true"
                             allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
@@ -445,15 +450,14 @@
                     <ul>
                         <li><strong>Link:</strong> <a href="https://www.artstation.com/artwork/AlkG5W"
                                 target="_blank">Artstation page</a></li>
-                        <li><strong>About:</strong> An original alien character modeled and textured by me. Rigged using
-                            Mixamo and Maya. Compatible with Unreal Engine.</li>
+                        <li><strong>About:</strong> Designed, modelled, textured, and rigged a playable alien character. Compatible with Unreal Engine.</li>
                         <li><strong>Team Size:</strong> Self</li>
                         <li><strong>Project Length:</strong> 3 weeks.</li>
                         <li><strong>Tools:</strong> Maya, Blender, Substance Painter, Unreal Engine 5, Mixamo</li>
                     </ul>
                 </div>
-                <div class="project">
-                    <h2>Cow - Five Nights at Freddy's</h2>
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop">
+                    <h4 class = "has-text-weight-bold is-size-4"><em>Five Nights at Freddy's</em> Cow Character(2023)</h4>
                     <div class="sketchfab-embed-wrapper"> <iframe title="FNAF Cow" frameborder="0" allowfullscreen
                             mozallowfullscreen="true" webkitallowfullscreen="true"
                             allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
@@ -463,16 +467,15 @@
                     <ul>
                         <li><strong>Link:</strong> <a href="https://www.artstation.com/artwork/LRZLmk"
                                 target="_blank">Artstation page</a></li>
-                        <li><strong>About:</strong> An original Five Nights at Freddy Cow character, modeled, textured,
-                            and rigged by me. Compatible with Unreal Engine.</li>
+                        <li><strong>About:</strong> Designed, modelled, textured, and rigged an original <em>Five Nights at Freddy's</em> character. Compatible with Unreal Engine.</li>
                         <li><strong>Team Size:</strong> Self</li>
                         <li><strong>Project Length:</strong> 3 weeks.</li>
                         <li><strong>Tools:</strong> Maya, Blender, Zbrush, Substance Painter, Unreal Engine 5</li>
                     </ul>
                 </div>
 
-                <div class="project">
-                    <h2>Chess Set</h2>
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop">
+                    <h4 class = "has-text-weight-bold is-size-4">Chess Set(2021)</h4>
                     <div class="sketchfab-embed-wrapper"> <iframe title="Chess Set" frameborder="0" allowfullscreen
                             mozallowfullscreen="true" webkitallowfullscreen="true"
                             allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
@@ -487,8 +490,8 @@
                         <li><strong>Tools:</strong> Maya, Substance Painter</li>
                     </ul>
                 </div>
-                <div class="project">
-                    <h2>Halo Sword</h2>
+                <div class="project column is-full-mobile is-half-tablet is-one-third-desktop">
+                    <h4 class = "has-text-weight-bold is-size-4">Halo Energy Sword(2021)</h4>
                     <div class="sketchfab-embed-wrapper"> <iframe title="Halo Energy Sword" frameborder="0"
                             allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
                             allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
@@ -504,10 +507,55 @@
                 </div>
             </div>
         </section>
-        <section id="skills">
-
+        <hr id = "skills" class = "my-6 mx-auto" style = "width: 80%">
+        <section>
+            <h1>SKILLS</h1>
+            <div class="skillType" id="generalSkills">
+                <h2>Disciplines</h2>
+                Game/Level Design, Game/UI Programming, Full-Stack Development, UX Design, UX Engineering, 3D Modeling,
+                Digital Illustration, 3D Printing
+            </div>
+            <div class="skillType" id="languages">
+                <h2>Languages</h2>
+                C++(2 years), C#(3 years), Javascript(2 years), React, HTML5, Handlebars, CSS3, Lua
+            </div>
+            <div class="skillType" id="software">
+                <h2>Software</h2>
+                <ul>
+                    <li><strong>Game Engines</strong> - Unreal(1 year), Unity(2 years), Roblox Studio</li>
+                    <li><strong>Code Editors/Version Controls</strong> - Visual Studio 2019(3 years), Visual Studio Code(2 years), Git
+                    </li>
+                    <li><strong>FTP/Prototyping Applications</strong> - Filezilla(2 years), Axure RP 10(1 year), Figma(2 years)</li>
+                    <li><strong>3D Creative Software</strong> - Blender(1 year), Maya(2 years), Zbrush, Adobe Substance
+                        Painter(2 years),
+                        Flashprint-MP</li>
+                    <li><strong>2D Creative Software</strong> - Adobe Creative Suite(Photoshop, Fresco, After Effects,
+                        Animate, XD), Gimp, Paint 3D</li>
+                </ul>
+            </div>
+            <div class="skillType" id="other">
+                <h2>Other</h2>
+                Leadership, Project Management, Teamwork, Problem Solving, Communication, Customer Service
+            </div>
         </section>
-        <section id="education">
+        <hr id = "education" class = "my-6 mx-auto" style = "width: 80%">
+        <section>
+            
+            <h1>EDUCATION</h1>
+            <div class="education">
+
+                <h3 class="achievement">B.S. Game Design and Development, Minor in Communication</h3>
+                <h3 class="institution">Rochester Institute of Technology</h3>
+                <h3 class="milestone">GPA: 3.94, Dean’s List for 6 semesters</h3>
+                <h3 class="date">Expected May 2024</h3>
+            </div>
+            <br>
+            <div class="education">
+                <h3 class="achievement">Professional Career Certificate in UX Design</h3>
+                <h3 class="institution">Google, Coursera</h3>
+                <h3 class="date">Expected February 2024</h3>
+
+            </div>
         </section>
     </main>
     <footer>
@@ -519,6 +567,7 @@
                 <button type="Submit">Send</button>
             </form>
         </div>
+        <h2 class = "has-text-centered">&copy; Elliot Gong 2024</h2>
     </footer>
 
     <script>
