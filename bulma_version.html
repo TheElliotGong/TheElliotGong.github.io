@@ -1,25 +1,30 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <title>Elliot Gong - Portfolio Page</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-        <link rel = "stylesheet" href = "bulma_version.css">
-        <link rel = "icon" href = "media/images/logos_and_icons/logo.svg">
-    </head>
-    <body>
-        <header>
-            <nav class="navbar has-shadow has-background-light is-fixed-top">
+<html lang="en">
+
+<head>
+    <title>Elliot Gong - Portfolio Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="styles/bulma_version.css">
+    <link rel="icon" href="media/images/logos_and_icons/logo.svg">
+    <script type="text/javascript" src="/node_modules/bulma-accordion/dist/js/bulma-accordion.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar has-shadow has-background-light is-fixed-top">
             <div class="navbar-brand">
-                <a class = "navbar-item">
-                    <img width = "35" style = "max-height: 5rem;" src = "media/images/logos_and_icons/personal logo.png">
+                <a class="navbar-item">
+                    <img width="35" style="max-height: 5rem;" src="media/images/logos_and_icons/personal logo.png">
                 </a>
-                
-                
-                
-                <a role = "button" class="navbar-burger" id = "burger">
+
+
+
+                <a role="button" class="navbar-burger" id="burger">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -27,17 +32,17 @@
             </div>
             <div class="navbar-menu" id="nav-links">
                 <div class="navbar-end">
-                    <a href = "#bio" class="navbar-item is-size-4">About </a>
-                    <a href = "#experience" class="navbar-item is-size-4">Experience</a>
-                    <a href = "#projects" class="navbar-item is-size-4">Projects</a>
-                    <a href = "#skills" class="navbar-item is-size-4">Skills</a>
-                    
-                    <a href = "#education "class="navbar-item is-size-4">Education</a>
+                    <a href="#bio" class="navbar-item is-size-4">About </a>
+                    <a href="#experience" class="navbar-item is-size-4">Experience</a>
+                    <a href="#projects" class="navbar-item is-size-4">Projects</a>
+                    <a href="#skills" class="navbar-item is-size-4">Skills</a>
+
+                    <a href="#education " class="navbar-item is-size-4">Education</a>
                     <div class="navbar-item has-dropdown is-hoverable ">
                         <a class="navbar-link">
                             Resumes
                         </a>
-                    
+
                         <div class="navbar-dropdown is-right">
                             <a class="navbar-item" href="media/resumes/Full-Stack-resume.pdf" target="_blank">
                                 Full Stack Development
@@ -56,89 +61,475 @@
                 </div>
             </div>
         </nav>
-        </header>
-        <main class ="has-background-info">
-            <section id="bio">
-                <div class="container">
-                    <div class="columns is-vcentered">
-                        <div class="column is-one-quarter" id = "photoAndQuickContacts">
-                            <figure class="image is-4by5">
-                                <img class = "is-rounded" id = "headshot" src = "media/images/face.jpg" alt = "" >
-                            </figure>
-                           <div id = "quickContact" class = "columns is-1">
-                                <a href = "https://github.com/TheElliotGong" target = "_blank">
-                                    <img width = "40" src = "media/images/logos_and_icons/github.png" alt = "">
-                                </a>
-                                <a href = "mailto:ewcgong@hotmail.com" target = "_blank">
-                                    <img width = "40" src = "media/images/logos_and_icons/email.png" alt = "">
-                                </a>
-                                <a href = "https://www.linkedin.com/in/elliot-gong/" target = "_blank">
-                                    <img width = "40" src = "media/images/logos_and_icons/linkedin.png" alt = "">
-                                </a>
-                                <a href = "https://sketchfab.com/Taterblock17" target = "_blank">
-                                    <img width = "40" src = "media/images/logos_and_icons/sketchfab.png" alt = "">
-                                </a>
-                                <a href = "https://www.artstation.com/elliot_gong" target = "_blank">
-                                    <img width = "40" src = "media/images/logos_and_icons/artstation.png" alt = "">
-                                </a>
-                            </div>   
-                        </div>
-                        <div class="column">
-                            <h1 class = "is-size-3">Hi, I'm Elliot Gong and I'm a 4th year Game Design and Development Student</h1>
-                        </div>
-                    </div>
-                    
-                </div>
-                
-            </section>
-            <section id="experience">
-                <h1>EXPERIENCE</h1>
-                <div class="employmentContent">
-                    
-                    <div class="employment">
-                        <div class = "employmentInfo">
-                            <h2>3D Modeling and Animation Intern</h2>
-                            <div class = "jobInfo">
-                                <h3>Great Lakes Gaming</h3>
-                                <h3>May 2022 - July 2022</h3>
-                                <h3>Remote</h3>
-                            </div>
-                        </div>
-                        <ul>
-                            <li>Updated and maintained textures, poses, and quality of 3D game assets. </li>
-                            <li>Created models and renders of characters and assets.</li>
-                            <li>Research new and more efficient techniques for 3D design and animation.</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section id = "projects">
-
-            </section>
-            <section id = "skills">
-
-            </section>
-            <section id = "education">
-                </section>
-        </main>
-        <footer>
+    </header>
+    <main>
+        <section id="bio">
             <div class="container">
-                <form action="https://formsubmit.co/el/fuhozi" method="POST">
-                    <input type="text" name = "name" placeholder = "Name" required>
-                    <input type= "email" name = "email" placeholder="Email" required>
-                    <textarea name="message" id="" cols="30" rows="4" placeholder="Message" required></textarea>
-                    <button type = "Submit">Send</button>
-                </form>
+                <div class="columns is-vcentered">
+                    <div class="column is-one-third" id="photoAndQuickContacts">
+                        <figure class="image is-4by5" id = "headshot">
+                            <img class="is-rounded" src="media/images/face.jpg" alt="">
+                        </figure>
+                        <div id="quickContact" class="columns is-1 is-mobile">
+                            <a class = "column" href="https://github.com/TheElliotGong" target="_blank">
+                                <img width="50" src="media/images/logos_and_icons/github.png" alt="">
+                            </a>
+                            <a class = "column" href="mailto:ewcgong@hotmail.com" target="_blank">
+                                <img width="50" src="media/images/logos_and_icons/R.png" alt="">
+                            </a>
+                            <a class = "column" href="https://www.linkedin.com/in/elliot-gong/" target="_blank">
+                                <img width="50" src="media/images/logos_and_icons/linkedin.png" alt="">
+                            </a>
+                            <a class = "column" href="https://sketchfab.com/Taterblock17" target="_blank">
+                                <img width="50" src="media/images/logos_and_icons/sketchfab.png" alt="">
+                            </a>
+                            <a class = "column" href="https://www.artstation.com/elliot_gong" target="_blank">
+                                <img width="50" src="media/images/logos_and_icons/artstation.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h1>Hi, I'm Elliot Gong</h1>
+                        <h2>Full-Stack and Game Developer, Hobby Artist</h2>
+                        <h3>
+                            I'm a 4th Game Design/Dev student attending the Rochester Institute of Technology and I am
+                            looking
+                            for entry-level opportunities to
+                            apply my skills in creating innovative and fun experiences.
+                            In my free time, I like to create 3D models and digital illustrations, read, watch tv, game
+                            and
+                            exercise.
+                        </h3>
+                        <a id="contactForm" href="https://formsubmit.co/el/fuhozi">Get in Touch</a>
+                    </div>
+                </div>
+
             </div>
-        </footer>
-        
-        <script>
-            //Create fields using nav elements.
-            const burgerIcon = document.querySelector("#burger");
-            const navbarMenu = document.querySelector("#nav-links");
-            //Show/hide the navbar menu when the burger icon is clicked. 
-            burgerIcon.addEventListener('click', () => {
-                navbarMenu.classList.toggle('is-active');})
-        </script>
-    </body>
+
+        </section>
+        <section id="experience">
+            <h1>EXPERIENCE</h1>
+            <br>
+            <div class="employment">
+                <div class="employmentInfo block">
+                    <h2>Web Developer Intern</h2>
+                    <div class="jobInfo">
+                        <h3>Changeling VR</h3>
+                        <h3>January 2024 - Present</h3>
+                    </div>
+                </div>
+                <ul>
+                    <li>Worked within a team of 9 interns to improve and update the official website of the Changeling
+                        VR Project.</li>
+                    <li>Created and managed task board for tasks and deliverables. Design and program web pages as part
+                        of the front-end group.</li>
+                    <li>Updated and reorganized the databases containing project and developer information.</li>
+                </ul>
+            </div>
+            <br>
+            <div class="employment">
+                <div class="employmentInfo block">
+                    <h2>3D Modeling and Animation Intern</h2>
+                    <div class="jobInfo">
+                        <h3>Great Lakes Gaming</h3>
+                        <h3>May 2022 - July 2022</h3>
+                    </div>
+                </div>
+                <ul>
+                    <li>Worked within a team of 8 interns across mulltiple disciplines ranging from graphic design to
+                        game development.</li>
+                    <li>Expanded and developed the company's repository of Valorant 3D assets. Client now possesses a
+                        recreated map, 4 original 3D models, and content for 9 different characters. </li>
+                    <li>Work was used to promote esports events, including the 100th Pit of Valor, the company’s largest
+                        Valorant tournament to
+                        date.</li>
+                </ul>
+            </div>
+            <br>
+            <div class="employment">
+                <div class="employmentInfo block">
+                    <h2>Freelance 3D Artist</h2>
+                    <div class="jobInfo">
+                        <h3>August 2022 - January 2023</h3>
+                    </div>
+                </div>
+                <ul>
+                    <li>Completed rendering and texturing commissions for previous employer Great Lakes Gaming. </li>
+                    <li>Updated existing projects and assets within the company repository.
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="projects">
+            <h1>PROJECTS</h1>
+            <h2>Web Sites/Applications</h2>
+            <div class="projectContent">
+                <div class="project" id="Changeling_VR">
+                    <h2>Changeling VR(2024)</h2>
+                    <a href="https://www.changelingvr.com/" target="_blank">
+                        <img src="media/images/changeling.png" alt="">
+                    </a>
+                    <ul>
+                        <li><strong>About:</strong> The offical website for the Changeling VR Project.</li>
+                        <li><strong>What I did:</strong>Redesign and develop the home and character pages. Coordinate
+                            with art and development team on
+                            producing web assets.</li>
+                        <li><strong>Team Size:</strong> 9</li>
+                        <li><strong>Project Length:</strong> 4 months</li>
+                        <li><strong>Tools:</strong> Visual Studio Code, Javascript, HTML5, CSS3, MySQL, XAMPP,
+                            Deramhost, Vercel</li>
+                    </ul>
+                </div>
+                <div class="project" id="Netflix_Clone">
+                    <h2>Netflix Clone(2023)</h2>
+                    <a href="https://my-netflix-clone-c8b995d374b2.herokuapp.com/" target="_blank">
+                        <img src="media/images/netflix_clone.png" alt="">
+                    </a>
+                    <ul>
+                        <li><strong>About:</strong> A clone of Netflix where users can sign in and manage their own
+                            account and profiles and browse through numerous videos.</li>
+                        <li><strong>What I did:</strong>Use MongoDB to store account and content data and track server
+                            sessions with Redis Cloud. Utilize CircleCI for continuous integration and Heroku for
+                            hosting.</li>
+                        <li><strong>Team Size:</strong> Self</li>
+                        <li><strong>Project Length:</strong> 3 weeks</li>
+                        <li><strong>Tools:</strong> Visual Studio Code, Javascript, HTML5, CSS3, MongoDB, Redis Cloud,
+                            Heroku, CircleCI </li>
+                    </ul>
+                </div>
+                <div class="project" id="Color_Palette_Generator">
+                    <h2>Color Palette Generator(2023)</h2>
+                    <a href="https://custom-color-palette-generator-3157d50d955c.herokuapp.com/" target="_blank">
+                        <img src="media/images/color_palette_generator.png" alt="">
+                    </a>
+                    <ul>
+                        <li><strong>About:</strong> A custom color palette generator that allows users to edit and even
+                            delete their created palettes.</li>
+                        <li><strong>What I did:</strong> Implemented a custom HTTP api that handles GET, POST, HEAD, and
+                            DELETE requests/responses between the client and the server. Utilize CircleCI for continuous
+                            integration and Heroku for hosting.</li>
+                        <li><strong>Team Size:</strong> Self</li>
+                        <li><strong>Project Length:</strong> 3 weeks</li>
+                        <li><strong>Tools:</strong> Visual Studio Code, Javascript, HTML5, CSS3, Heroku, CircleCI </li>
+                    </ul>
+                </div>
+                <div class="project" id="AudioVisualizer">
+                    <h2>Audio Visualizer(2023)</h2>
+                    <a href="https://people.rit.edu/ewg3393/330/HW/gong-e-hw2/" target="_blank"><img
+                            src="media/images/audio_visualizer.png" alt=""></a>
+                    <ul>
+                        <li><strong>About:</strong> Individually created an audio visualizer that specializes in music
+                            from the Nutcracker.</li>
+                        <li><strong>What I did:</strong> Implemented AudioNodes and node.js to render graphics based on
+                            the filtered audio.</li>
+                        <li><strong>Team Size:</strong> Self</li>
+                        <li><strong>Project Length:</strong> 4 weeks</li>
+                        <li><strong>Tools:</strong> Visual Studio Code, Javascript, HTML5, CSS3 </li>
+                    </ul>
+                </div>
+                <div class="project" id="AmiiboWiki">
+                    <h2>Amiibo Wiki(2021)</h2>
+                    <a href="https://people.rit.edu/ewg3393/235/project2/" target="_blank"><img
+                            src="media/images/amiibo_wiki.png" alt=""> </a>
+
+                    <ul>
+
+                        <li><strong>About:</strong> Academic Project is a custom Amiibo wiki page utilizing the public
+                            Amiibo API.</li>
+                        <li><strong>What I did:</strong> Designed and built a functioning website that uses data from an
+                            external server.</li>
+                        <li><strong>Team Size:</strong> Self</li>
+                        <li><strong>Project Length:</strong> 3 weeks.</li>
+                        <li><strong>Tools:</strong> Visual Studio Code, Javascript, HTML5, CSS3,</li>
+                    </ul>
+                </div>
+
+            </div>
+            <h2>Games & Levels</h2>
+            <div class="projectContent">
+
+                <div class="project">
+                    <h2>Combine Prison Escape</h2>
+                    <iframe class="youtube" src="https://www.youtube.com/embed/1sFP2Gm9lcQ"></iframe>
+                    <ul>
+
+                        <li><strong>Workshop page:</strong><a
+                                href="https://www.moddb.com/members/og-elgo/downloads/combine-prison-escape-half-life-2"
+                                target="_blank"> Moddb page</a></li>
+                        <li><strong>About:</strong> Implement design and gameflow principles for a 3D first person
+                            shooter level. Responsible for all aspects.</li>
+                        <li><strong>Team Size:</strong> Self</li>
+                        <li><strong>Project Length:</strong> 3 weeks.</li>
+                        <li><strong>Tools:</strong> Hammer++</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h2>Portal 2 Levels</h2>
+                    <iframe class="youtube" src="https://www.youtube.com/embed/Dvqc_EcZprk"></iframe>
+                    <ul>
+
+                        <li><strong>Link:</strong> <a
+                                href="https://steamcommunity.com/profiles/76561198367702438/myworkshopfiles/?appid=620"
+                                target="_blank">Steam Page</a></li>
+                        <li><strong>About:</strong>Design and create a 3D puzzle platformer level utilizing key design
+                            and flow principles.</li>
+                        <li><strong>Team Size: </strong> Self</li>
+                        <li><strong>Project Length:</strong>3 weeks.</li>
+                        <li><strong>Tools:</strong> Portal 2 Level editor</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h2>Custom Battleblock Theatre Level</h2>
+                    <iframe class="youtube" src="https://www.youtube.com/embed/jgiwf84uNhc"></iframe>
+                    <ul>
+
+                        <li><strong>Workshop page:</strong> <a
+                                href="https://steamcommunity.com/sharedfiles/filedetails/?id=2936439139"
+                                target="_blank">Steam Page</a></li>
+                        <li><strong>About: </strong>Design and create a 2D puzzle platformer level utilizing key design
+                            and flow principles.</li>
+                        <li><strong>Team Size: </strong> Self</li>
+                        <li><strong>Project Length:</strong>3 weeks.</li>
+                        <li><strong>Tools:</strong> Battleblock Theatre level editor</li>
+                    </ul>
+                </div>
+
+                <div class="project" id="PotionWorks">
+                    <h2>PotionWorks(2022)</h2>
+                    <iframe class="youtube" src="https://www.youtube.com/embed/OQ7aY4HT4TI"></iframe>
+                    <ul>
+                        <li><strong>About:</strong> Worked in a team of 5 to create a Casual 2D Puzzle game set in the
+                            fantasy world of Ethshar.</li>
+                        <li><strong>What I did:</strong> Acted as project manager, game/UI programmer, and designer.
+                        </li>
+                        <li><strong>Team Size:</strong> 5 students</li>
+                        <li><strong>Project Length:</strong> 5 weeks</li>
+                        <li><strong>Tools:</strong> Unity, Photoshop</li>
+                    </ul>
+                </div>
+                <div class="project" id="PotionWorks">
+                    <h2>The Rolling Scrolls(2022)</h2>
+                    <a
+                        href="https://docs.google.com/presentation/d/e/2PACX-1vTNHxk2UnlCU7Rku6t8L7sWJ4L7Lz6_Z9JO0aB7x1RQaYwA8oOJ1pG3mIADhqnEnvwQjtJ6bzutFXpJ/pub?start=false&loop=false&delayms=3000"><img
+                            src="media/images/rolling_scrolls.png" alt="rolling_scrolls_cover_art"></a>
+
+                    <ul>
+                        <li><strong>About:</strong> Worked in a team of 5 to create a Casual 2D Puzzle game set in the
+                            fantasy world of Ethshar.</li>
+                        <li><strong>What I did:</strong> Acted as project manager, game/UI programmer, and designer.
+                        </li>
+                        <li><strong>Team Size:</strong> 5 students</li>
+                        <li><strong>Project Length:</strong> 5 weeks</li>
+                        <li><strong>Tools:</strong> Unity, Photoshop</li>
+                    </ul>
+                </div>
+                <div class="project" id="PolygonDefense">
+
+                    <h2>Polygon Defense(2021)</h2>
+                    <a href="https://people.rit.edu/ewg3393/235/project3/" target="_blank"><img
+                            src="media/images/polygon_defense.png" alt=""></a>
+                    <ul>
+                        <li><strong>About:</strong> Polygon Defense is a top-down defense shooter where you defend
+                            against endless waves of enemies.</li>
+                        <li><strong>What I did:</strong> Use Javascript and the PixiJS tech stack to create a
+                            functioning game as the sole developer.</li>
+                        <li><strong>Team Size:</strong> Self</li>
+                        <li><strong>Project Length:</strong> 3 weeks.</li>
+                        <li><strong>Tools:</strong> Visual Studio Code, Javascript, HTML, CSS </li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <h2>UX Case Studies</h2>
+            <div class="projectContent">
+                <div class="project" id="UX_Project">
+                    <h2>Texastry Delivery App - UX Design Case Study(2023)</h2>
+                    <a href="https://www.linkedin.com/pulse/my-first-google-ux-design-certificate-project-elliot-gong-ockgc/"
+                        target="_blank">
+                        <img src="media/images/Mockups.png" alt="">
+                    </a>
+                    <ul>
+                        <li><strong>About:</strong> Conducted a UX design case study as part of my Google UX Design
+                            certificate.</li>
+                        <li><strong>What I did:</strong> Design and prototype a bakery's mobile app using information
+                            gained from research studies and user testing.</li>
+                        <li><strong>Team Size:</strong> Self</li>
+                        <li><strong>Project Length:</strong> 8 weeks</li>
+                        <li><strong>Tools:</strong> Figma</li>
+                    </ul>
+                </div>
+                <div class="project" id="SIS">
+                    <h2>RIT Student Information Systems Redesign(2022)</h2>
+                    <a href="https://eqzxsk.axshare.com/#id=a8fi5d&p=login" target="_blank"><img
+                            src="media/images/sis_prototype.png" alt=""></a>
+                    <ul>
+
+                        <li><strong>About:</strong> A UX design case study aimed toward improving the process of course
+                            enrollment at the Rochester Institute of Technology.</li>
+                        <li><strong>What I did:</strong> Create user flows, conduct user research, and moderate
+                            usability studies to help develop a high-fidelity prototype of the ideal design solution.
+                        </li>
+                        <li><strong>Team Size:</strong> Self</li>
+                        <li><strong>Project Length:</strong> 2 months</li>
+                        <li><strong>Tools:</strong> Figma, Axure RP 10</li>
+                    </ul>
+                </div>
+
+            </div>
+            <h2>3D Assets</h2>
+            <div class="projectContent">
+                <div class="project">
+                    <h2>Sword of Nurgle</h2>
+                    <div class="sketchfab-embed-wrapper"> <iframe title="Sword of Nurgle" frameborder="0"
+                            allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
+                            allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+                            execution-while-out-of-viewport execution-while-not-rendered web-share
+                            src="https://sketchfab.com/models/7ed2ff53f9984afeb013110f6eecb113/embed" width="100%"
+                            height="300px"> </iframe> </div>
+                    <ul>
+                        <li><strong>Link:</strong> <a href="https://www.artstation.com/artwork/dKwN63"
+                                target="_blank">Artstation page</a></li>
+                        <li><strong>About:</strong> My own design for a sword of Nurgle, complete with baked textures
+                            from a high poly mesh.</li>
+                        <li><strong>Team Size:</strong> Self</li>
+                        <li><strong>Project Length:</strong> 4 weeks.</li>
+                        <li><strong>Tools:</strong> Maya, Blender, Substance Painter</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h2>Hammer of Nurgle</h2>
+                    <div class="sketchfab-embed-wrapper"> <iframe title="Hammer of Nurgle" frameborder="0"
+                            allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
+                            allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+                            execution-while-out-of-viewport execution-while-not-rendered web-share
+                            src="https://sketchfab.com/models/24c6704ec5c440d3beef200a6e624d3e/embed" width="100%"
+                            height="300px"> </iframe> </div>
+                    <ul>
+                        <li><strong>Link:</strong> <a href="https://www.artstation.com/artwork/5v8gew"
+                                target="_blank">Artstation page</a></li>
+                        <li><strong>About:</strong> My own design for a hammer of Nurgle, complete with baked textures
+                            from a high poly mesh.</li>
+                        <li><strong>Team Size:</strong> Self</li>
+                        <li><strong>Project Length:</strong> 3 weeks.</li>
+                        <li><strong>Tools:</strong> Maya, Blender, Substance Painter</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h2>Axe of Khorne</h2>
+                    <div class="sketchfab-embed-wrapper"> <iframe title="Khorne Axe" frameborder="0" allowfullscreen
+                            mozallowfullscreen="true" webkitallowfullscreen="true"
+                            allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+                            execution-while-out-of-viewport execution-while-not-rendered web-share
+                            src="https://sketchfab.com/models/97eabb1e572748fa82f1517e60ed10c9/embed" width="100%"
+                            height="300px"> </iframe> </div>
+                    <ul>
+                        <li><strong>Link:</strong> <a href="https://www.artstation.com/artwork/Om8DmK"
+                                target="_blank">Artstation page</a></li>
+                        <li><strong>About:</strong> My own design for an axe of Khorne, complete with baked textures
+                            from a
+                            high poly mesh.</li>
+                        <li><strong>Team Size:</strong> Self</li>
+                        <li><strong>Project Length:</strong> 3 weeks.</li>
+                        <li><strong>Tools:</strong> Maya, Blender, Substance Painter</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h2>Alien</h2>
+                    <div class="sketchfab-embed-wrapper"> <iframe title="Alien" frameborder="0" allowfullscreen
+                            mozallowfullscreen="true" webkitallowfullscreen="true"
+                            allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+                            execution-while-out-of-viewport execution-while-not-rendered web-share
+                            src="https://sketchfab.com/models/f2072fbe2db24ee3b975d104822cd53e/embed" width="100%"
+                            height="300px"> </iframe> </div>
+                    <ul>
+                        <li><strong>Link:</strong> <a href="https://www.artstation.com/artwork/AlkG5W"
+                                target="_blank">Artstation page</a></li>
+                        <li><strong>About:</strong> An original alien character modeled and textured by me. Rigged using
+                            Mixamo and Maya. Compatible with Unreal Engine.</li>
+                        <li><strong>Team Size:</strong> Self</li>
+                        <li><strong>Project Length:</strong> 3 weeks.</li>
+                        <li><strong>Tools:</strong> Maya, Blender, Substance Painter, Unreal Engine 5, Mixamo</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h2>Cow - Five Nights at Freddy's</h2>
+                    <div class="sketchfab-embed-wrapper"> <iframe title="FNAF Cow" frameborder="0" allowfullscreen
+                            mozallowfullscreen="true" webkitallowfullscreen="true"
+                            allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+                            execution-while-out-of-viewport execution-while-not-rendered web-share
+                            src="https://sketchfab.com/models/0fa9e997d4ec4a008de05d19757afb7f/embed" width="100%"
+                            height="300px"> </iframe> </div>
+                    <ul>
+                        <li><strong>Link:</strong> <a href="https://www.artstation.com/artwork/LRZLmk"
+                                target="_blank">Artstation page</a></li>
+                        <li><strong>About:</strong> An original Five Nights at Freddy Cow character, modeled, textured,
+                            and rigged by me. Compatible with Unreal Engine.</li>
+                        <li><strong>Team Size:</strong> Self</li>
+                        <li><strong>Project Length:</strong> 3 weeks.</li>
+                        <li><strong>Tools:</strong> Maya, Blender, Zbrush, Substance Painter, Unreal Engine 5</li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <h2>Chess Set</h2>
+                    <div class="sketchfab-embed-wrapper"> <iframe title="Chess Set" frameborder="0" allowfullscreen
+                            mozallowfullscreen="true" webkitallowfullscreen="true"
+                            allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+                            execution-while-out-of-viewport execution-while-not-rendered web-share
+                            src="https://sketchfab.com/models/aab6d5b2a3e44500b6974133134c64b1/embed" width="100%"
+                            height="300px"> </iframe> </div>
+                    <ul>
+
+                        <li><strong>About:</strong> A low poly chess set, mod3eled and textured by me.</li>
+                        <li><strong>Team Size:</strong> Self</li>
+                        <li><strong>Project Length:</strong> 2 weeks.</li>
+                        <li><strong>Tools:</strong> Maya, Substance Painter</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h2>Halo Sword</h2>
+                    <div class="sketchfab-embed-wrapper"> <iframe title="Halo Energy Sword" frameborder="0"
+                            allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
+                            allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+                            execution-while-out-of-viewport execution-while-not-rendered web-share
+                            src="https://sketchfab.com/models/3f4cf22e9c624ad588a93bd4f307ff11/embed" width="100%"
+                            height="300px"> </iframe> </div>
+                    <ul>
+                        <li><strong>About:</strong> A low poly energy sword from Halo, modeled and textured by me.</li>
+                        <li><strong>Team Size:</strong> Self</li>
+                        <li><strong>Project Length:</strong> 1 week.</li>
+                        <li><strong>Tools:</strong> Maya, Substance Painter</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+
+        </section>
+        <section id="education">
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <form action="https://formsubmit.co/el/fuhozi" method="POST">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" id="" cols="30" rows="4" placeholder="Message" required></textarea>
+                <button type="Submit">Send</button>
+            </form>
+        </div>
+    </footer>
+
+    <script>
+        //Create fields using nav elements.
+        const burgerIcon = document.querySelector("#burger");
+        const navbarMenu = document.querySelector("#nav-links");
+        //Show/hide the navbar menu when the burger icon is clicked. 
+        burgerIcon.addEventListener('click', () => {
+            navbarMenu.classList.toggle('is-active');
+        })
+    </script>
+</body>
+
 </html>

@@ -1,0 +1,67 @@
+
+/*Universal CSS Properties across all devices and screen sizes*/
+:root {
+  --darkBlue: #1D4E89;
+  --liteBlue: rgb(175, 243, 255);
+  --white: #FFFFFF;
+  --liteGray: #e9e6ec;
+}
+body
+{
+  padding-top: 60px;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+  color: var(--white);
+  background-color: var(--darkBlue);
+}
+section
+{
+  padding: 2% 5%;
+}
+#headshot
+{
+  margin: 0 auto 30px;
+  
+  margin-bottom: 30px;
+}
+#headshot img
+{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  box-shadow: 0 5px 18px rgba(255, 255, 255, 0.6);
+
+}
+footer
+{
+  background-color: var(--liteGray);
+}
+/*CSS Properties for Mobile Phones*/
+@media screen and (max-width: 767px)
+{
+
+}
+
+/*CSS Properties for Tablets*/
+@media screen and (min-width: 768px) and (max-width: 1023px) 
+{
+
+}
+/*CSS Properties for Desktop and Beyond*/
+@media screen and (min-width: 1024px)
+{
+  /* #headshot
+  {
+    max-width: 350px;
+    max-height: 437px;
+  } */
+  .projectContent
+  {
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-template-rows: repeat(auto-fit, minmax(450px, 1.5fr));
+    gap: 30px;
+  }
+  
+  
+}
