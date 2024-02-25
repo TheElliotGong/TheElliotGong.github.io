@@ -20,6 +20,26 @@ body
 {
   padding-bottom: 50px;
 }
+#contactForm
+{
+  text-align: center;
+  display: block;
+  
+  color: var(--liteBlue);
+  border: 3px solid var(--liteBlue);
+  width: fit-content;
+  margin: 5% auto 0;
+  padding: 10px;
+  transition-duration: 500ms;
+  
+}
+#contactForm:hover
+{
+  background-color: var(--liteBlue);
+
+  color: var(--darkBlue);
+  transform: scale(1.15);
+}
 section
 {
   padding: 3% 5%;
