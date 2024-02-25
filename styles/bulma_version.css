@@ -45,27 +45,88 @@ section h1
 footer
 {
   background-color: var(--liteGray);
+  height: fit-content;
+  padding: 2vw 30vw;
 }
-h1, h2
+h1, h2, .project h3, .project h2
 {
   color: var(--liteBlue);
 
 }
+strong
+{
+  color: var(--white);
+}
+
+.project
+{
+  height: fit-content;
+}
+.project img
+{
+  height: auto;
+    margin-bottom: 8px;
+    height: 50%;
+}
+iframe
+{
+  height: 300px;
+}
+iframe, .project img
+{
+  width: 100%;
+  
+  max-height: 300px;
+}
+footer h1, footer h2
+{
+  color: #4a4a4a;
+}
+input, textarea
+{
+  width: 100%;
+  padding: 0.5rem
+}
+footer form
+{
+  height: fit-content;
+  margin-bottom: 0.5rem;
+
+}
+button
+{
+  padding: 15px;
+  width: 30%;
+  margin: 0 35%;
+}
+.columns:last-child
+{
+  margin-bottom: 0;
+}
 /*CSS Properties for Mobile Phones*/
 @media screen and (max-width: 767px)
 {
-
+  footer
+  {
+    padding: 2vw 5vw;
+  }
 }
 
 /*CSS Properties for Tablets*/
 @media screen and (min-width: 768px) and (max-width: 1023px) 
 {
-
+  footer
+  {
+    padding: 2vw 15vw;
+  }
 }
 /*CSS Properties for Desktop and Beyond*/
 @media screen and (min-width: 1024px)
 {
 
-  
+  footer
+  {
+    padding: 2vw 30vw;
+  }
   
 }
