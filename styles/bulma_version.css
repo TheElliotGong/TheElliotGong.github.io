@@ -123,11 +123,11 @@ button
 {
   margin-bottom: 0;
 }
-a
+.project a
 {
   color:var(--liteBlue);
 }
-a:hover, a:visited
+.project a:hover, .project a:visited
 {
   color: rgb(0, 217, 255);
 }
