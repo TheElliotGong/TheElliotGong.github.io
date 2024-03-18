@@ -123,6 +123,15 @@ button
 {
   margin-bottom: 0;
 }
+a
+{
+  color:var(--liteBlue);
+}
+a:hover, a:visited
+{
+  color: rgb(0, 217, 255);
+}
+
 /*CSS Properties for Mobile Phones*/
 @media screen and (max-width: 767px)
 {
