@@ -18,6 +18,10 @@ body
   color: var(--white);
   background-color: var(--darkBlue);
 }
+.navbar-link:not(.is-arrowless)::after
+{
+  border-width: 5px;
+}
 #about
 {
   padding-bottom: 50px;
@@ -119,7 +123,10 @@ button
 {
   padding: 15px;
   width: 30%;
-  margin: 0 35%;
+}
+.columns
+{
+  margin-top: 0;
 }
 .columns:last-child
 {
@@ -134,6 +141,48 @@ button
   color: rgb(0, 217, 255);
 }
 
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+ 
+  float: right;
+  margin-left: 8px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.collapsible {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 0;
+  width: fit-content;
+  margin-right: auto;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+.active, .collapsible:hover {
+  color: var(--liteBlue);
+}
+
+
+.content {
+  color: white;
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+}
+.content h4
+{
+  color: white;
+}
 /*CSS Properties for Mobile Phones*/
 @media screen and (max-width: 767px)
 {
