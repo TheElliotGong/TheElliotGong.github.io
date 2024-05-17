@@ -127,6 +127,9 @@ button
 {
   padding: 15px;
   width: 30%;
+}
+footer button
+{
   margin: 0 35%;
 }
 .columns
