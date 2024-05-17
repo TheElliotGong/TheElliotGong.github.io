@@ -119,10 +119,15 @@ footer form
   margin-bottom: 0.5rem;
 
 }
+footer h2
+{
+  margin-top: 15px;
+}
 button
 {
   padding: 15px;
   width: 30%;
+  margin: 0 35%;
 }
 .columns
 {
