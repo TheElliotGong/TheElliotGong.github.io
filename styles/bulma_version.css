@@ -1,9 +1,13 @@
 
 /*Universal CSS Properties across all devices and screen sizes*/
 
-
+*
+{
+  box-sizing: border-box;
+}
 :root {
   --darkBlue: #1D4E89;
+  --links: rgb(0, 217, 255);
   --liteBlue: rgb(175, 243, 255);
   --white: #FFFFFF;
   --liteGray: #e1e1e1;
@@ -18,10 +22,15 @@ body
   color: var(--white);
   background-color: var(--darkBlue);
 }
+p, li
+{
+  font-size: larger;
+}
 .navbar-link:not(.is-arrowless)::after
 {
   border-width: 5px;
 }
+
 #about
 {
   padding-bottom: 50px;
@@ -48,6 +57,7 @@ body
 }
 section
 {
+  width: 100%;
   padding: 3% 5%;
 }
 section h1
@@ -74,7 +84,7 @@ footer
   height: fit-content;
   padding: 2vw 30vw;
 }
-h1, h2, .project h3, .project h2
+h1, section h2, #about h2, .project h3, .project h2, li strong
 {
   color: var(--liteBlue);
 
@@ -94,6 +104,7 @@ strong
     margin-bottom: 8px;
     height: 50%;
 }
+
 iframe
 {
   height: 300px;
@@ -142,11 +153,11 @@ footer button
 }
 .project a
 {
-  color:var(--liteBlue);
+  color:var(--links);
 }
 .project a:hover, .project a:visited
 {
-  color: rgb(0, 217, 255);
+  color: rgb(144, 178, 255);
 }
 
 
@@ -190,6 +201,21 @@ footer button
 .content h4
 {
   color: white;
+}
+.skill
+{
+  margin: 0.75rem;
+}
+.skill hr
+{
+  width: 70%;
+  margin: 3% auto;
+}
+.skillset
+{
+  padding: 0;
+  background-color: var(--darkBlue);
+  text-align: center;
 }
 /*CSS Properties for Mobile Phones*/
 @media screen and (max-width: 767px)
