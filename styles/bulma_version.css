@@ -43,7 +43,7 @@ p, li
   color: var(--liteBlue);
   border: 3px solid var(--liteBlue);
   width: fit-content;
-  margin: 5% auto 0;
+  margin: 3% auto;
   padding: 10px;
   transition-duration: 500ms;
   
@@ -64,11 +64,31 @@ section h1
 {
   padding: 1rem 0;
 }
-#headshot
+/* #headshot
 {
   margin: 0 auto 30px;
   
   margin-bottom: 30px;
+} */
+#photo
+{
+  margin: auto 0;
+}
+#quickContact
+{
+  max-width: 600px;
+  margin: auto;
+}
+#quickContact .column
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.socialMedia
+{
+  height: auto;
 }
 #headshot img
 {
