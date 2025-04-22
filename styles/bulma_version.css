@@ -166,6 +166,11 @@ footer button
 .columns
 {
   margin-top: 0;
+  display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
 }
 .columns:last-child
 {
@@ -217,10 +222,39 @@ footer button
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.4s ease-out;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 .content h4
 {
   color: white;
+}
+.pagination-button {
+  background-color: var(--liteBlue);
+  border: none;
+  color: var(--darkBlue);
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.pagination-button.left {
+  left: -2rem;
+  
+}
+
+.pagination-button.right {
+  right: -5rem;
+}
+
+.pagination-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 .skill
 {
@@ -263,4 +297,27 @@ footer button
     padding: 2vw 30vw;
   }
   
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.carousel-item {
+  flex: 0 0 calc(100% / 3); /* Adjust based on items per page */
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
 }
