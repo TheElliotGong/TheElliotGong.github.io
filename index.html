@@ -99,11 +99,11 @@
                         <h1 class="has-text-weight-bold is-size-1-desktop is-size-3-touch">Hi, I'm Elliot Gong!</h1>
                         <h2 class="has-text-weight-bold is-size-2-desktop is-size-4-touch">Game/Software/UX Developer
                         </h2>
-                        <h3 class="has-text-weight-bold is-size-3-desktop is-size-5-touch">Objective</h3>
+                        <!-- <h3 class="has-text-weight-bold is-size-3-desktop is-size-5-touch">Objective</h3>
                         <p class="is-size-6-touch">I am currently looking for full-time opportunities to apply my skills
                             in full-stack
                             development, UX
-                            design, game design/development, and 3D asset creation.</p>
+                            design, game design/development, and 3D asset creation.</p> -->
 
                         <h3 class="has-text-weight-bold is-size-3-desktop is-size-5-touch">About Me</h3>
                         <p class="is-size-6-touch">
@@ -147,6 +147,8 @@
             <h2 class="has-text-weight-bold is-size-2-desktop is-size-3-touch">PROJECTS</h2>
 
 
+
+            <!-- <h2 class="has-text-weight-bold is-size-3-desktop is-size-5-touch">Web Applications</h2> -->
 
             <button class="collapsible has-text-weight-bold is-size-3-desktop is-size-4-touch">Web Applications</button>
             <div class="content">
@@ -234,6 +236,7 @@
 
                 </div>
             </div>
+             <!-- <h2 class="has-text-weight-bold is-size-3-desktop is-size-5-touch">Games and Levels</h2> -->
             <button class="collapsible has-text-weight-bold is-size-3-desktop is-size-4-touch">Games and Levels</button>
             <div class="content">
                 <div class="columns is-multiline rows projectContent">
@@ -353,6 +356,7 @@
 
                 </div>
             </div>
+             <!-- <h2 class="has-text-weight-bold is-size-3-desktop is-size-5-touch">UX Case Studies</h2> -->
             <button class="collapsible has-text-weight-bold is-size-3-desktop is-size-4-touch">UX Case Studies</button>
             <div class="content">
                 <div class="columns is-multiline rows projectContent">
@@ -402,6 +406,7 @@
 
                 </div>
             </div>
+             <!-- <h2 class="has-text-weight-bold is-size-3-desktop is-size-5-touch">3D Assets</h2> -->
             <button class="collapsible has-text-weight-bold is-size-3-desktop is-size-4-touch">3D Assets</button>
             <div class="content">
                 <div class="columns is-multiline rows projectContent">
@@ -1019,37 +1024,7 @@
         <h2 class="has-text-centered has-text-weight-bold is-size-4">&copy; Elliot Gong 2024</h2>
     </footer>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const emailLink = document.querySelector(".email-link");
-            const encodedEmail = "dGhlZWxsaW90Z29uZ0Bob3RtYWlsLmNvbQ=="; // Base64 encoded email
-            const decodedEmail = atob(encodedEmail); // Decode the email
-            emailLink.href = `mailto:${decodedEmail}`;
-        });
-        //Create fields using nav elements.
-        const burgerIcon = document.querySelector("#burger");
-        const navbarMenu = document.querySelector("#nav-links");
-        //Show/hide the navbar menu when the burger icon is clicked. 
-        burgerIcon.addEventListener('click', () => {
-            navbarMenu.classList.toggle('is-active');
-        });
-        //Show/hide the projects when the collapsible button(plus/minus symbol) is clicked.
-        
-        let coll = document.getElementsByClassName("collapsible");
-        let i;
-
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                let content = this.nextElementSibling;
-                if (content.style.maxHeight) {
-                    content.style.maxHeight = null;
-                } else {
-                    content.style.maxHeight = content.scrollHeight + "px";
-                }
-            });
-        }
-    </script>
+    <script src = "src/script.js"></script>
 </body>
 
 </html>

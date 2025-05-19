@@ -1,67 +1,56 @@
-
 /*Universal CSS Properties across all devices and screen sizes*/
 
-*
-{
+* {
   box-sizing: border-box;
 }
 :root {
-  --darkBlue: #1D4E89;
+  --darkBlue: #1d4e89;
   --links: rgb(0, 217, 255);
   --liteBlue: rgb(175, 243, 255);
-  --white: #FFFFFF;
+  --white: #ffffff;
   --liteGray: #e1e1e1;
 }
-html
-{
+html {
   scroll-behavior: smooth;
 }
-body
-{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
   color: var(--white);
   background-color: var(--darkBlue);
 }
-p, li
-{
+p,
+li {
   font-size: larger;
 }
-.navbar-link:not(.is-arrowless)::after
-{
+.navbar-link:not(.is-arrowless)::after {
   border-width: 5px;
 }
 
-#about
-{
+#about {
   padding-bottom: 50px;
 }
-#contactForm
-{
+#contactForm {
   text-align: center;
   display: block;
-  
+
   color: var(--liteBlue);
   border: 3px solid var(--liteBlue);
   width: fit-content;
   margin: 3% auto;
   padding: 10px;
   transition-duration: 500ms;
-  
 }
-#contactForm:hover
-{
+#contactForm:hover {
   background-color: var(--liteBlue);
 
   color: var(--darkBlue);
   transform: scale(1.15);
 }
-section
-{
+section {
   width: 100%;
   padding: 3% 5%;
 }
-section h1
-{
+section h1 {
   padding: 1rem 0;
 }
 /* #headshot
@@ -70,122 +59,105 @@ section h1
   
   margin-bottom: 30px;
 } */
-#photo
-{
+#photo {
   margin: auto 0;
 }
-#quickContact
-{
+#quickContact {
   max-width: 600px;
   margin: auto;
 }
-#quickContact .column
-{
+#quickContact .column {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-.socialMedia
-{
+.socialMedia {
   height: auto;
 }
-#headshot img
-{
+#headshot img {
   width: 80%;
   height: auto;
   margin: auto;
   box-shadow: 0 5px 18px var(--liteGray);
-
 }
-footer
-{
+footer {
   background-color: var(--liteGray);
   height: fit-content;
   padding: 2vw 30vw;
 }
-h1, section h2, #about h2, .project h3, .project h2, li strong
-{
+h1,
+section h2,
+#about h2,
+.project h3,
+.project h2,
+li strong {
   color: var(--liteBlue);
-
 }
-strong
-{
+strong {
   color: var(--white);
 }
 
-.project
-{
+.project {
   height: fit-content;
 }
-.project img
-{
+.project img {
   height: auto;
-    margin-bottom: 8px;
-    height: 50%;
+  margin-bottom: 8px;
+  height: 50%;
 }
 
-iframe
-{
+iframe {
   height: 300px;
 }
-iframe, .project img
-{
+iframe,
+.project img {
   width: 100%;
-  
+
   max-height: 300px;
 }
-footer h1, footer h2
-{
+footer h1,
+footer h2 {
   color: #4a4a4a;
 }
-input, textarea
-{
+input,
+textarea {
   width: 100%;
-  padding: 0.5rem
+  padding: 0.5rem;
 }
-footer form
-{
+footer form {
   height: fit-content;
   margin-bottom: 0.5rem;
-
 }
-footer h2
-{
+footer h2 {
   margin-top: 15px;
 }
-button
-{
+button {
   padding: 15px;
   width: 30%;
 }
-footer button
-{
+footer button {
   margin: 0 35%;
 }
-.columns
-{
+.columns {
   margin-top: 0;
 }
-.columns:last-child
-{
+.columns:last-child {
   margin-bottom: 0;
 }
-.project a
-{
-  color:var(--links);
+.project a {
+  color: var(--links);
 }
-.project a:hover, .project a:visited
-{
+.project a:hover,
+.project a:visited {
   color: rgb(144, 178, 255);
 }
 
-
 .collapsible:after {
-  content: '\002B';
+  content: "\002B";
   color: white;
   font-weight: bold;
- 
+
   float: right;
   margin-left: 8px;
 }
@@ -206,61 +178,51 @@ footer button
   outline: none;
 }
 
-.active, .collapsible:hover {
+.active,
+.collapsible:hover {
   color: var(--liteBlue);
 }
-
 
 .content {
   color: white;
   padding: 0;
-  max-height: 0;
+  /* max-height: 0; */
   overflow: hidden;
-  transition: max-height 0.4s ease-out;
+    transition: max-height 0.5s ease-out ;
+
 }
-.content h4
-{
+.content h4 {
   color: white;
 }
-.skill
-{
+.skill {
   margin: 0.75rem;
 }
-.skill hr
-{
+.skill hr {
   width: 70%;
   margin: 3% auto;
 }
-.skillset
-{
+.skillset {
   padding: 0;
   background-color: var(--darkBlue);
   text-align: center;
 }
 /*CSS Properties for Mobile Phones*/
-@media screen and (max-width: 767px)
-{
-  footer
-  {
+@media screen and (max-width: 767px) {
+  footer {
     padding: 2vw 5vw;
   }
 }
 
 /*CSS Properties for Tablets*/
-@media screen and (min-width: 768px) and (max-width: 1023px) 
-{
-  footer
-  {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  footer {
     padding: 2vw 15vw;
   }
+
 }
 /*CSS Properties for Desktop and Beyond*/
-@media screen and (min-width: 1024px)
-{
-
-  footer
-  {
+@media screen and (min-width: 1024px) {
+  footer {
     padding: 2vw 30vw;
   }
-  
 }
