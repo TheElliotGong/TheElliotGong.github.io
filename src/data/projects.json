@@ -1,0 +1,22 @@
+{
+    "web-apps":[
+        {
+            "name": "CityMeet (2025)",
+            "link": "https://docs.google.com/presentation/d/e/2PACX-1vQvGK65tVb1UxDsEQFvYlToUhG_fxQUkV5TVwxFQFE3Tm9arf_4STyi7E7iTVoyhRgJVdTWBGuiDx91/pub?start=false&loop=false&delayms=3000",
+            "image": "media/images/CityMeet.png",
+            "description": {
+                
+                "about":"A custom social media application that caters to regional users in the greater Los Angeles area.",
+                "role":"Served as project manager and UX designer.",
+                "teamSize": "8",
+                "status": "Complete",
+                "tools": "Figma, UX Pilot, GitHub, Visual Studio Code, Supabase, Vercel, HTML/CSS, Tailwind CSS"
+            }
+        
+
+        }
+    ],
+    "games": [],
+    "ux": [],
+    "3d-models": []
+}
