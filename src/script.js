@@ -56,4 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Re-check whenever the window is resized
     window.addEventListener("resize", setupCollapsibles);
+
+    const yearEl = document.getElementById("year");
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
 });
