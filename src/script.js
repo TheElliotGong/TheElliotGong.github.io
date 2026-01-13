@@ -1,7 +1,3 @@
-import ReactDOM from "react-dom/client";
-import projectData from "./data/projects.json"
-
-let projects = Object.values(projectData);
 document.addEventListener("DOMContentLoaded", () => {
   const emailLink = document.querySelector(".email-link");
   const encodedEmail = "dGhlZWxsaW90Z29uZ0Bob3RtYWlsLmNvbQ=="; // Base64 encoded email
