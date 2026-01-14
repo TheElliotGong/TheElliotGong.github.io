@@ -1,0 +1,31 @@
+[
+    {
+        "jobTitle": "Game Development/Programming Instructor",
+        "company": "Code Ninjas",
+        "duration": "October 2024 - Present",
+        "duties": [
+            "Develop teaching methods for STEM subjects, integrating game development principles with hands-on coding for K-12 students.",
+            "Streamline student progress tracking and curriculum implementation while managing comprehensive attendance records.",
+            "Collaborate with peers to lead after-school coding workshops at local schools, introducing game development/programming concepts to groups of 10+ students while adapting content for diverse learning styles."
+        ]
+    },
+    {
+        "jobTitle": "Web Developer Intern",
+        "company": "Changeling VR",
+        "duration": "January 2024 - May 2024",
+        "duties": [
+            "Redesigned and programmed four responsive web pages for the Changeling VR project's official website with React and Bootstrap, implementing modern UI/UX principles to increase user engagement.",
+            "Completed a web-based platformer game with PixiJS and Howler.js while maintaining optimal performance. Briefly worked as a 3D artist to produce centerpiece 3D assets for the official VR game.",
+            "Managed development workflows for nine developers with Trello and GitHub to ensure seamless coordination and delivery."
+        ]
+    },
+    {
+        "jobTitle": "3D Modeling and Animation Intern, Freelance 3D Generalist",
+        "company": "Great Lakes Gaming",
+        "duration": "May 2022 - June 2024",
+        "duties": [
+            "Produced over 30 assets for the company's 3D and 2D library, ensuring sufficient and consistent content for promotional materials and internal development.",
+            "Facilitated collaboration between various teams with Discord to maintain communication and efficiency for projects/contracts."
+        ]
+    }
+]

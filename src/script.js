@@ -1,3 +1,8 @@
+import projectDate from "./data/projects.json" assert { type: "json" };
+import employmentData from "./data/employment.json" assert { type: "json" };
+import {Project} from "./components.jsx";
+import React from "react";
+import ReactDOM from "react-dom/client";
 document.addEventListener("DOMContentLoaded", () => {
     const emailLink = document.querySelector(".email-link");
     const encodedEmail = "dGhlZWxsaW90Z29uZ0Bob3RtYWlsLmNvbQ=="; // Base64 encoded email

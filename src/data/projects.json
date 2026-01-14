@@ -1,0 +1,320 @@
+{
+    "web-apps": [
+        {
+            "name": "CityMeet",
+            "year": "2025",
+            "link": "https://docs.google.com/presentation/d/e/2PACX-1vQvGK65tVb1UxDsEQFvYlToUhG_fxQUkV5TVwxFQFE3Tm9arf_4STyi7E7iTVoyhRgJVdTWBGuiDx91/pub?start=false&loop=false&delayms=3000",
+            "image": {
+                "src": "media/images/CityMeet.png",
+                "alt": "CityMeet Project Screenshot"
+            },
+            "description": {
+                "about": "A custom social media application that caters to regional users in the greater Los Angeles area.",
+                "whatIDid": "Served as project manager and UX designer.",
+                "teamSize": "8",
+                "projectLength": "4 months",
+                "tools": "Figma, UX Pilot, GitHub, Visual Studio Code, Supabase, Vercel, HTML/CSS, Tailwind CSS"
+            }
+        },
+        {
+            "name": "Changeling VR Official Website",
+            "year": "2024",
+            "link": "https://changelingvr.vercel.app/",
+            "image": {
+                "src": "media/images/changeling.png",
+                "alt": "Changeling VR Website Screenshot"
+            },
+            "description": {
+                "about": "The official website for the Changeling VR Project.",
+                "whatIDid": "Redesigned and developed the home, character, and error pages.",
+                "teamSize": "9",
+                "projectLength": "4 months",
+                "tools": "JavaScript, React.js, Node.js, Webpack.js, Bootstrap.js, Vue.js, HTML5, CSS3, MySQL, XAMPP, Dreamhost, Vercel, Visual Studio Code"
+            }
+        },
+        {
+            "name": "Netflix Clone",
+            "year": "2023 - 2025",
+            "link": "https://my-netflix-clone-c8b995d374b2.herokuapp.com/",
+            "image": {
+                "src": "media/images/netflix_clone.png",
+                "alt": "Netflix Clone Screenshot"
+            },
+            "description": {
+                "about": "A clone of Netflix where users can sign in and manage their own account and profiles and browse through numerous videos.",
+                "teamSize": "Self",
+                "projectLength": "3 weeks",
+                "tools": "MERN Stack (MongoDB, Express.js, React.js, Node.js), Javascript, HTML5, CSS3, Redis Cloud, Heroku, CircleCI, Visual Studio Code"
+            }
+        },
+        {
+            "name": "Audio Visualizer",
+            "year": "2023",
+            "link": "https://theelliotgong.com/330/HW/gong-e-hw2/",
+            "image": {
+                "src": "media/images/audio_visualizer.png",
+                "alt": "Audio Visualizer Screenshot"
+            },
+            "description": {
+                "about": "Individually created an audio visualizer that specializes in music from the Nutcracker.",
+                "teamSize": "Self",
+                "projectLength": "4 weeks",
+                "tools": "Javascript, Node.js, Canvas, Web Audio, Webpack, HTML5, CSS3, Visual Studio Code"
+            }
+        }
+    ],
+    "games": [
+        {
+            "name": "Douglas Experience",
+            "year": "2024",
+            "link": "https://www.figma.com/design/9m8HFrQHeQY6vPHxqGz4Py/Changeling-Sites?node-id=0-1&p=f&t=utyH1RhjLF4AHsby-0",
+            "image": {
+                "src": "media/images/douglas_experience.png",
+                "alt": "Douglas Experience Screenshot"
+            },
+            "description": {
+                "about": "Completed the design and development of one of the web based minigames for the Changeling VR Project's official website.",
+                "teamSize": "Self",
+                "projectLength": "4 weeks",
+                "tools": "Figma, Javascript, Howler.js, PixiJS, HTML5, CSS3, Visual Studio Code"
+            }
+        },
+        {
+            "name": "Half-Life 2: Combine Prison Escape",
+            "year": "2023",
+            "link": "https://www.youtube.com/embed/1sFP2Gm9lcQ",
+            "image": {
+                "src": "media/images/halflife.png",
+                "alt": "Half-Life 2 Level Screenshot"
+            },
+            "workshopPage": "https://www.moddb.com/members/og-elgo/downloads/combine-prison-escape-half-life-2",
+            "description": {
+                "about": "Designed and created a Half-Life 2 level where you play as a Resistance member fighting their way out of a small Combine prison/outpost. Responsible for all aspects.",
+                "teamSize": "Self",
+                "projectLength": "3 weeks",
+                "tools": "Hammer++"
+            }
+        },
+        {
+            "name": "Portal 2: Repulsion Gel Trilogy",
+            "link": "https://www.youtube.com/embed/Dvqc_EcZprk",
+            "image": {
+                "src": "media/images/portal_2.png",
+                "alt": "Portal 2 Level Screenshot"
+            },
+            "workshopPage": "https://steamcommunity.com/profiles/76561198367702438/myworkshopfiles/?appid=620",
+            "description": {
+                "about": "Designed and created a trilogy of Portal 2 Levels centered around the repulsion gel mechanic.",
+                "teamSize": "Self",
+                "projectLength": "3 weeks",
+                "tools": "Portal 2 Level editor"
+            }
+        },
+        {
+            "name": "Battleblock Theater: The Level",
+            "year": "2023",
+            "link": "https://www.youtube.com/embed/jgiwf84uNhc",
+            "image": {
+                "src": "media/images/battleblock.jpg",
+                "alt": "Battleblock Theater Level Screenshot"
+            },
+            "workshopPage": "https://steamcommunity.com/sharedfiles/filedetails/?id=2936439139",
+            "description": {
+                "about": "Designed and created a platformer level that would utilize most mechanics/features of Battleblock Theater's level editor.",
+                "teamSize": "Self",
+                "projectLength": "3 weeks",
+                "tools": "Battleblock Theatre level editor"
+            }
+        },
+        {
+            "name": "PotionWorks",
+            "year": "2022",
+            "link": "https://www.youtube.com/watch?v=OQ7aY4HT4TI",
+            "image": {
+                "src": "media/images/potionworks.png",
+                "alt": "PotionWorks"
+            },
+            "description": {
+                "about": "An analog card game set in the fantasy world of Ethshar.",
+                "whatIDid": "Acted as project manager, game/UI programmer, and designer.",
+                "teamSize": "5 students",
+                "projectLength": "5 weeks",
+                "tools": "Unity"
+            }
+        },
+        {
+            "name": "The Rolling Scrolls",
+            "year": "2022",
+            "link": "https://docs.google.com/presentation/d/e/2PACX-1vTNHxk2UnlCU7Rku6t8L7sWJ4L7Lz6_Z9JO0aB7x1RQaYwA8oOJ1pG3mIADhqnEnvwQjtJ6bzutFXpJ/pub?start=false&loop=false&delayms=3000",
+            "image": {
+                "src": "media/images/rolling_scrolls.png",
+                "alt": "The Rolling Scrolls Cover Art"
+            },
+            "description": {
+                "about": "Worked in a team of 5 to create a Casual 2D Puzzle game set in the fantasy world of Ethshar.",
+                "whatIDid": "Acted as project manager, game tester, and game designer.",
+                "teamSize": "5 students",
+                "projectLength": "4 weeks"
+            }
+        },
+        {
+            "name": "Polygon Defense",
+            "year": "2021",
+            "link": "https://theelliotgong.com/235/Polygon_Defense/",
+            "image": {
+                "src": "media/images/polygon_defense.png",
+                "alt": "Polygon Defense Screenshot"
+            },
+            "description": {
+                "about": "Designed and developed a top-down defense game that includes an upgrade system and increasing level difficulty.",
+                "teamSize": "Self",
+                "projectLength": "3 weeks",
+                "tools": "Visual Studio Code, Javascript, HTML, CSS, PixiJS"
+            }
+        }
+    ],
+    "ux": [
+        {
+            "name": "Bakery Delivery App & Website",
+            "year": "2023-2024",
+            "link": "https://www.linkedin.com/pulse/my-first-google-ux-design-certificate-project-elliot-gong-ockgc/?trackingId=jz%2F%2Br2SCRJiCN%2B68NM%2FcHw%3D%3D",
+            "image": {
+                "src": "media/images/website-mockups.png",
+                "alt": "Bakery Website Mockups"
+            },
+            "description": {
+                "about": "Designed and published app and web prototypes for a bakery as part of the Google Professional UX Design Certificate's curriculum.",
+                "teamSize": "Self",
+                "projectLength": "8 months",
+                "tools": "Figma"
+            }
+        },
+        {
+            "name": "RIT Student Information Systems Redesign",
+            "year": "2022",
+            "link": "https://eqzxsk.axshare.com",
+            "image": {
+                "src": "media/images/sis_prototype.png",
+                "alt": "SIS Prototype Screenshot"
+            },
+            "description": {
+                "about": "Conducted a UX design case study aimed toward improving the process of course enrollment at the Rochester Institute of Technology. Responsible for research, design, prototyping, and testing.",
+                "teamSize": "Self",
+                "projectLength": "2 months",
+                "tools": "Figma, Axure RP 10"
+            }
+        }
+    ],
+    "3d-models": [
+        {
+            "name": "Fantasy Kaijus",
+            "year": "2024 - Present",
+            "link": "https://www.artstation.com/artwork/L448mA",
+            "image": {
+                "src": "media/images/3D_models_and_renders/kaijus.png",
+                "alt": "Fantasy Kaijus Render"
+            },
+            "artstationLink": "https://www.artstation.com/elliot_gong/albums/13953874",
+            "description": {
+                "about": "A personal project reimagining various Toho kaiju characters to fit within a medieval fantasy setting.",
+                "teamSize": "Self",
+                "tools": "Maya, Blender, Substance 3d(Painter & Stager)"
+            }
+        },
+        {
+            "name": "Hanging Church Bell",
+            "year": "2024",
+            "link": "https://www.artstation.com/artwork/LRq6Ev",
+            "image": {
+                "src": "media/images/3D_models_and_renders/church_bell.png",
+                "alt": "Church Bell Render"
+            },
+            "artstationLink": "https://www.artstation.com/artwork/LRq6Ev",
+            "description": {
+                "about": "Designed and modelled a hanging church bell prop during my time on the Changling VR Project.",
+                "teamSize": "Self",
+                "projectLength": "2 weeks",
+                "tools": "Maya, Substance Painter"
+            }
+        },
+        {
+            "name": "Weapons of Warhammer",
+            "year": "2023 - 2024",
+            "link": "https://www.artstation.com/artwork/w0R4mw",
+            "image": {
+                "src": "media/images/3D_models_and_renders/warhammer_weapons.png",
+                "alt": "Warhammer Weapons Render"
+            },
+            "artstationLink": "https://www.artstation.com/elliot_gong/albums/14496343",
+            "description": {
+                "about": "Created and published eight unique weapon models themed after the Chaos gods of the Warhammer franchise.",
+                "teamSize": "Self",
+                "tools": "Maya, Blender, Substance 3D (Painter and Stager)"
+            }
+        },
+        {
+            "name": "Minecraft Piston",
+            "year": "2024",
+            "link": "https://www.artstation.com/artwork/29EQJy",
+            "image": {
+                "src": "media/images/3D_models_and_renders/piston_regular.png",
+                "alt": "Minecraft Piston Render"
+            },
+            "artstationLink": "https://www.artstation.com/artwork/29EQJy",
+            "description": {
+                "about": "Created the regular version of my anthropomorphized Minecraft piston.",
+                "teamSize": "Self",
+                "projectLength": "1 week",
+                "tools": "Maya, Substance Painter"
+            }
+        },
+        {
+            "name": "Minecraft Piston: Suzume Edition",
+            "year": "2024",
+            "link": "https://www.artstation.com/artwork/6N389V",
+            "image": {
+                "src": "media/images/3D_models_and_renders/piston_suzume.png",
+                "alt": "Minecraft Piston Suzume Edition Render"
+            },
+            "artstationLink": "https://www.artstation.com/artwork/6N389V",
+            "description": {
+                "about": "Designed, modelled, textured, and rigged my take on the Minecraft equivalent of the animated chair from Suzume no Tojimari.",
+                "teamSize": "Self",
+                "projectLength": "2 weeks",
+                "tools": "Maya, Substance Painter, Photoshop"
+            }
+        },
+        {
+            "name": "Alien Character",
+            "year": "2023",
+            "link": "https://www.artstation.com/artwork/AlkG5W",
+            "image": {
+                "src": "media/images/3D_models_and_renders/alien.png",
+                "alt": "Alien Character Render"
+            },
+            "artstationLink": "https://www.artstation.com/artwork/AlkG5W",
+            "description": {
+                "about": "Designed, modelled, textured, and rigged a playable alien character. Compatible with Unreal Engine.",
+                "teamSize": "Self",
+                "projectLength": "3 weeks",
+                "tools": "Maya, Blender, Substance Painter, Unreal Engine 5, Mixamo"
+            }
+        },
+        {
+            "name": "Five Nights at Freddy's Cow Character",
+            "year": "2023",
+            "link": "https://www.artstation.com/artwork/LRZLmk",
+            "image": {
+                "src": "media/images/3D_models_and_renders/fnaf_cow.png",
+                "alt": "FNAF Cow Character Render"
+            },
+            "artstationLink": "https://www.artstation.com/artwork/LRZLmk",
+            "description": {
+                "about": "Designed, modelled, textured, and rigged an original Five Nights at Freddy's character. Compatible with Unreal Engine.",
+                "teamSize": "Self",
+                "projectLength": "3 weeks",
+                "tools": "Maya, Blender, Zbrush, Substance Painter, Unreal Engine 5"
+            }
+        }
+    ]
+}

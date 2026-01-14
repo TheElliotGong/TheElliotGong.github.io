@@ -3,7 +3,37 @@
     "@creativebulma/bulma-collapsible": "^1.0.4",
     "body-parser": "^1.20.3",
     "bulma-extensions": "^6.2.7",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  }
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "react-router-dom": "^7.10.1"
+  },
+  "name": "theelliotgong.github.io",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "As of now, this website is made from scratch and contains links to my various projects and other online portfolios. In addition to content updates, I am planning a conversion to React to support more detailed and responsive components and possible subpages.",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-react": "^7.28.5",
+    "@vitejs/plugin-react": "^5.1.2",
+    "vite": "^7.3.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheElliotGong/TheElliotGong.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheElliotGong/TheElliotGong.github.io/issues"
+  },
+  "homepage": "https://github.com/TheElliotGong/TheElliotGong.github.io#readme"
 }
