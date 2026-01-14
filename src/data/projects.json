@@ -129,7 +129,11 @@
         {
             "name": "PotionWorks",
             "year": "2022",
-            "link": "https://www.youtube.com/embed/OQ7aY4HT4TI",
+            "link": "https://www.youtube.com/watch?v=OQ7aY4HT4TI",
+            "image": {
+                "src": "media/images/potionworks.png",
+                "alt": "PotionWorks"
+            },
             "description": {
                 "about": "An analog card game set in the fantasy world of Ethshar.",
                 "whatIDid": "Acted as project manager, game/UI programmer, and designer.",
