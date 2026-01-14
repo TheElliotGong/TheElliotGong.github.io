@@ -2,7 +2,7 @@
 
 ## Setup
 
-After the React migration, the portfolio is now a modern React application using Webpack for bundling.
+After the React migration, the portfolio is now a modern React application using Vite for bundling and development.
 
 ### Installation
 
@@ -16,7 +16,7 @@ npm install
 npm run dev
 ```
 
-This starts a Webpack dev server at `http://localhost:8080` with hot module reloading enabled.
+This starts a Vite dev server with hot module reloading enabled. It will output the local URL to access (typically `http://localhost:5173`).
 
 ### Production Build
 
@@ -73,10 +73,8 @@ Current workflow uses `public/CNAME` for custom domain configuration.
 ## Technologies
 
 - **React 19.2.1**: UI framework
-- **Webpack 5.103.0**: Module bundler
-- **Babel 7.28.5**: JavaScript transpiler with React support
+- **Vite**: Module bundler and development server
 - **Bulma 0.9.3**: CSS framework (via CDN)
-- **CSS Loaders**: For processing CSS in the build pipeline
 
 ## Styling
 

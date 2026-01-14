@@ -12,7 +12,7 @@ npm install
 ```bash
 npm run dev
 ```
-- Opens at `http://localhost:8080`
+- Opens at a local URL (typically `http://localhost:5173`)
 - Hot reloading enabled - changes appear instantly
 
 ### 3. View Your Portfolio
@@ -69,11 +69,11 @@ This creates an optimized build in the `dist/` folder. The files are ready to de
 ### Issue: Images not loading
 **Solution**: Ensure `media/` folder is in the `public/` directory
 
-### Issue: Port 8080 already in use
-**Solution**: Change the port in `webpack.config.js` or kill the process using that port
+### Issue: Port 5173 already in use
+**Solution**: Vite will automatically use the next available port, or you can specify one with `npm run dev -- --port 3000`
 
 ### Issue: Hot reload not working
-**Solution**: Make sure you're accessing `http://localhost:8080` in browser (not a different port)
+**Solution**: Make sure you're accessing the correct local URL shown in the terminal output from `npm run dev`
 
 ## File Structure Reference
 
@@ -90,7 +90,7 @@ This creates an optimized build in the `dist/` folder. The files are ready to de
 │   └── media/               ← Images, fonts, resumes
 ├── styles/
 │   └── bulma_version.css    ← Custom CSS
-├── webpack.config.js        ← Build configuration
+├── vite.config.js           ← Build configuration
 └── package.json             ← Dependencies & scripts
 ```
 

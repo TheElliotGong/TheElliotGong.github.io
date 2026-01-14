@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact() {
   return (
-    <footer>
+    
       <div className="container" id="contact">
         <h1 className="has-text-centered has-text-weight-bold is-size-3-desktop is-size-4-touch">
           Send a Message!
@@ -35,7 +35,7 @@ function Contact() {
           </div>
         </form>
       </div>
-    </footer>
+    
   );
 }
 

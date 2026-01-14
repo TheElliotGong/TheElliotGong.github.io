@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Copyright from './components/Copyright';
 import './styles/bulma_version.css';
 
 function App() {
@@ -24,8 +24,10 @@ function App() {
         <hr id="experience" className="my-6 mx-auto" style={{ width: '90%' }} />
         <Experience />
       </main>
-      <Contact />
-      <Footer year={currentYear} />
+      <footer><Contact />
+      <Copyright year={currentYear} /></footer>
+
+      
     </div>
   );
 }

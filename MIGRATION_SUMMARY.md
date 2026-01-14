@@ -34,17 +34,17 @@
   - Social media links (GitHub, LinkedIn, Sketchfab, ArtStation, Figma)
 
 ### Phase 4: Build Configuration
-- [x] Configured Webpack 5 with:
-  - Babel transpiler for JSX and ES6+
-  - CSS loader and style-loader for CSS processing
-  - Asset handling for images
-  - Development server with hot module reloading
-  - Source maps for debugging
+- [x] Configured Vite with:
+  - Native ES module transpilation for JSX and ES6+
+  - CSS processing with native support
+  - Asset handling for images and static files
+  - Development server with instant hot module reloading
+  - Optimized production bundling
 
 - [x] Updated package.json with:
-  - `npm run dev` - Start development server on port 8080
+  - `npm run dev` - Start development server
   - `npm run build` - Create optimized production build
-  - Added required dev dependencies (webpack-dev-server, css-loader, style-loader)
+  - Added Vite as primary dev dependency
 
 - [x] Created HTML entry points:
   - `public/index.html` - For webpack dev server
@@ -117,8 +117,7 @@ Output will be in `dist/` directory for deployment to GitHub Pages.
 ## 🔧 Technical Stack
 
 - **React 19.2.1** - UI framework
-- **Webpack 5.103.0** - Module bundler
-- **Babel 7.28.5** - JavaScript transpiler
+- **Vite** - Module bundler and dev server
 - **Bulma 0.9.3** - CSS framework (CDN)
 - **React Router DOM 7.10.1** - For potential future routing
 
