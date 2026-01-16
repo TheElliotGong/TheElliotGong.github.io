@@ -208,7 +208,7 @@
     "3d-models": [
         {
             "name": "Fantasy Kaijus",
-            "year": "2024 - Present",
+            "year(s)": "2024 - Present",
             "link": "https://www.artstation.com/artwork/L448mA",
             "image": {
                 "src": "media/images/3D_models_and_renders/kaijus.png",
@@ -223,7 +223,7 @@
         },
         {
             "name": "Hanging Church Bell",
-            "year": "2024",
+            "year(s)": "2024",
             "link": "https://www.artstation.com/artwork/LRq6Ev",
             "image": {
                 "src": "media/images/3D_models_and_renders/church_bell.png",
@@ -239,7 +239,7 @@
         },
         {
             "name": "Weapons of Warhammer",
-            "year": "2023 - 2024",
+            "year(s)": "2022 - 2024",
             "link": "https://www.artstation.com/artwork/w0R4mw",
             "image": {
                 "src": "media/images/3D_models_and_renders/warhammer_weapons.png",
@@ -254,7 +254,7 @@
         },
         {
             "name": "Minecraft Piston",
-            "year": "2024",
+            "year(s)": "2024",
             "link": "https://www.artstation.com/artwork/29EQJy",
             "image": {
                 "src": "media/images/3D_models_and_renders/piston_regular.png",
@@ -270,7 +270,7 @@
         },
         {
             "name": "Minecraft Piston: Suzume Edition",
-            "year": "2024",
+            "year(s)": "2024",
             "link": "https://www.artstation.com/artwork/6N389V",
             "image": {
                 "src": "media/images/3D_models_and_renders/piston_suzume.png",
@@ -286,7 +286,7 @@
         },
         {
             "name": "Alien Character",
-            "year": "2023",
+            "year(s)": "2023",
             "link": "https://www.artstation.com/artwork/AlkG5W",
             "image": {
                 "src": "media/images/3D_models_and_renders/alien.png",
@@ -302,7 +302,7 @@
         },
         {
             "name": "Five Nights at Freddy's Cow Character",
-            "year": "2023",
+            "year(s)": "2023",
             "link": "https://www.artstation.com/artwork/LRZLmk",
             "image": {
                 "src": "media/images/3D_models_and_renders/fnaf_cow.png",
@@ -315,6 +315,23 @@
                 "projectLength": "3 weeks",
                 "tools": "Maya, Blender, Zbrush, Substance Painter, Unreal Engine 5"
             }
+        },
+        {
+            "name": "Valorant Character Renders",
+            "year(s)": "2022 - 2023",
+            "link": "https://www.artstation.com/elliot_gong/albums/14809234",
+            "image": {
+                "src": "media/images/3D_models_and_renders/valorant-renders.png",
+                "alt": "Valorant Character Renders"
+            },
+            "artstationLink": "https://www.artstation.com/elliot_gong/albums/14809234",
+            "description": {
+                "about": "Textured, posed, and rendered multiple Valorant character models for use in marketing and social media.",
+                "teamSize": "Self",
+                "projectLength": "6 months",
+                "tools": "Blender, Photoshop"
+            }
         }
     ]
+    
 }
