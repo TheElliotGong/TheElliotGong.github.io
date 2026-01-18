@@ -1,0 +1,7 @@
+{
+    "web development": ["React", "Bootstrap", "HTML", "CSS", "JavaScript", "PixiJS", "Howler.js"],
+    "game development": ["Unity", "Unreal Engine", "C#", "C++", "Maya", "Blender", "Adobe Creative Suite"],
+    "programming languages": ["Python", "Java", "C#", "C++", "Dart"],
+    "design tools": ["Figma", "Adobe Photoshop", "Adobe Illustrator", "Blender"],
+    "version control": ["Git", "GitHub"]
+}

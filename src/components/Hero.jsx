@@ -21,21 +21,26 @@ function Hero() {
           <div className="column">
             <h1 className="has-text-weight-bold is-size-1-desktop is-size-3-touch">Hi, I'm Elliot Gong!</h1>
             <h2 className="has-text-weight-bold is-size-2-desktop is-size-4-touch">
-              Game/Software/UX Developer
+              Web & Software Developer
             </h2>
 
             <h3 className="has-text-weight-bold is-size-3-desktop is-size-5-touch">About Me</h3>
             <p className="is-size-6-touch">
-              I'm a current masters student studying computer science with experience in AI, full-stack development, UX
-              design, game design/development, and 3D modeling. In my free time, I like to create 3D models and digital
-              illustrations, read, watch tv, play videogames and play badminton.
+              I'm a current masters student studying computer science with experience in full-stack development, UX
+              design, and game development. After completing my bachelors in game design, I decided to return to school to further my knowledge in topics such as AI, cybersecurity, and operating systems. In my free time, I like to create 3D models, make digital 
+              illustrations, read, watch tv, game, and play badminton.
+            </p>
+            <h3 className="has-text-weight-bold is-size-3-desktop is-size-5-touch">Objective</h3>
+            <p className="is-size-6-touch">
+              Seeking an internship or full-time role in software development, web development, or UX/UI
+              design to apply my skills and gain additional experience in the tech industry.
             </p>
             <a
               className="has-text-weight-bold is-size-2-desktop is-size-3-touch"
               id="contactForm"
               href="https://formsubmit.co/el/waguyo"
             >
-              Get in Touch
+              Get in Touch!
             </a>
             <div id="quickContact" className="columns is-1 is-mobile">
               <a className="column" href="https://github.com/TheElliotGong" target="_blank" rel="noopener noreferrer">
@@ -99,7 +104,7 @@ function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img className="socialMedia" height="50" width="50" src="media/images/logos_and_icons/Figma.png" alt="Figma" />
+                <img className="socialMedia"width="50" src="media/images/logos_and_icons/Figma.png" alt="Figma" />
               </a>
             </div>
           </div>

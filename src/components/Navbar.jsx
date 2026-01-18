@@ -34,14 +34,14 @@ function Navbar() {
             <a href="#projects" className="navbar-item is-size-3-fullhd">
               Projects
             </a>
-            <a href="#experience" className="navbar-item is-size-3-fullhd">
+            {/* <a href="#experience" className="navbar-item is-size-3-fullhd">
               Experience
-            </a>
+            </a> */}
             <a href="#contact" className="navbar-item is-size-3-fullhd">
               Contact
             </a>
             <a
-              href="/media/resumes/Software-Engineering-resume-Elliot-Gong.pdf"
+              href="/media/resumes/Web-Developer-resume-Elliot-Gong.pdf"
               className="navbar-item is-size-3-fullhd"
               target="_blank"
               rel="noopener noreferrer"

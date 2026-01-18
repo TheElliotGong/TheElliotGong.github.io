@@ -21,8 +21,8 @@ function App() {
         <Hero />
         <hr id="projects" className="my-6 mx-auto" style={{ width: '90%' }} />
         <Projects />
-        <hr id="experience" className="my-6 mx-auto" style={{ width: '90%' }} />
-        <Experience />
+        {/* <hr id="experience" className="my-6 mx-auto" style={{ width: '90%' }} />
+        <Experience /> */}
       </main>
       <footer><Contact />
       <Copyright year={currentYear} /></footer>
