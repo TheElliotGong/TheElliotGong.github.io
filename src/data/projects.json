@@ -1,5 +1,21 @@
 {
     "web-apps": [
+         {
+            "name": "Soundstack",
+            "year": "2025",
+            "link": "https://soundstack.onrender.com/",
+            "image": {
+                "src": "media/images/Soundstack.png",
+                "alt": "Soundstack Project Screenshot"
+            },
+            "description": {
+                "about": "A playlist generator web application that creates personalized music playlists based on user mood and activity using the Last.fm API.",
+                "whatIDid": "Served as designer and developer.",
+                "teamSize": "Self",
+                "projectLength": "4 months",
+                "tools": "MERN Stack, Vite, Render, Last.fm API"
+            }
+        },
         {
             "name": "CityMeet",
             "year": "2025",
@@ -13,7 +29,7 @@
                 "whatIDid": "Served as project manager and UX designer.",
                 "teamSize": "8",
                 "projectLength": "4 months",
-                "tools": "Figma, UX Pilot, GitHub, Visual Studio Code, Supabase, Vercel, HTML/CSS, Tailwind CSS"
+                "tools": "Figma, UX Pilot, Supabase, Vercel"
             }
         },
         {
@@ -29,7 +45,7 @@
                 "whatIDid": "Redesigned and developed the home, character, and error pages.",
                 "teamSize": "9",
                 "projectLength": "4 months",
-                "tools": "JavaScript, React.js, Node.js, Webpack.js, Bootstrap.js, Vue.js, HTML5, CSS3, MySQL, XAMPP, Dreamhost, Vercel, Visual Studio Code"
+                "tools": "JavaScript, React.js, Node.js, Webpack.js, Bootstrap.js, Vue.js, MySQL, XAMPP, Dreamhost, Vercel"
             }
         },
         {
