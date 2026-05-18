@@ -1,4 +1,23 @@
 {
+    "ai":[
+        {
+            "name": "Stained Glass Art Genetic Algorithm",
+            "year": "2026",
+            "link": "https://github.com/TheElliotGong/Genetic-Art-Algorithm-part-2",
+            "image": {
+                "src": "media/images/car_final.png",
+                "alt": "Stained Glass Genetic Art Algorithm Project Screenshot"
+            },
+            "description": {
+                "about": "A genetic algorithm for creating stained glass art. Based on Sebastian Proost's implemenation.",
+                "whatIDid": "Served as project manager and developer.",
+                "teamSize": "4",
+                "projectLength": "5 weeks",
+                "tools": "Pillow, scikit-image, opencv, evol, scipy"
+            }
+        }
+    ]
+    ,
     "web-apps": [
          {
             "name": "Soundstack",
@@ -51,7 +70,7 @@
         {
             "name": "Netflix Clone",
             "year": "2023 - 2025",
-            "link": "https://my-netflix-clone-c8b995d374b2.herokuapp.com/",
+            "link": "https://netflix-clone-tysd.onrender.com",
             "image": {
                 "src": "media/images/netflix_clone.png",
                 "alt": "Netflix Clone Screenshot"

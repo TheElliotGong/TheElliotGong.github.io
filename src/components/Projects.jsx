@@ -7,6 +7,7 @@ function Projects() {
   const contentRefs = useRef({});
 
   const categories = [
+    { key: 'ai', label: 'AI and Machine Learning' },
     { key: 'web-apps', label: 'Web Applications' },
     { key: 'games', label: 'Games and Levels' },
     { key: 'ux', label: 'UX/UI' },

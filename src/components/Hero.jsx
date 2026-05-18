@@ -32,8 +32,7 @@ function Hero() {
             </p>
             <h3 className="has-text-weight-bold is-size-3-desktop is-size-5-touch">Objective</h3>
             <p className="is-size-6-touch">
-              Seeking an internship or full-time role in software development, web development, or UX/UI
-              design to apply my skills and gain additional experience in the tech industry.
+              Seeking opportunities to apply my skills in software engineering, web development, AI, UX/UI, and project management.
             </p>
             <a
               className="has-text-weight-bold is-size-2-desktop is-size-3-touch"
