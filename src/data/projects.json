@@ -240,7 +240,7 @@
             }
         }
     ],
-    "3d-models": [
+    "3D": [
         {
             "name": "Fantasy Kaijus",
             "year(s)": "2024 - Present",
@@ -286,87 +286,8 @@
                 "teamSize": "Self",
                 "tools": "Maya, Blender, Substance 3D (Painter and Stager)"
             }
-        },
-        {
-            "name": "Minecraft Piston",
-            "year(s)": "2024",
-            "link": "https://www.artstation.com/artwork/29EQJy",
-            "image": {
-                "src": "media/images/3D_models_and_renders/piston_regular.png",
-                "alt": "Minecraft Piston Render"
-            },
-            "artstationLink": "https://www.artstation.com/artwork/29EQJy",
-            "description": {
-                "about": "Created the regular version of my anthropomorphized Minecraft piston.",
-                "teamSize": "Self",
-                "projectLength": "1 week",
-                "tools": "Maya, Substance Painter"
-            }
-        },
-        {
-            "name": "Minecraft Piston: Suzume Edition",
-            "year(s)": "2024",
-            "link": "https://www.artstation.com/artwork/6N389V",
-            "image": {
-                "src": "media/images/3D_models_and_renders/piston_suzume.png",
-                "alt": "Minecraft Piston Suzume Edition Render"
-            },
-            "artstationLink": "https://www.artstation.com/artwork/6N389V",
-            "description": {
-                "about": "Designed, modelled, textured, and rigged my take on the Minecraft equivalent of the animated chair from Suzume no Tojimari.",
-                "teamSize": "Self",
-                "projectLength": "2 weeks",
-                "tools": "Maya, Substance Painter, Photoshop"
-            }
-        },
-        {
-            "name": "Alien Character",
-            "year(s)": "2023",
-            "link": "https://www.artstation.com/artwork/AlkG5W",
-            "image": {
-                "src": "media/images/3D_models_and_renders/alien.png",
-                "alt": "Alien Character Render"
-            },
-            "artstationLink": "https://www.artstation.com/artwork/AlkG5W",
-            "description": {
-                "about": "Designed, modelled, textured, and rigged a playable alien character. Compatible with Unreal Engine.",
-                "teamSize": "Self",
-                "projectLength": "3 weeks",
-                "tools": "Maya, Blender, Substance Painter, Unreal Engine 5, Mixamo"
-            }
-        },
-        {
-            "name": "Five Nights at Freddy's Cow Character",
-            "year(s)": "2023",
-            "link": "https://www.artstation.com/artwork/LRZLmk",
-            "image": {
-                "src": "media/images/3D_models_and_renders/fnaf_cow.png",
-                "alt": "FNAF Cow Character Render"
-            },
-            "artstationLink": "https://www.artstation.com/artwork/LRZLmk",
-            "description": {
-                "about": "Designed, modelled, textured, and rigged an original Five Nights at Freddy's character. Compatible with Unreal Engine.",
-                "teamSize": "Self",
-                "projectLength": "3 weeks",
-                "tools": "Maya, Blender, Zbrush, Substance Painter, Unreal Engine 5"
-            }
-        },
-        {
-            "name": "Valorant Character Renders",
-            "year(s)": "2022 - 2023",
-            "link": "https://www.artstation.com/elliot_gong/albums/14809234",
-            "image": {
-                "src": "media/images/3D_models_and_renders/valorant-renders.png",
-                "alt": "Valorant Character Renders"
-            },
-            "artstationLink": "https://www.artstation.com/elliot_gong/albums/14809234",
-            "description": {
-                "about": "Textured, posed, and rendered multiple Valorant character models for use in marketing and social media.",
-                "teamSize": "Self",
-                "projectLength": "6 months",
-                "tools": "Blender, Photoshop"
-            }
         }
+        
     ]
     
 }

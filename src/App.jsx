@@ -1,11 +1,29 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
-import Experience from './components/Experience';
+import ProjectCategoryPage from './components/ProjectCategoryPage';
 import Contact from './components/Contact';
 import Copyright from './components/Copyright';
 import './styles/bulma_version.css';
+
+function HomePage() {
+  return (
+    <main>
+      <Hero />
+      <Projects mode="home" />
+    </main>
+  );
+}
+
+function ProjectsPage() {
+  return (
+    <main>
+      <Projects mode="page" />
+    </main>
+  );
+}
 
 function App() {
   const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
@@ -15,20 +33,21 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <Navbar />
-      <main>
-        <Hero />
-        <hr id="projects" className="my-6 mx-auto" style={{ width: '90%' }} />
-        <Projects />
-        {/* <hr id="experience" className="my-6 mx-auto" style={{ width: '90%' }} />
-        <Experience /> */}
-      </main>
-      <footer><Contact />
-      <Copyright year={currentYear} /></footer>
-
-      
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/projects/:categorySlug" element={<ProjectCategoryPage />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+        <footer>
+          <Contact />
+          <Copyright year={currentYear} />
+        </footer>
+      </div>
+    </BrowserRouter>
   );
 }
 
