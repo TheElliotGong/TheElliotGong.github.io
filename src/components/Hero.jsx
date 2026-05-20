@@ -9,8 +9,7 @@ function Hero() {
   }, []);
 
   return (
-    <section>
-      <div id="about"></div>
+    <section id="about">
       <div className="container">
         <div className="columns is-vcentered">
           <div className="column is-one-third" id="photo">

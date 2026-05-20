@@ -21,8 +21,8 @@ function Projects({ mode = 'home' }) {
             const projects = projectsData[category.key] || [];
 
             return (
-              <Link to={`/projects/${category.slug}`} className="button is-link is-light" key={category.key}>
-                 <h3 className="has-text-weight-bold is-size-4-desktop is-size-5-touch">{category.label}</h3></Link>
+              <Link to={`/projects/${category.slug}`} className="button is-link has-text-weight-bold is-size-2-desktop is-size-3-touch" key={category.key}>
+                 {category.label}</Link>
             );
           })}
         </div>

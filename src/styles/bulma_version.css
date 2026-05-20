@@ -38,23 +38,30 @@ li {
 #about {
   padding-bottom: 50px;
 }
-#contactForm {
+.button.is-link{
+  background-color: transparent;
+}
+
+#contactForm, .button.is-link{
   text-align: center;
   display: block;
 
   color: var(--liteBlue);
   border: 3px solid var(--liteBlue);
   width: fit-content;
+  height: fit-content;
   margin: 3% auto;
-  padding: 10px;
+  padding: 2%;
   transition-duration: 500ms;
 }
-#contactForm:hover {
+#contactForm:hover, .button.is-link:hover{
   background-color: var(--liteBlue);
 
   color: var(--darkBlue);
   transform: scale(1.15);
 }
+
+
 section {
   width: 100%;
   padding: 3% 5%;
@@ -101,7 +108,7 @@ section h2,
 .project h3,
 .project h2,
 li strong {
-  color: var(--liteBlue);
+  color: var(--darkBlue);
 }
 strong {
   color: var(--white);
