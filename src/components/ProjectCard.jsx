@@ -1,6 +1,14 @@
 import React from 'react';
 
 function ProjectCard({ project }) {
+  const resolveAssetPath = (assetPath) => {
+    if (!assetPath || /^(?:https?:)?\/\//.test(assetPath) || assetPath.startsWith('data:')) {
+      return assetPath;
+    }
+
+    return `${import.meta.env.BASE_URL}${assetPath.replace(/^\/?/, '')}`;
+  };
+
   const getThumbnail = () => {
     if (project.videoEmbed) {
       return (
@@ -13,7 +21,7 @@ function ProjectCard({ project }) {
       );
     } else if (project.image) {
       const img = (
-        <img src={project.image.src} alt={project.image.alt || project.name} />
+        <img src={resolveAssetPath(project.image.src)} alt={project.image.alt || project.name} />
       );
       if (project.link) {
         return (

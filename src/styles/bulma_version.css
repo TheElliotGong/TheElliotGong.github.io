@@ -26,30 +26,47 @@ li {
   border-width: 5px;
 }
 
+/* Ensure navbar dropdown is visible on mobile */
+.navbar-menu {
+  overflow: visible;
+}
+
+.navbar-item.has-dropdown.is-active .navbar-dropdown {
+  z-index: 1000;
+}
+
 #about {
   padding-bottom: 50px;
 }
-#contactForm {
+.button.is-link{
+  background-color: transparent;
+}
+
+#contactForm, .button.is-link{
   text-align: center;
   display: block;
 
   color: var(--liteBlue);
   border: 3px solid var(--liteBlue);
   width: fit-content;
+  height: fit-content;
   margin: 3% auto;
-  padding: 10px;
+  padding: 2%;
   transition-duration: 500ms;
 }
-#contactForm:hover {
+#contactForm:hover, .button.is-link:hover{
   background-color: var(--liteBlue);
 
   color: var(--darkBlue);
   transform: scale(1.15);
 }
+
+
 section {
   width: 100%;
   padding: 3% 5%;
 }
+
 section h1 {
   padding: 1rem 0;
 }
@@ -86,20 +103,80 @@ footer {
   height: fit-content;
   padding: 2vw 30vw;
 }
-h1,
-section h2,
+
 #about h2,
 .project h3,
-.project h2,
-li strong {
+.project h2{
+  color: var(--darkBlue);
+}
+h1,
+section h2, li strong
+{
   color: var(--liteBlue);
 }
 strong {
   color: var(--white);
 }
-
+.project-page-header
+{
+  text-align: center;
+}
 .project {
   height: fit-content;
+}
+.projects-overview
+{
+  padding-top: 2rem;
+}
+.project-page {
+  padding-top: 4rem;
+}
+
+.project-page-header--full {
+  padding: 1rem 0 0;
+}
+.project-page-kicker,
+.project-category-card__eyebrow,
+.project-page-count {
+  color: var(--liteBlue);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.project-page-summary {
+  max-width: 52rem;
+  margin-top: 0.75rem;
+}
+.project-page-meta,
+.project-page-links,
+.project-category-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+.project-page-links {
+  margin-top: 1rem;
+}
+.project-page-back {
+  color: var(--links);
+}
+.project-category-grid {
+  margin-top: 0.5rem;
+}
+.project-category-card {
+  height: 100%;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(225, 225, 225, 0.18);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+.project-category-card__body {
+  min-height: 9rem;
+}
+.project-category-card__description {
+  margin-top: 0.75rem;
+}
+.project-category-card__actions {
+  margin-top: 1.25rem;
 }
 .project img {
   height: 100%;
@@ -225,5 +302,14 @@ footer button {
 @media screen and (min-width: 1024px) {
   footer {
     padding: 2vw 30vw;
+  }
+}
+
+/* Override Bulma's container max-width at >=1408px
+   Remove the 1344px cap applied by bulma.min.css so containers can expand
+   Adjust or remove `!important` if you prefer a different value. */
+@media screen and (min-width: 1408px) {
+  .container:not(.is-max-desktop):not(.is-max-widescreen) {
+    max-width: 1500px;
   }
 }
