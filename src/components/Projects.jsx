@@ -10,9 +10,9 @@ function Projects({ mode = 'home' }) {
     <section id="projects" className="projects-overview">
       <div className="container">
         <div className="project-page-header">
-          <h2 className="has-text-weight-bold is-size-2-desktop is-size-3-touch">
-            {isLandingPage ? 'Browse by category' : "Check out what I've made!"}
-          </h2>
+          <h1 className="has-text-weight-bold is-size-1-desktop is-size-3-touch">
+            {isLandingPage ? 'Browse by category' : "Come check out what I've made!"}
+          </h1>
           
         </div>
 

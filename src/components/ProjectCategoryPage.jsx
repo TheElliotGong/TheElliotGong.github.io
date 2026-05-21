@@ -20,12 +20,7 @@ function ProjectCategoryPage() {
         <div className="container">
           
           <h1 className="has-text-weight-bold is-size-1-desktop is-size-3-touch">{category.label}</h1>
-          <div className="project-page-links">
-            <Link to="/" className="button is-link is-light">
-              Home
-            </Link>
-            
-          </div>
+          
         </div>
       </section>
 
