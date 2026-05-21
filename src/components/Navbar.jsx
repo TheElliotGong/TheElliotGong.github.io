@@ -5,7 +5,14 @@ import { projectCategories } from '../data/projectCategories';
 function Navbar() {
   const [isMenuActive, setIsMenuActive] = useState(false);
   const [isProjectsDropdownActive, setIsProjectsDropdownActive] = useState(false);
+  const resolveAssetPath = (assetPath) => {
+    if (!assetPath || /^(?:https?:)?\/\//.test(assetPath) || assetPath.startsWith('data:')) {
+      return assetPath;
+    }
 
+    return `${import.meta.env.BASE_URL}${assetPath.replace(/^\/?/, '')}`;
+  };
+  
   const toggleMenu = () => {
     setIsMenuActive(!isMenuActive);
   };
@@ -69,7 +76,7 @@ function Navbar() {
       <nav className="navbar has-shadow is-fixed-top">
         <div className="navbar-brand">
           <Link className="navbar-item" to="/" onClick={closeMenu}>
-            <img width="40" style={{ maxHeight: '5rem' }} src="media/images/logos_and_icons/personal logo.png" alt="Logo" />
+            <img width="40" style={{ maxHeight: '5rem' }} src={resolveAssetPath('media/images/logos_and_icons/personal.png')} alt="Logo" />
           </Link>
           <a
             role="button"
