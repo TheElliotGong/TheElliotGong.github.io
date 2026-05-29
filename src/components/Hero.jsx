@@ -74,7 +74,7 @@ function Hero() {
                   alt="LinkedIn"
                 />
               </a>
-              <a className="column" href="https://sketchfab.com/Taterblock17" target="_blank" rel="noopener noreferrer">
+              <a className="column" href="https://sketchfab.com/ElliotGong" target="_blank" rel="noopener noreferrer">
                 <img
                   className="socialMedia"
                   width="50"
