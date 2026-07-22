@@ -15,10 +15,31 @@
                 "projectLength": "5 weeks",
                 "tools": "Pillow, scikit-image, opencv, evol, scipy"
             }
+        },
+        {
+            "name": "Internal Automation Tool",
+            "year": "2025 - Present",
+            "description": {
+                "about": "A Google Apps Script tool that automates file-ownership transfers across a Google Workspace organization, reducing manual administrative effort.",
+                "whatIDid": "Designed and built the automation independently.",
+                "teamSize": "Self",
+                "tools": "Google Apps Script, DeepAI"
+            }
         }
     ]
     ,
     "web-apps": [
+         {
+            "name": "Web Log Analyzer",
+            "year": "2025",
+            "description": {
+                "about": "A web log analyzer built with Elasticsearch, featuring data pipelines that parse and transform log files into structured formats with searching, filtering, and analytics.",
+                "whatIDid": "Worked with a team of five engineers on the data pipelines and query capabilities.",
+                "teamSize": "5",
+                "projectLength": "4 weeks",
+                "tools": "Elasticsearch, Python"
+            }
+        },
          {
             "name": "Soundstack",
             "year": "2025",

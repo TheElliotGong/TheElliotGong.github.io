@@ -24,13 +24,17 @@ function Hero() {
 
             <h3 className="has-text-weight-bold is-size-3-desktop is-size-5-touch">About Me</h3>
             <p className="is-size-6-touch">
-              I'm a current masters student studying computer science with experience in full-stack development, UX
-              design, and game development. After completing my bachelors in game design, I decided to return to school to further my knowledge in topics such as AI, cybersecurity, and operating systems. In my free time, I like to create 3D models, make digital 
-              illustrations, read, watch tv, game, and play badminton.
+              I'm a Computer Science master's student and cross-disciplinary technical builder with experience across
+              full-stack development, IT support, AI-assisted workflows, UX design, and 3D/game production. After
+              completing my bachelor's in Game Design and Development at RIT, I returned to school to deepen my
+              knowledge of AI, cybersecurity, and systems. I most recently interned in IT at Copy Solutions, where I was
+              promoted to supervise the intern program. In my free time, I like to create 3D models, make digital
+              illustrations, read, watch TV, game, and play badminton.
             </p>
             <h3 className="has-text-weight-bold is-size-3-desktop is-size-5-touch">Objective</h3>
             <p className="is-size-6-touch">
-              Seeking opportunities to apply my skills in software engineering, web development, AI, UX/UI, and project management.
+              Seeking opportunities to apply my skills across software engineering, web development, AI, IT/technical
+              support, UX/UI, and project management.
             </p>
             <a
               className="has-text-weight-bold is-size-2-desktop is-size-3-touch"

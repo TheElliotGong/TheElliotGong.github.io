@@ -1,12 +1,35 @@
 [
     {
-        "jobTitle": "Game Development/Programming Instructor",
+        "jobTitle": "Computer Science (IT) Intern → Intern Program Supervisor",
+        "company": "Copy Solutions, Inc.",
+        "duration": "May 2026 - August 2026",
+        "duties": [
+            "Built customer-facing systems for helpdesk ticketing and supply ordering on the company website.",
+            "Audited and consolidated hosting and CRM accounts to simplify backend administration, reduce costs, and cut technical debt.",
+            "Researched IT tools, business processes, and AI-assisted workflows, producing data analysis, documentation, and training/adoption materials.",
+            "Mentored and managed two interns by delegating tasks, providing feedback, and supporting professional training."
+        ]
+    },
+    {
+        "jobTitle": "3D Artist (Volunteer)",
+        "company": "The Old Realms Modding Team",
+        "duration": "June 2025 - Present",
+        "duties": [
+            "Create production-ready 3D assets aligned with established art direction, lore references, technical constraints, and pipeline standards for a Mount & Blade II: Bannerlord Warhammer Fantasy conversion mod.",
+            "Collaborate with designers and lead members to translate faction concepts into 3D models that support player customization, immersion, and roster development.",
+            "Work across Maya, Blender, Substance 3D Painter, Rodin, and Leonardo AI to deliver assets that fit the team's naming conventions and standards."
+        ]
+    },
+    {
+        "jobTitle": "Game Development/Coding Instructor",
         "company": "Code Ninjas",
         "duration": "October 2024 - Present",
         "duties": [
-            "Develop teaching methods for STEM subjects, integrating game development principles with hands-on coding for K-12 students.",
-            "Streamline student progress tracking and curriculum implementation while managing comprehensive attendance records.",
-            "Collaborate with peers to lead after-school coding workshops at local schools, introducing game development/programming concepts to groups of 10+ students while adapting content for diverse learning styles."
+            "Teach core programming and game development concepts to 35+ students, including OOP, data structures, debugging, Unity, JavaScript, Roblox Studio, MakeCode Arcade, Blender, and 3D printing.",
+            "Reviewed and graded 100+ JavaScript assignments and student projects, identifying recurring issues to improve instruction and debugging support.",
+            "Led 9+ STEM and game development camps supporting 90-100+ student projects, contributing to a 10% rise in full-time enrollments.",
+            "Maintain 15+ Windows workstations with 100% uptime, troubleshooting hardware/software issues and supporting account management.",
+            "Communicate technical concepts to students and parents, including internet safety and cybersecurity guidance."
         ]
     },
     {
@@ -14,18 +37,30 @@
         "company": "Changeling VR",
         "duration": "January 2024 - May 2024",
         "duties": [
-            "Redesigned and programmed four responsive web pages for the Changeling VR project's official website with React and Bootstrap, implementing modern UI/UX principles to increase user engagement.",
-            "Completed a web-based platformer game with PixiJS and Howler.js while maintaining optimal performance. Briefly worked as a 3D artist to produce centerpiece 3D assets for the official VR game.",
-            "Managed development workflows for nine developers with Trello and GitHub to ensure seamless coordination and delivery."
+            "Collaborated with a nine-person team of designers, engineers, and narrative designers to improve, test, and maintain the Changeling VR websites and web experiences.",
+            "Built modular React/JavaScript components and refactored three to four web pages, adding exception handling for missing endpoints and failed API requests.",
+            "Completed a web-based six-level platformer with PixiJS and Howler.js, replacing placeholder assets and refining flow, UI hierarchy, and narrative context.",
+            "Supported agile workflows through sprint tracking, Trello/GitHub, and onboarding documentation; produced a centerpiece 3D church bell prop for a VR level."
         ]
     },
     {
-        "jobTitle": "3D Modeling and Animation Intern, Freelance 3D Generalist",
+        "jobTitle": "3D Modeling & Animation Intern, Freelance 3D Artist",
         "company": "Great Lakes Gaming",
         "duration": "May 2022 - June 2024",
         "duties": [
-            "Produced over 30 assets for the company's 3D and 2D library, ensuring sufficient and consistent content for promotional materials and internal development.",
-            "Facilitated collaboration between various teams with Discord to maintain communication and efficiency for projects/contracts."
+            "Created, optimized, and validated 30-50+ 3D models, textures, and renders for marketing, advertising, and production pipelines.",
+            "Performed topology cleanup, UV unwrapping, texturing, rendering, and quality checks to ensure production-ready assets.",
+            "Built asset-management scripts and automated procedures that reduced maintenance time by 50%.",
+            "Coordinated remotely with developers, stakeholders, and marketing teams to meet milestone deadlines across two client contracts."
+        ]
+    },
+    {
+        "jobTitle": "Dining Services Associate",
+        "company": "Rochester Institute of Technology",
+        "duration": "October 2020 - May 2024",
+        "duties": [
+            "Served up to 100 guests per shift while coordinating service flow with up to four peers.",
+            "Trained and mentored new team members and managed inventory and restocking for 50+ items while resolving customer concerns."
         ]
     }
 ]

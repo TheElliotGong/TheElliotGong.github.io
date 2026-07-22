@@ -3,6 +3,10 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
+import Experience from './components/Experience';
+import Skills from './components/Skills';
+import Education from './components/Education';
+import Certifications from './components/Certifications';
 import ProjectCategoryPage from './components/ProjectCategoryPage';
 import Contact from './components/Contact';
 import Copyright from './components/Copyright';
@@ -13,6 +17,22 @@ function HomePage() {
     <main>
       <Hero />
       <Projects mode="home" />
+      <hr className="my-6 mx-auto section-divider" />
+      <div className="container" id="experience-section">
+        <Experience />
+      </div>
+      <hr className="my-6 mx-auto section-divider" />
+      <div className="container" id="skills-section">
+        <Skills />
+      </div>
+      <hr className="my-6 mx-auto section-divider" />
+      <div className="container" id="education-section">
+        <Education />
+      </div>
+      <hr className="my-6 mx-auto section-divider" />
+      <div className="container" id="certifications-section">
+        <Certifications />
+      </div>
     </main>
   );
 }

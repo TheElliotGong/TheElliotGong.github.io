@@ -1,7 +1,10 @@
 {
-    "web development": ["React", "Bootstrap", "HTML", "CSS", "JavaScript", "PixiJS", "Howler.js"],
-    "game development": ["Unity", "Unreal Engine", "C#", "C++", "Maya", "Blender", "Adobe Creative Suite"],
-    "programming languages": ["Python", "Java", "C#", "C++", "Dart"],
-    "design tools": ["Figma", "Adobe Photoshop", "Adobe Illustrator", "Blender"],
-    "version control": ["Git", "GitHub"]
+    "Frontend & Web": ["JavaScript", "TypeScript", "React.js", "Next.js", "Vue.js", "HTML5", "CSS3", "Vite", "Bootstrap", "Bulma", "PixiJS", "Howler.js"],
+    "Backend, Data & Cloud": ["Node.js", "Express.js", "MongoDB", "MySQL", "Supabase", "Redis", "Elasticsearch", "REST APIs", "Heroku", "Render", "Vercel", "CircleCI", "AWS", "Cloudflare"],
+    "Programming Languages": ["Python", "JavaScript", "TypeScript", "C#", "C++", "Java", "Dart"],
+    "AI & Machine Learning": ["LLMs (ChatGPT, Claude, DeepAI)", "GitHub Copilot", "Prompt Design", "Genetic Algorithms", "AI-Assisted Development", "Google Apps Script Automation"],
+    "IT & Systems": ["Windows", "Linux / Ubuntu", "Hardware Diagnostics", "Networking Fundamentals", "Microsoft 365", "Google Workspace", "VirtualBox", "Veyon", "User & Account Support"],
+    "UX, Product & Project": ["Figma", "UX Research", "Wireframing & Prototyping", "Agile / Scrum", "Sprint Planning", "Jira", "Trello", "Stakeholder Communication"],
+    "3D & Creative": ["Autodesk Maya", "Blender", "ZBrush", "Substance 3D Painter", "Substance 3D Stager", "Adobe Photoshop", "Unity", "Unreal Engine", "Hammer++", "3D Printing"],
+    "Teaching & Communication": ["Technical Instruction", "Curriculum Development", "Coding & Game Dev Camps", "Documentation", "Customer Service", "Cross-Functional Collaboration"]
 }

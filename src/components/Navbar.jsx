@@ -124,6 +124,21 @@ function Navbar() {
               </div>
             </div>
             
+            <a href="/#experience" className="navbar-item is-size-3-fullhd" onClick={closeMenu}>
+              Experience
+            </a>
+
+            <a href="/#skills" className="navbar-item is-size-3-fullhd" onClick={closeMenu}>
+              Skills
+            </a>
+            <a href="/#education" className="navbar-item is-size-3-fullhd" onClick={closeMenu}>
+              Education
+            </a>
+
+            <a href="/#certifications" className="navbar-item is-size-3-fullhd" onClick={closeMenu}>
+              Certifications
+            </a>
+
             <a href="/#contact" className="navbar-item is-size-3-fullhd" onClick={closeMenu}>
               Contact
             </a>
