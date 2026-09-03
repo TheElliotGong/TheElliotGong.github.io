@@ -1,10 +1,12 @@
 {
     "Frontend & Web": ["JavaScript", "TypeScript", "React.js", "Next.js", "Vue.js", "HTML5", "CSS3", "Vite", "Bootstrap", "Bulma", "PixiJS", "Howler.js"],
-    "Backend, Data & Cloud": ["Node.js", "Express.js", "MongoDB", "MySQL", "Supabase", "Redis", "Elasticsearch", "REST APIs", "Heroku", "Render", "Vercel", "CircleCI", "AWS", "Cloudflare"],
-    "Programming Languages": ["Python", "JavaScript", "TypeScript", "C#", "C++", "Java", "Dart"],
-    "AI & Machine Learning": ["LLMs (ChatGPT, Claude, DeepAI)", "GitHub Copilot", "Prompt Design", "Genetic Algorithms", "AI-Assisted Development", "Google Apps Script Automation"],
-    "IT & Systems": ["Windows", "Linux / Ubuntu", "Hardware Diagnostics", "Networking Fundamentals", "Microsoft 365", "Google Workspace", "VirtualBox", "Veyon", "User & Account Support"],
-    "UX, Product & Project": ["Figma", "UX Research", "Wireframing & Prototyping", "Agile / Scrum", "Sprint Planning", "Jira", "Trello", "Stakeholder Communication"],
-    "3D & Creative": ["Autodesk Maya", "Blender", "ZBrush", "Substance 3D Painter", "Substance 3D Stager", "Adobe Photoshop", "Unity", "Unreal Engine", "Hammer++", "3D Printing"],
-    "Teaching & Communication": ["Technical Instruction", "Curriculum Development", "Coding & Game Dev Camps", "Documentation", "Customer Service", "Cross-Functional Collaboration"]
+    "Backend, Data & Cloud": ["Node.js", "Express.js", "Next.js API Routes", "MongoDB", "MySQL", "Supabase", "Redis", "Elasticsearch", "REST APIs", "JSON / XML", "Zod Schema Validation", "Heroku", "Render", "Vercel", "AWS", "Cloudflare", "Cloudways", "WordPress Admin", "cPanel"],
+    "Programming Languages": ["Python", "JavaScript", "TypeScript", "C#", "C++", "Java", "Dart", "Bash", "PowerShell"],
+    "AI & Machine Learning": ["LLMs (Claude, ChatGPT, Gemini, DeepAI)", "Claude Code", "GitHub Copilot", "IBM Bob", "ChatGPT Codex", "Google AI Studio", "Prompt Design", "Structured-Output Parsing", "Genetic Algorithms & Optimization", "AI-Assisted Development", "Google Apps Script Automation"],
+    "Testing, Quality & DevOps": ["Jest", "ESLint", "Prettier", "CI/CD Workflows", "CircleCI", "Endpoint Testing", "Error Handling", "Deployment Reliability", "Asset Validation"],
+    "IT & Systems": ["Windows", "Linux / Ubuntu", "Hardware Diagnostics", "Networking Fundamentals", "Microsoft 365 Administration", "Exchange Online", "SharePoint Online", "OneDrive for Business", "DNS Record Management", "Google Workspace", "VirtualBox", "Veyon", "PuTTY / WinSCP / FileZilla", "User & Account Support"],
+    "Cybersecurity Awareness": ["Access Control Principles", "Permissions Management", "Log Review & Basic Analysis", "TCP/IP Fundamentals", "Firewall, Routing & VLAN Awareness", "End-User Security Awareness", "Secure API & Error-Handling Practices"],
+    "UX, Product & Project": ["Figma", "UX Research", "Personas", "Wireframing & Prototyping", "Information Architecture", "Agile / Scrum", "Sprint Planning", "Jira", "Trello", "Slack", "Zoho CRM", "Stakeholder Communication"],
+    "3D & Creative": ["Autodesk Maya", "Blender", "ZBrush", "Substance 3D Painter", "Substance 3D Stager", "Adobe Photoshop", "Adobe After Effects", "Adobe Premiere", "Unity", "Unreal Engine", "Roblox Studio", "Hammer++", "3D Printing"],
+    "Teaching & Communication": ["Technical Instruction", "Curriculum Development", "Coding & Game Dev Camps", "Documentation", "Onboarding Materials", "Customer Service", "Cross-Functional Collaboration"]
 }

@@ -1,8 +1,30 @@
 {
-    "ai":[
+    "ai": [
+        {
+            "name": "Satellite Launch Vehicle & Rideshare Configurator",
+            "year": "2026",
+            "description": {
+                "about": "A full-stack, AI-powered mission-planning web app built for the IBM AI Builders Challenge (Space Exploration track). It parses free-text satellite mission descriptions into structured requirements, then filters, ranks, and explains trade-offs across a launch-vehicle catalog.",
+                "whatIDid": "Designed and shipped the entire app solo in about a week: a five-stage Parse to Filter to Rank to Explain to Improve pipeline on the Gemini Flash API with deterministic regex/template fallbacks, document upload with PDF/DOCX text extraction, six export formats, a persisted settings system, an in-memory rate limiter, and a 193-test Jest suite across 10 suites.",
+                "teamSize": "Self",
+                "projectLength": "1 week",
+                "tools": "Next.js, React, TypeScript, Gemini Flash API, pdf-parse, mammoth, Jest, IBM Bob"
+            }
+        },
+        {
+            "name": "Project Bridge",
+            "year": "2026",
+            "description": {
+                "about": "An AI document-automation pipeline that uses OCR to scan PDFs, classify file types, and auto-route files, laying the foundation for a three-tiered desktop product with varying privilege levels and features.",
+                "whatIDid": "Architected the pipeline and benchmarked five OCR/LLM vision providers on cost, accuracy, and HIPAA/SOC 2 compliance to select the optimal vendor.",
+                "teamSize": "Self",
+                "projectLength": "3 months",
+                "tools": "Python, OCR, LLM Vision APIs"
+            }
+        },
         {
             "name": "Stained Glass Art Genetic Algorithm",
-            "year": "2026",
+            "year": "2026 - Present",
             "link": "https://github.com/TheElliotGong/Genetic-Art-Algorithm-part-2",
             "image": {
                 "src": "media/images/car_final.png",
@@ -26,10 +48,9 @@
                 "tools": "Google Apps Script, DeepAI"
             }
         }
-    ]
-    ,
+    ],
     "web-apps": [
-         {
+        {
             "name": "Web Log Analyzer",
             "year": "2025",
             "description": {
@@ -40,7 +61,7 @@
                 "tools": "Elasticsearch, Python"
             }
         },
-         {
+        {
             "name": "Soundstack",
             "year": "2025",
             "link": "https://soundstack.onrender.com/",
@@ -90,7 +111,7 @@
         },
         {
             "name": "Netflix Clone",
-            "year": "2023 - 2025",
+            "year": "2023 - 2026",
             "link": "https://netflix-clone-tysd.onrender.com",
             "image": {
                 "src": "media/images/netflix_clone.png",
@@ -116,6 +137,52 @@
                 "teamSize": "Self",
                 "projectLength": "4 weeks",
                 "tools": "Javascript, Node.js, Canvas, Web Audio, Webpack, HTML5, CSS3, Visual Studio Code"
+            }
+        }
+    ],
+    "it": [
+        {
+            "name": "Internal CRM Assistant",
+            "year": "2026",
+            "description": {
+                "about": "An AI-powered CRM assistant built on top of a company's existing Zoho account, extending the platform with AI-driven functionality instead of rebuilding it from the ground up.",
+                "whatIDid": "Built the assistant, integrated OneDrive and SharePoint for rapid database deployment and ongoing data synchronization, and assisted in migrating 100,000 client profiles to the new system.",
+                "teamSize": "3",
+                "projectLength": "2 months",
+                "tools": "Zoho CRM, Microsoft 365, SharePoint, OneDrive"
+            }
+        },
+        {
+            "name": "Product Configurator",
+            "year": "2026",
+            "description": {
+                "about": "An AI-powered product configurator connected to an in-house CRM tool that helps sales representatives tailor product recommendations and packages to each customer's needs.",
+                "whatIDid": "Supported planning, testing, and deployment coordination, covering virtual customization of 37 Xerox and Lexmark devices plus their supplies and add-ons, deployed internally to improve the workflows of five sales representatives.",
+                "teamSize": "3",
+                "projectLength": "2 months",
+                "tools": "Zoho CRM, AI-assisted development"
+            }
+        },
+        {
+            "name": "Infrastructure Consolidation",
+            "year": "2026",
+            "description": {
+                "about": "A technical consolidation of a small business's DNS, hosting, and email infrastructure across three business domains.",
+                "whatIDid": "Led the consolidation, including Cloudflare DNS setup, a zero-data-loss Google Workspace to Microsoft 365 migration of 150+ mailboxes, rebuilding three legacy WordPress sites, and authoring a sequenced four-to-eight-week execution plan that kept annual costs near $1,000.",
+                "teamSize": "2",
+                "projectLength": "4 months",
+                "tools": "Cloudflare, Microsoft 365, Google Workspace, WordPress, cPanel"
+            }
+        },
+        {
+            "name": "Sales Workstation Upgrade Assessment",
+            "year": "2026",
+            "description": {
+                "about": "A 10-seat fleet upgrade assessment delivering hardware, licensing, and phased migration recommendations under a $10K budget ceiling.",
+                "whatIDid": "Led the assessment and created three hardware and software tiers, producing management-ready recommendation slides, budget tables, and deployment timelines.",
+                "teamSize": "Self",
+                "projectLength": "1 month",
+                "tools": "Microsoft 365, Excel, PowerPoint"
             }
         }
     ],
@@ -308,7 +375,5 @@
                 "tools": "Maya, Blender, Substance 3D (Painter and Stager)"
             }
         }
-        
     ]
-    
 }

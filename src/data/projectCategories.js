@@ -10,6 +10,11 @@ export const projectCategories = [
     label: "Web Applications",
   },
   {
+    key: "it",
+    slug: "it",
+    label: "IT and Automation",
+  },
+  {
     key: "games",
     slug: "games",
     label: "Games and Levels",
