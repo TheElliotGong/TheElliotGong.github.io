@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useLayoutEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { projectCategories } from '../data/projectCategories';
 
@@ -30,6 +30,35 @@ function Navbar() {
   };
 
   const dropdownRef = useRef(null);
+  const navRef = useRef(null);
+
+  // Publish the fixed navbar's height so sections can offset their scroll
+  // anchors by it (see --navbar-height usage in bulma_version.css). Measured in
+  // a layout effect so the offset is correct before the first paint.
+  useLayoutEffect(() => {
+    const nav = navRef.current;
+    if (!nav) return;
+
+    // While the burger menu is expanded the nav grows to fit the links, which
+    // is not the height that overlaps the page content.
+    if (isMenuActive) return;
+
+    const updateHeight = () => {
+      document.documentElement.style.setProperty('--navbar-height', `${nav.offsetHeight}px`);
+    };
+
+    updateHeight();
+
+    if (typeof ResizeObserver === 'undefined') {
+      window.addEventListener('resize', updateHeight);
+      return () => window.removeEventListener('resize', updateHeight);
+    }
+
+    const observer = new ResizeObserver(updateHeight);
+    observer.observe(nav);
+
+    return () => observer.disconnect();
+  }, [isMenuActive]);
 
   useEffect(() => {
     function handleClickOutside(event) {
@@ -73,7 +102,7 @@ function Navbar() {
 
   return (
     <header>
-      <nav className="navbar has-shadow is-fixed-top">
+      <nav className="navbar has-shadow is-fixed-top" ref={navRef}>
         <div className="navbar-brand">
           <Link className="navbar-item" to="/" onClick={closeMenu}>
             <img width="40" style={{ maxHeight: '5rem' }} src={resolveAssetPath('media/images/logos_and_icons/personal.png')} alt="Logo" />
@@ -92,9 +121,9 @@ function Navbar() {
         </div>
         <div className={`navbar-menu ${isMenuActive ? 'is-active' : ''}`} id="nav-links">
           <div className="navbar-end">
-            <a href="/#about" className="navbar-item is-size-3-fullhd" onClick={closeMenu}>
+            <Link to="/#about" className="navbar-item is-size-3-fullhd" onClick={closeMenu}>
               About
-            </a>
+            </Link>
 
             <div ref={dropdownRef} className={`navbar-item has-dropdown ${isProjectsDropdownActive ? 'is-active' : ''}`}>
               <a 
@@ -124,24 +153,24 @@ function Navbar() {
               </div>
             </div>
             
-            <a href="/#experience" className="navbar-item is-size-3-fullhd" onClick={closeMenu}>
+            <Link to="/#experience" className="navbar-item is-size-3-fullhd" onClick={closeMenu}>
               Experience
-            </a>
+            </Link>
 
-            <a href="/#skills" className="navbar-item is-size-3-fullhd" onClick={closeMenu}>
+            <Link to="/#skills" className="navbar-item is-size-3-fullhd" onClick={closeMenu}>
               Skills
-            </a>
-            <a href="/#education" className="navbar-item is-size-3-fullhd" onClick={closeMenu}>
+            </Link>
+            <Link to="/#education" className="navbar-item is-size-3-fullhd" onClick={closeMenu}>
               Education
-            </a>
+            </Link>
 
-            <a href="/#certifications" className="navbar-item is-size-3-fullhd" onClick={closeMenu}>
+            <Link to="/#certifications" className="navbar-item is-size-3-fullhd" onClick={closeMenu}>
               Certifications
-            </a>
+            </Link>
 
-            <a href="/#contact" className="navbar-item is-size-3-fullhd" onClick={closeMenu}>
+            <Link to="/#contact" className="navbar-item is-size-3-fullhd" onClick={closeMenu}>
               Contact
-            </a>
+            </Link>
             
           </div>
         </div>

@@ -12,11 +12,18 @@
 }
 html {
   scroll-behavior: smooth;
+  /* Fallback until Navbar measures the real height of the fixed bar. */
+  --navbar-height: 3.25rem;
+  /* Keeps section headings clear of the fixed navbar when jumped to. */
+  scroll-padding-top: calc(var(--navbar-height) + 1.5rem);
 }
 body {
   font-family: "Roboto", sans-serif;
   color: var(--white);
   background-color: var(--darkBlue);
+  /* The navbar is fixed, so reserve its height instead of letting the hero
+     start underneath it. */
+  padding-top: var(--navbar-height);
 }
 p,
 li {

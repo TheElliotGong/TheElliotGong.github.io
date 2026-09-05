@@ -3,7 +3,7 @@ import employmentData from '../data/employment.json';
 
 function Experience() {
   return (
-    <section>
+    <section id="experience">
       <h2 className="has-text-weight-bold is-size-2-desktop is-size-3-touch">EXPERIENCE</h2>
       {employmentData.map((job, index) => (
         <div key={index} className="employment block">
