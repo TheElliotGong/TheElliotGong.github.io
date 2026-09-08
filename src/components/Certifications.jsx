@@ -21,7 +21,7 @@ function Certifications() {
               {cert.url && (
                 <p className="is-size-6-touch">
                   <a href={cert.url} target="_blank" rel="noopener noreferrer">
-                    Verify
+                    {cert.linkLabel || 'Verify'}
                   </a>
                 </p>
               )}

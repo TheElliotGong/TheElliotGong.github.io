@@ -51,15 +51,16 @@
     ],
     "web-apps": [
         {
-            "name": "Web Log Analyzer",
+            "name": "Elasticsearch Aggregations Demo",
             "year": "2025",
             "description": {
-                "about": "A web log analyzer built with Elasticsearch, featuring data pipelines that parse and transform log files into structured formats with searching, filtering, and analytics.",
-                "whatIDid": "Worked with a team of five engineers on the data pipelines and query capabilities.",
-                "teamSize": "5",
+                "about": "A Node.js/Express web log analyzer backed by Elasticsearch, built as a six-person graduate team project. It ingests raw web server logs, indexes them, and supports full-text search, filtering, export, and aggregated analytics.",
+                "whatIDid": "Owned the aggregations feature: wrote and demoed Elasticsearch terms (bucket) aggregations over parsed logs to rank top source IPs and most-requested endpoints, and presented that segment of the team's technical talk. Teammates built the ingestion pipeline, search, and export.",
+                "teamSize": "6",
                 "projectLength": "4 weeks",
-                "tools": "Elasticsearch, Python"
-            }
+                "tools": "Elasticsearch, Node.js, Express.js"
+            },
+            "link": "https://github.com/TheElliotGong/ElasticSearch_Aggregations_Demo"
         },
         {
             "name": "Soundstack",
