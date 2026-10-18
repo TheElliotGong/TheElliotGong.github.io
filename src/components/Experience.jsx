@@ -20,6 +20,16 @@ function Experience() {
               </h3>
             </div>
           </div>
+          {job.impact && (
+            <p className="jobImpact is-size-6-touch">
+              <strong>Impact:</strong> {job.impact}
+            </p>
+          )}
+          {job.learned && (
+            <p className="jobImpact is-size-6-touch">
+              <strong>What I learned:</strong> {job.learned}
+            </p>
+          )}
           {job.duties && job.duties.length > 0 && (
             <ul>
               {job.duties.map((duty, dutyIndex) => (

@@ -201,8 +201,10 @@
 - Common issues and solutions
 - File structure reference
 
-### REACT_DEV_GUIDE.md
+### DEVELOPMENT_GUIDE.md
 - Installation & setup
+- Deployment via GitHub Actions, post-deployment checklist, rollback
+- Troubleshooting and security checklist
 - Development server instructions
 - Build process
 - Project structure
@@ -218,17 +220,6 @@
 - Technical stack reference
 - Files created/modified inventory
 - Development notes
-
-### DEPLOYMENT_GUIDE.md
-- Deployment options (3 methods):
-  1. Manual deployment
-  2. GitHub Actions (recommended)
-  3. Vercel
-- Post-deployment verification
-- Troubleshooting guide
-- Performance optimization tips
-- Security checklist
-- Monitoring setup
 
 ## 🔄 Preserved Features
 

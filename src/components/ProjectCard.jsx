@@ -73,6 +73,14 @@ function ProjectCard({ project }) {
             </a>
           </li>
         )}
+        {project.additionalLinks?.map((extra) => (
+          <li key={extra.url}>
+            <strong>{extra.label}:</strong>{' '}
+            <a href={extra.url} target="_blank" rel="noopener noreferrer">
+              {extra.text || 'View'}
+            </a>
+          </li>
+        ))}
         {project.description?.about && (
           <li>
             <strong>About:</strong> {project.description.about}
@@ -81,6 +89,16 @@ function ProjectCard({ project }) {
         {project.description?.whatIDid && (
           <li>
             <strong>What I did:</strong> {project.description.whatIDid}
+          </li>
+        )}
+        {project.description?.impact && (
+          <li>
+            <strong>Impact:</strong> {project.description.impact}
+          </li>
+        )}
+        {project.description?.learned && (
+          <li>
+            <strong>What I learned:</strong> {project.description.learned}
           </li>
         )}
         {project.description?.teamSize && (

@@ -184,7 +184,7 @@ Set up monitoring to catch deployment issues:
 ## Support
 
 For questions about:
-- **React**: See `REACT_DEV_GUIDE.md`
+- **React**: See `DEVELOPMENT_GUIDE.md`
 - **Building**: See `package.json` scripts
 - **GitHub Pages**: https://docs.github.com/en/pages
 - **Webpack**: https://webpack.js.org/guides/

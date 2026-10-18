@@ -103,7 +103,7 @@ After testing locally:
 3. Deploy `dist/` folder to GitHub Pages
 4. Verify site works at your domain
 
-For detailed setup, see `REACT_DEV_GUIDE.md` and `MIGRATION_SUMMARY.md`.
+For detailed setup, see `DEVELOPMENT_GUIDE.md` and `MIGRATION_SUMMARY.md`.
 
 ---
 

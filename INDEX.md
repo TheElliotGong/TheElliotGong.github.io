@@ -17,13 +17,13 @@ Welcome to the React conversion of the Elliot Gong portfolio! This document serv
 - What's new vs what's preserved
 
 ### I'm Ready to Deploy
-👉 Follow this: [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)
+👉 Follow this: [DEVELOPMENT_GUIDE.md](DEVELOPMENT_GUIDE.md#deployment)
 - Multiple deployment options
 - GitHub Actions setup
 - Troubleshooting post-deployment
 
 ### I'm Developing Locally
-👉 Reference this: [REACT_DEV_GUIDE.md](REACT_DEV_GUIDE.md)
+👉 Reference this: [DEVELOPMENT_GUIDE.md](DEVELOPMENT_GUIDE.md)
 - Project structure
 - Development workflow
 - Styling conventions
@@ -47,9 +47,8 @@ Welcome to the React conversion of the Elliot Gong portfolio! This document serv
 | Document | Purpose | Read Time |
 |----------|---------|-----------|
 | **QUICK_START.md** | Fast setup and first run | 5 min |
-| **REACT_DEV_GUIDE.md** | Development environment setup | 10 min |
+| **DEVELOPMENT_GUIDE.md** | Development setup and deployment | 10 min |
 | **MIGRATION_SUMMARY.md** | What changed and why | 15 min |
-| **DEPLOYMENT_GUIDE.md** | How to deploy to GitHub Pages | 15 min |
 | **FILE_INVENTORY.md** | Complete file-by-file breakdown | 20 min |
 | **TROUBLESHOOTING.md** | Problem-solving guide | 15 min |
 | **This Document** | Navigation hub | 5 min |
@@ -76,14 +75,14 @@ Welcome to the React conversion of the Elliot Gong portfolio! This document serv
 4. **Resume Link**: Edit `src/components/Navbar.jsx` (update href)
 
 ### Task: Deploy to GitHub Pages
-1. Read: [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)
+1. Read: [DEVELOPMENT_GUIDE.md](DEVELOPMENT_GUIDE.md#deployment)
 2. Run: `npm run build`
 3. Follow Option 1, 2, or 3 in deployment guide
 
 ### Task: Change Styling
 1. Edit: `styles/bulma_version.css`
 2. Or: Update Bulma classes in React components
-3. Reference: [REACT_DEV_GUIDE.md](REACT_DEV_GUIDE.md) (Styling section)
+3. Reference: [DEVELOPMENT_GUIDE.md](DEVELOPMENT_GUIDE.md) (Styling section)
 
 ### Task: Debug a Problem
 1. Check: [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
@@ -122,9 +121,8 @@ TheElliotGong.github.io/
 │
 ├── 📖 Documentation Files
 │   ├── QUICK_START.md               # Fast setup guide
-│   ├── REACT_DEV_GUIDE.md           # Development guide
+│   ├── DEVELOPMENT_GUIDE.md           # Development & deployment guide
 │   ├── MIGRATION_SUMMARY.md         # Conversion summary
-│   ├── DEPLOYMENT_GUIDE.md          # Deployment instructions
 │   ├── FILE_INVENTORY.md            # File-by-file details
 │   ├── TROUBLESHOOTING.md           # Problem solving
 │   └── INDEX.md                     # This file
@@ -156,7 +154,7 @@ npm run dev
 npm run build
 
 # 6. Deploy build output
-#    (See DEPLOYMENT_GUIDE.md)
+#    (See the Deployment section of DEVELOPMENT_GUIDE.md)
 ```
 
 ### Common Tasks During Development
@@ -169,7 +167,7 @@ npm run build
 #### Update Text Content
 - Edit: `src/components/*.jsx`
 - Change text, see instant refresh
-- Check `REACT_DEV_GUIDE.md` for component structure
+- Check `DEVELOPMENT_GUIDE.md` for component structure
 
 #### Fix Styling
 - Edit: `styles/bulma_version.css`
@@ -272,7 +270,7 @@ Responsive breakpoint: 1023px
 | Netlify | Easy | Free | Minimal |
 | Custom Server | Medium | $ | More |
 
-See [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md) for detailed instructions.
+See [DEVELOPMENT_GUIDE.md](DEVELOPMENT_GUIDE.md#deployment) for detailed instructions.
 
 ---
 
@@ -357,7 +355,7 @@ Before deploying to production:
 
 If you want to understand the code better:
 
-1. **Start with**: [REACT_DEV_GUIDE.md](REACT_DEV_GUIDE.md) - Project overview
+1. **Start with**: [DEVELOPMENT_GUIDE.md](DEVELOPMENT_GUIDE.md) - Project overview
 2. **Then read**: [FILE_INVENTORY.md](FILE_INVENTORY.md) - Component breakdown
 3. **Explore**: React components in `src/components/`
 4. **Study**: JSON data structures in `src/data/`

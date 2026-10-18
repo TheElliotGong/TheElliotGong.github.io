@@ -14,7 +14,7 @@ Then visit `http://localhost:8080`
 A: Node.js 14+ recommended. Check with `node -v`
 
 ### Q: Can I use this with GitHub Pages?
-A: Yes! See `DEPLOYMENT_GUIDE.md` for step-by-step instructions.
+A: Yes! See the Deployment section of `DEVELOPMENT_GUIDE.md`.
 
 ### Q: How do I add a new project?
 A: Add an object to the appropriate category in `src/data/projects.json`:
@@ -312,7 +312,7 @@ Cache-Control: max-age=3600     # For HTML
 ## Still Stuck?
 
 If you can't find the solution here:
-1. Check the React dev guide: `REACT_DEV_GUIDE.md`
+1. Check the React dev guide: `DEVELOPMENT_GUIDE.md`
 2. Check migration summary: `MIGRATION_SUMMARY.md`
 3. Search error message on Google/Stack Overflow
 4. Check package documentation on npm

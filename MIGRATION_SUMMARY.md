@@ -51,7 +51,7 @@
   - `index-react.html` - Simplified React entry point
 
 - [x] Created development guides:
-  - `REACT_DEV_GUIDE.md` - Comprehensive setup and development instructions
+  - `DEVELOPMENT_GUIDE.md` - Comprehensive setup and development instructions
 
 ## 🎯 Current State
 
@@ -157,7 +157,7 @@ The React conversion is complete and ready for development/deployment. All compo
 - `webpack.config.js` (updated)
 - `public/index.html` (updated)
 - `index-react.html` (new entry point)
-- `REACT_DEV_GUIDE.md` (new)
+- `DEVELOPMENT_GUIDE.md` (new)
 
 ### Files Modified:
 - `package.json` - Added build scripts and dev dependencies
@@ -175,4 +175,4 @@ The React conversion is complete and ready for development/deployment. All compo
 
 5. **Email Obfuscation**: Base64 string in `Hero.jsx` decodes to the actual email address on mount.
 
-For detailed development instructions, see `REACT_DEV_GUIDE.md`.
+For detailed development instructions, see `DEVELOPMENT_GUIDE.md`.

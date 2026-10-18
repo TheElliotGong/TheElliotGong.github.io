@@ -1,380 +1,436 @@
 {
-    "ai": [
+  "ai": [
+    {
+      "name": "Satellite Launch Vehicle & Rideshare Configurator",
+      "year": "2026",
+      "link": "https://ibm-bob-builders-challenge-project.vercel.app/",
+      "image": {
+        "src": "media/images/ibm_project.png",
+        "alt": "Satellite Launch Vehicle & Rideshare Configurator"
+      },
+      "description": {
+        "about": "A full-stack, AI-powered mission-planning web app built for the IBM AI Builders Challenge (Space Exploration track). It parses free-text satellite mission descriptions into structured requirements, then filters, ranks, and explains trade-offs across a launch-vehicle catalog.",
+        "whatIDid": "Designed and shipped the entire app solo in about a week: a five-stage Parse to Filter to Rank to Explain to Improve pipeline on the Gemini Flash API with deterministic regex/template fallbacks, document upload with PDF/DOCX text extraction, six export formats, a persisted settings system, an in-memory rate limiter, and a 193-test Jest suite across 10 suites.",
+        "impact": "Turns a free-text mission description into a ranked, explained shortlist of launch vehicles. The test suite covers both the AI path and the deterministic fallback, so the app still works with no API key.",
+        "teamSize": "Self",
+        "projectLength": "1 week",
+        "tools": "Next.js, React, TypeScript, Gemini Flash API, pdf-parse, mammoth, Jest, IBM Bob"
+      }
+    },
+    {
+      "name": "Project Bridge",
+      "year": "2026",
+      "description": {
+        "about": "An AI document-automation pipeline that uses OCR to scan PDFs, classify file types, and auto-route files, laying the foundation for a three-tiered desktop product with varying privilege levels and features.",
+        "whatIDid": "Architected the pipeline and benchmarked five OCR/LLM vision providers on cost, accuracy, and HIPAA/SOC 2 compliance to select the optimal vendor.",
+        "impact": "The vendor benchmark gave the company a compliance-aware basis (HIPAA/SOC 2, cost, and accuracy) for choosing an OCR provider before building on it.",
+        "teamSize": "Self",
+        "projectLength": "3 months",
+        "tools": "Python, OCR, LLM Vision APIs"
+      }
+    },
+    {
+      "name": "Stained Glass Art Genetic Algorithm",
+      "year": "2026 - Present",
+      "link": "https://github.com/TheElliotGong/Stained-Glass-Genetic-Algorithm",
+      "image": {
+        "src": "media/images/car_final.png",
+        "alt": "Stained Glass Genetic Art Algorithm Project Screenshot"
+      },
+      "description": {
+        "about": "A genetic algorithm that recreates images as stained glass art, based on Sebastian Proost's implementation.",
+        "whatIDid": "Served as project manager and developer; extended the original approach with dataset preprocessing in Pandas and NumPy and a divide-and-conquer implementation.",
+        "impact": "Started as a graduate AI course project; I've kept developing it on my own as a side project since the course ended.",
+        "teamSize": "4",
+        "projectLength": "5-week course project, now an ongoing side project",
+        "tools": "Python, Pandas, NumPy, Pillow, scikit-image, OpenCV, evol, SciPy"
+      }
+    },
+    {
+      "name": "Internal Automation Tool",
+      "year": "2025 - Present",
+      "description": {
+        "about": "A Google Apps Script tool that automates file-ownership transfers across a Google Workspace organization, reducing manual administrative effort.",
+        "whatIDid": "Designed and built the automation independently.",
+        "teamSize": "Self",
+        "tools": "Google Apps Script, DeepAI"
+      }
+    }
+  ],
+  "web-apps": [
+    {
+      "name": "Elasticsearch Aggregations Demo",
+      "year": "2025",
+      "description": {
+        "about": "A Node.js/Express web log analyzer backed by Elasticsearch, built as a six-person graduate team project. It ingests raw web server logs, indexes them, and supports full-text search, filtering, export, and aggregated analytics.",
+        "whatIDid": "Owned the aggregations feature: wrote and demoed Elasticsearch terms (bucket) aggregations over parsed logs to rank top source IPs and most-requested endpoints, and presented that segment of the team's technical talk. Teammates built the ingestion pipeline, search, and export.",
+        "impact": "The aggregations turned raw server logs into two practical answers: which client machines are most active (and possibly suspicious), and which endpoints get the most traffic and should be prioritized for maintenance.",
+        "teamSize": "6",
+        "projectLength": "4 weeks",
+        "tools": "Elasticsearch, Node.js, Express.js"
+      },
+      "link": "https://github.com/TheElliotGong/ElasticSearch_Aggregations_Demo",
+      "additionalLinks": [
         {
-            "name": "Satellite Launch Vehicle & Rideshare Configurator",
-            "year": "2026",
-            "description": {
-                "about": "A full-stack, AI-powered mission-planning web app built for the IBM AI Builders Challenge (Space Exploration track). It parses free-text satellite mission descriptions into structured requirements, then filters, ranks, and explains trade-offs across a launch-vehicle catalog.",
-                "whatIDid": "Designed and shipped the entire app solo in about a week: a five-stage Parse to Filter to Rank to Explain to Improve pipeline on the Gemini Flash API with deterministic regex/template fallbacks, document upload with PDF/DOCX text extraction, six export formats, a persisted settings system, an in-memory rate limiter, and a 193-test Jest suite across 10 suites.",
-                "teamSize": "Self",
-                "projectLength": "1 week",
-                "tools": "Next.js, React, TypeScript, Gemini Flash API, pdf-parse, mammoth, Jest, IBM Bob"
-            }
-        },
-        {
-            "name": "Project Bridge",
-            "year": "2026",
-            "description": {
-                "about": "An AI document-automation pipeline that uses OCR to scan PDFs, classify file types, and auto-route files, laying the foundation for a three-tiered desktop product with varying privilege levels and features.",
-                "whatIDid": "Architected the pipeline and benchmarked five OCR/LLM vision providers on cost, accuracy, and HIPAA/SOC 2 compliance to select the optimal vendor.",
-                "teamSize": "Self",
-                "projectLength": "3 months",
-                "tools": "Python, OCR, LLM Vision APIs"
-            }
-        },
-        {
-            "name": "Stained Glass Art Genetic Algorithm",
-            "year": "2026 - Present",
-            "link": "https://github.com/TheElliotGong/Genetic-Art-Algorithm-part-2",
-            "image": {
-                "src": "media/images/car_final.png",
-                "alt": "Stained Glass Genetic Art Algorithm Project Screenshot"
-            },
-            "description": {
-                "about": "A genetic algorithm for creating stained glass art. Based on Sebastian Proost's implemenation.",
-                "whatIDid": "Served as project manager and developer.",
-                "teamSize": "4",
-                "projectLength": "5 weeks",
-                "tools": "Pillow, scikit-image, opencv, evol, scipy"
-            }
-        },
-        {
-            "name": "Internal Automation Tool",
-            "year": "2025 - Present",
-            "description": {
-                "about": "A Google Apps Script tool that automates file-ownership transfers across a Google Workspace organization, reducing manual administrative effort.",
-                "whatIDid": "Designed and built the automation independently.",
-                "teamSize": "Self",
-                "tools": "Google Apps Script, DeepAI"
-            }
+          "label": "Presentation",
+          "text": "Slide Deck",
+          "url": "https://docs.google.com/presentation/d/e/2PACX-1vS6y4mGuTjel09v7qGaBY7-pL-J9zBmeGgfTiYIbYsoclR38yyaTNY6BxA_yTsBTJRdi8q3Drom-iXP/pub"
         }
-    ],
-    "web-apps": [
+      ]
+    },
+    {
+      "name": "Soundstack",
+      "year": "2025",
+      "link": "https://soundstack.onrender.com/",
+      "image": {
+        "src": "media/images/Soundstack.png",
+        "alt": "Soundstack Project Screenshot"
+      },
+      "description": {
+        "about": "A playlist generator web application that creates personalized music playlists based on user mood and activity using the Last.fm API.",
+        "whatIDid": "Designed and built it solo, including JWT authentication with bcrypt password hashing, protected routes and sessions, React and TypeScript components, and Last.fm-driven playlist generation.",
+        "teamSize": "Self",
+        "projectLength": "4 months",
+        "tools": "MERN Stack, Vite, Render, Last.fm API"
+      }
+    },
+    {
+      "name": "CityMeet",
+      "year": "2025",
+      "link": "https://docs.google.com/presentation/d/e/2PACX-1vQvGK65tVb1UxDsEQFvYlToUhG_fxQUkV5TVwxFQFE3Tm9arf_4STyi7E7iTVoyhRgJVdTWBGuiDx91/pub?start=false&loop=false&delayms=3000",
+      "image": {
+        "src": "media/images/CityMeet.png",
+        "alt": "CityMeet Project Screenshot"
+      },
+      "description": {
+        "about": "A custom social media application that caters to regional users in the greater Los Angeles area.",
+        "whatIDid": "Led the eight-person team as project manager and scrum master (sprint planning, task prioritization, code reviews, documentation) and defined the information architecture, user flows, and interface design.",
+        "impact": "Delivered a working MVP within the 13-week course timeline.",
+        "teamSize": "8",
+        "projectLength": "4 months",
+        "tools": "Figma, UX Pilot, Supabase, Vercel"
+      }
+    },
+    {
+      "name": "Changeling VR Official Website",
+      "year": "2024",
+      "link": "https://changelingvr.vercel.app/",
+      "image": {
+        "src": "media/images/changeling.png",
+        "alt": "Changeling VR Website Screenshot"
+      },
+      "description": {
+        "about": "The official website for the Changeling VR Project.",
+        "whatIDid": "Redesigned and developed the home, character, and error pages.",
+        "impact": "The redesigned pages are part of the project's live website, linked above.",
+        "teamSize": "9",
+        "projectLength": "4 months",
+        "tools": "JavaScript, React.js, Node.js, Webpack.js, Bootstrap.js, Vue.js, MySQL, XAMPP, Dreamhost, Vercel"
+      }
+    },
+    {
+      "name": "Netflix Clone",
+      "year": "2023 - 2026",
+      "link": "https://netflix-clone-tysd.onrender.com",
+      "image": {
+        "src": "media/images/netflix_clone.png",
+        "alt": "Netflix Clone Screenshot"
+      },
+      "description": {
+        "about": "A clone of Netflix where users can sign in and manage their own account and profiles and browse through numerous videos.",
+        "whatIDid": "Built and deployed it solo with account and profile management, Redis caching, and CircleCI-driven deployment, then kept developing it after the class to add APIs and fix bugs.",
+        "teamSize": "Self",
+        "projectLength": "3-week class project, extended on and off since",
+        "tools": "MERN Stack (MongoDB, Express.js, React.js, Node.js), Javascript, HTML5, CSS3, Redis Cloud, Render, CircleCI, Visual Studio Code"
+      }
+    },
+    {
+      "name": "Audio Visualizer",
+      "year": "2023",
+      "link": "https://theelliotgong.com/330/HW/gong-e-hw2/",
+      "image": {
+        "src": "media/images/audio_visualizer.png",
+        "alt": "Audio Visualizer Screenshot"
+      },
+      "description": {
+        "about": "Individually created an audio visualizer that specializes in music from the Nutcracker.",
+        "teamSize": "Self",
+        "projectLength": "4 weeks",
+        "tools": "Javascript, Node.js, Canvas, Web Audio, Webpack, HTML5, CSS3, Visual Studio Code"
+      }
+    }
+  ],
+  "it": [
+    {
+      "name": "Internal CRM Assistant",
+      "year": "2026",
+      "description": {
+        "about": "An AI-powered CRM assistant built on top of a company's existing Zoho account, extending the platform with AI-driven functionality instead of rebuilding it from the ground up.",
+        "whatIDid": "Built the assistant and integrated OneDrive and SharePoint for rapid database deployment and ongoing data synchronization.",
+        "impact": "Extended the company's existing Zoho CRM instead of rebuilding it from scratch, and helped migrate 100,000 client profiles into the new system.",
+        "teamSize": "3",
+        "projectLength": "2 months",
+        "tools": "Zoho CRM, Microsoft 365, SharePoint, OneDrive"
+      }
+    },
+    {
+      "name": "Product Configurator",
+      "year": "2026",
+      "description": {
+        "about": "An AI-powered product configurator connected to an in-house CRM tool that helps sales representatives tailor product recommendations and packages to each customer's needs.",
+        "whatIDid": "Supported planning, testing, and deployment coordination.",
+        "impact": "Built as a joint project with the Sales Director, who uses it along with five sales representatives to configure 37 Xerox and Lexmark devices, plus supplies and add-ons, to each customer's needs.",
+        "teamSize": "3",
+        "projectLength": "2 months",
+        "tools": "Zoho CRM, AI-assisted development"
+      }
+    },
+    {
+      "name": "Infrastructure Consolidation",
+      "year": "2026",
+      "additionalLinks": [
         {
-            "name": "Elasticsearch Aggregations Demo",
-            "year": "2025",
-            "description": {
-                "about": "A Node.js/Express web log analyzer backed by Elasticsearch, built as a six-person graduate team project. It ingests raw web server logs, indexes them, and supports full-text search, filtering, export, and aggregated analytics.",
-                "whatIDid": "Owned the aggregations feature: wrote and demoed Elasticsearch terms (bucket) aggregations over parsed logs to rank top source IPs and most-requested endpoints, and presented that segment of the team's technical talk. Teammates built the ingestion pipeline, search, and export.",
-                "teamSize": "6",
-                "projectLength": "4 weeks",
-                "tools": "Elasticsearch, Node.js, Express.js"
-            },
-            "link": "https://github.com/TheElliotGong/ElasticSearch_Aggregations_Demo"
+          "label": "Site",
+          "text": "Copy Solutions",
+          "url": "https://copysolution.com/"
         },
         {
-            "name": "Soundstack",
-            "year": "2025",
-            "link": "https://soundstack.onrender.com/",
-            "image": {
-                "src": "media/images/Soundstack.png",
-                "alt": "Soundstack Project Screenshot"
-            },
-            "description": {
-                "about": "A playlist generator web application that creates personalized music playlists based on user mood and activity using the Last.fm API.",
-                "whatIDid": "Served as designer and developer.",
-                "teamSize": "Self",
-                "projectLength": "4 months",
-                "tools": "MERN Stack, Vite, Render, Last.fm API"
-            }
+          "label": "Site",
+          "text": "zQore",
+          "url": "https://zqore.us/"
         },
         {
-            "name": "CityMeet",
-            "year": "2025",
-            "link": "https://docs.google.com/presentation/d/e/2PACX-1vQvGK65tVb1UxDsEQFvYlToUhG_fxQUkV5TVwxFQFE3Tm9arf_4STyi7E7iTVoyhRgJVdTWBGuiDx91/pub?start=false&loop=false&delayms=3000",
-            "image": {
-                "src": "media/images/CityMeet.png",
-                "alt": "CityMeet Project Screenshot"
-            },
-            "description": {
-                "about": "A custom social media application that caters to regional users in the greater Los Angeles area.",
-                "whatIDid": "Served as project manager and UX designer.",
-                "teamSize": "8",
-                "projectLength": "4 months",
-                "tools": "Figma, UX Pilot, Supabase, Vercel"
-            }
-        },
-        {
-            "name": "Changeling VR Official Website",
-            "year": "2024",
-            "link": "https://changelingvr.vercel.app/",
-            "image": {
-                "src": "media/images/changeling.png",
-                "alt": "Changeling VR Website Screenshot"
-            },
-            "description": {
-                "about": "The official website for the Changeling VR Project.",
-                "whatIDid": "Redesigned and developed the home, character, and error pages.",
-                "teamSize": "9",
-                "projectLength": "4 months",
-                "tools": "JavaScript, React.js, Node.js, Webpack.js, Bootstrap.js, Vue.js, MySQL, XAMPP, Dreamhost, Vercel"
-            }
-        },
-        {
-            "name": "Netflix Clone",
-            "year": "2023 - 2026",
-            "link": "https://netflix-clone-tysd.onrender.com",
-            "image": {
-                "src": "media/images/netflix_clone.png",
-                "alt": "Netflix Clone Screenshot"
-            },
-            "description": {
-                "about": "A clone of Netflix where users can sign in and manage their own account and profiles and browse through numerous videos.",
-                "teamSize": "Self",
-                "projectLength": "3 weeks",
-                "tools": "MERN Stack (MongoDB, Express.js, React.js, Node.js), Javascript, HTML5, CSS3, Redis Cloud, Heroku, CircleCI, Visual Studio Code"
-            }
-        },
-        {
-            "name": "Audio Visualizer",
-            "year": "2023",
-            "link": "https://theelliotgong.com/330/HW/gong-e-hw2/",
-            "image": {
-                "src": "media/images/audio_visualizer.png",
-                "alt": "Audio Visualizer Screenshot"
-            },
-            "description": {
-                "about": "Individually created an audio visualizer that specializes in music from the Nutcracker.",
-                "teamSize": "Self",
-                "projectLength": "4 weeks",
-                "tools": "Javascript, Node.js, Canvas, Web Audio, Webpack, HTML5, CSS3, Visual Studio Code"
-            }
+          "label": "Site",
+          "text": "i-Creatif",
+          "url": "https://i-creatif.com/"
         }
-    ],
-    "it": [
+      ],
+      "description": {
+        "about": "A technical consolidation of a small business's DNS, hosting, and email infrastructure across three business domains.",
+        "whatIDid": "Led the consolidation: Cloudflare DNS setup, a Google Workspace to Microsoft 365 email migration, rebuilds of three legacy WordPress sites, and a sequenced four-to-eight-week execution plan.",
+        "impact": "Migrated 150+ mailboxes across three domains with zero data loss and kept annual infrastructure costs near $1,000. Management and the head of IT were pleased with the rebuilt sites (linked above) and how much easier the backend is to maintain.",
+        "teamSize": "2",
+        "projectLength": "4 months",
+        "tools": "Cloudflare, Microsoft 365, Google Workspace, WordPress, cPanel"
+      }
+    },
+    {
+      "name": "Sales Workstation Upgrade Assessment",
+      "year": "2026",
+      "description": {
+        "about": "A 10-seat fleet upgrade assessment delivering hardware, licensing, and phased migration recommendations under a $10K budget ceiling.",
+        "whatIDid": "Led the assessment and built three hardware and software tiers, with recommendation slides, budget tables, and deployment timelines.",
+        "impact": "Gave management three ready-to-compare upgrade options for 10 sales workstations, all within a $10K budget ceiling.",
+        "teamSize": "Self",
+        "projectLength": "1 month",
+        "tools": "Microsoft 365, Excel, PowerPoint"
+      }
+    }
+  ],
+  "games": [
+    {
+      "name": "Douglas Experience",
+      "year": "2024",
+      "link": "https://www.figma.com/design/9m8HFrQHeQY6vPHxqGz4Py/Changeling-Sites?node-id=0-1&p=f&t=utyH1RhjLF4AHsby-0",
+      "image": {
+        "src": "media/images/douglas_experience.png",
+        "alt": "Douglas Experience Screenshot"
+      },
+      "description": {
+        "about": "Completed the design and development of one of the web based minigames for the Changeling VR Project's official website.",
+        "teamSize": "Self",
+        "projectLength": "4 weeks",
+        "tools": "Figma, Javascript, Howler.js, PixiJS, HTML5, CSS3, Visual Studio Code"
+      }
+    },
+    {
+      "name": "Half-Life 2: Combine Prison Escape",
+      "year": "2023",
+      "link": "https://www.youtube.com/embed/1sFP2Gm9lcQ",
+      "image": {
+        "src": "media/images/halflife.png",
+        "alt": "Half-Life 2 Level Screenshot"
+      },
+      "workshopPage": "https://www.moddb.com/members/og-elgo/downloads/combine-prison-escape-half-life-2",
+      "description": {
+        "about": "Designed and created a Half-Life 2 level where you play as a Resistance member fighting their way out of a small Combine prison/outpost. Responsible for all aspects.",
+        "impact": "Downloaded 116 times on ModDB. I refined the level's flow through two structured playtests.",
+        "teamSize": "Self",
+        "projectLength": "3 weeks",
+        "tools": "Hammer++"
+      }
+    },
+    {
+      "name": "Portal 2: Repulsion Gel Trilogy",
+      "link": "https://www.youtube.com/embed/Dvqc_EcZprk",
+      "image": {
+        "src": "media/images/portal_2.png",
+        "alt": "Portal 2 Level Screenshot"
+      },
+      "description": {
+        "about": "Designed and created a trilogy of Portal 2 Levels centered around the repulsion gel mechanic.",
+        "impact": "Playtested all three levels to tune momentum traversal, discovery, and obstacle difficulty.",
+        "teamSize": "Self",
+        "projectLength": "3 weeks",
+        "tools": "Portal 2 Level editor"
+      }
+    },
+    {
+      "name": "Battleblock Theater: The Level",
+      "year": "2023",
+      "link": "https://www.youtube.com/embed/jgiwf84uNhc",
+      "image": {
+        "src": "media/images/battleblock.jpg",
+        "alt": "Battleblock Theater Level Screenshot"
+      },
+      "description": {
+        "about": "Designed and created a platformer level that would utilize most mechanics/features of Battleblock Theater's level editor.",
+        "impact": "Gathered playtest feedback and tuned the layout for skill and challenge pacing.",
+        "teamSize": "Self",
+        "projectLength": "3 weeks",
+        "tools": "Battleblock Theatre level editor"
+      }
+    },
+    {
+      "name": "PotionWorks",
+      "year": "2022",
+      "link": "https://www.youtube.com/watch?v=OQ7aY4HT4TI",
+      "image": {
+        "src": "media/images/potionworks.png",
+        "alt": "PotionWorks"
+      },
+      "description": {
+        "about": "A multi-level digital puzzle game set in the fantasy world of Ethshar.",
+        "whatIDid": "Acted as project manager, game/UI programmer, and designer.",
+        "teamSize": "5 students",
+        "projectLength": "5 weeks",
+        "tools": "Unity"
+      }
+    },
+    {
+      "name": "The Rolling Scrolls",
+      "year": "2022",
+      "link": "https://docs.google.com/presentation/d/e/2PACX-1vTNHxk2UnlCU7Rku6t8L7sWJ4L7Lz6_Z9JO0aB7x1RQaYwA8oOJ1pG3mIADhqnEnvwQjtJ6bzutFXpJ/pub?start=false&loop=false&delayms=3000",
+      "image": {
+        "src": "media/images/rolling_scrolls.png",
+        "alt": "The Rolling Scrolls Cover Art"
+      },
+      "description": {
+        "about": "A four-to-six-player board game set in the fantasy world of Ethshar.",
+        "whatIDid": "Acted as project manager, game tester, and game designer.",
+        "impact": "Ran the team's testing and feedback sessions, which drove each round of design iteration.",
+        "teamSize": "5 students",
+        "projectLength": "4 weeks"
+      }
+    },
+    {
+      "name": "Polygon Defense",
+      "year": "2021",
+      "link": "https://theelliotgong.com/235/Polygon_Defense/",
+      "image": {
+        "src": "media/images/polygon_defense.png",
+        "alt": "Polygon Defense Screenshot"
+      },
+      "description": {
+        "about": "Designed and developed a top-down defense game that includes an upgrade system and increasing level difficulty.",
+        "teamSize": "Self",
+        "projectLength": "3 weeks",
+        "tools": "Visual Studio Code, Javascript, HTML, CSS, PixiJS"
+      }
+    }
+  ],
+  "ux": [
+    {
+      "name": "Bakery Delivery App & Website",
+      "year": "2023-2024",
+      "link": "https://www.linkedin.com/pulse/my-first-google-ux-design-certificate-project-elliot-gong-ockgc/",
+      "artstationLink": "https://www.artstation.com/artwork/lGmy4e",
+      "image": {
+        "src": "media/images/website-mockups.png",
+        "alt": "Bakery Website Mockups"
+      },
+      "description": {
+        "about": "Designed and published app and web prototypes for a bakery as part of the Google Professional UX Design Certificate's curriculum.",
+        "impact": "Capstone work for the Google UX Design Professional Certificate (completed February 2024), published as a case study on LinkedIn.",
+        "teamSize": "Self",
+        "projectLength": "8 months",
+        "tools": "Figma"
+      }
+    },
+    {
+      "name": "RIT Student Information Systems Redesign",
+      "year": "2022",
+      "link": "https://eqzxsk.axshare.com",
+      "image": {
+        "src": "media/images/sis_prototype.png",
+        "alt": "SIS Prototype Screenshot"
+      },
+      "description": {
+        "about": "Conducted a UX design case study aimed toward improving the process of course enrollment at the Rochester Institute of Technology. Responsible for research, design, prototyping, and testing.",
+        "teamSize": "Self",
+        "projectLength": "2 months",
+        "tools": "Figma, Axure RP 10"
+      }
+    }
+  ],
+  "3D": [
+    {
+      "name": "Fantasy Kaijus",
+      "year(s)": "2024 - Present",
+      "link": "https://www.artstation.com/artwork/L448mA",
+      "image": {
+        "src": "media/images/3D_models_and_renders/kaijus.png",
+        "alt": "Fantasy Kaijus Render"
+      },
+      "artstationLink": "https://www.artstation.com/elliot_gong/albums/13953874",
+      "sketchfabLink": "https://sketchfab.com/ElliotGong",
+      "description": {
+        "about": "A personal project reimagining various Toho kaiju characters to fit within a medieval fantasy setting.",
+        "impact": "The characters are now rigged and posed in Maya and Blender, taking them beyond static renders toward animation-ready assets.",
+        "teamSize": "Self",
+        "tools": "Maya, Blender, Substance 3D (Painter and Stager)"
+      }
+    },
+    {
+      "name": "Hanging Church Bell",
+      "year(s)": "2024",
+      "link": "https://www.artstation.com/artwork/LRq6Ev",
+      "image": {
+        "src": "media/images/3D_models_and_renders/church_bell.png",
+        "alt": "Church Bell Render"
+      },
+      "artstationLink": "https://www.artstation.com/artwork/LRq6Ev",
+      "sketchfabLink": "https://sketchfab.com/3d-models/hanging-church-bell-work-92324581957d4bbab5873eb5a38d57d7",
+      "description": {
+        "about": "Designed and modeled a hanging church bell prop during my time on the Changeling VR Project.",
+        "impact": "The team included it in the game. It's visible near the end of the official Changeling VR Spring 2024 Full Game Showcase, suspended high above the player.",
+        "teamSize": "Self",
+        "projectLength": "2 weeks",
+        "tools": "Maya, Substance Painter"
+      },
+      "additionalLinks": [
         {
-            "name": "Internal CRM Assistant",
-            "year": "2026",
-            "description": {
-                "about": "An AI-powered CRM assistant built on top of a company's existing Zoho account, extending the platform with AI-driven functionality instead of rebuilding it from the ground up.",
-                "whatIDid": "Built the assistant, integrated OneDrive and SharePoint for rapid database deployment and ongoing data synchronization, and assisted in migrating 100,000 client profiles to the new system.",
-                "teamSize": "3",
-                "projectLength": "2 months",
-                "tools": "Zoho CRM, Microsoft 365, SharePoint, OneDrive"
-            }
-        },
-        {
-            "name": "Product Configurator",
-            "year": "2026",
-            "description": {
-                "about": "An AI-powered product configurator connected to an in-house CRM tool that helps sales representatives tailor product recommendations and packages to each customer's needs.",
-                "whatIDid": "Supported planning, testing, and deployment coordination, covering virtual customization of 37 Xerox and Lexmark devices plus their supplies and add-ons, deployed internally to improve the workflows of five sales representatives.",
-                "teamSize": "3",
-                "projectLength": "2 months",
-                "tools": "Zoho CRM, AI-assisted development"
-            }
-        },
-        {
-            "name": "Infrastructure Consolidation",
-            "year": "2026",
-            "description": {
-                "about": "A technical consolidation of a small business's DNS, hosting, and email infrastructure across three business domains.",
-                "whatIDid": "Led the consolidation, including Cloudflare DNS setup, a zero-data-loss Google Workspace to Microsoft 365 migration of 150+ mailboxes, rebuilding three legacy WordPress sites, and authoring a sequenced four-to-eight-week execution plan that kept annual costs near $1,000.",
-                "teamSize": "2",
-                "projectLength": "4 months",
-                "tools": "Cloudflare, Microsoft 365, Google Workspace, WordPress, cPanel"
-            }
-        },
-        {
-            "name": "Sales Workstation Upgrade Assessment",
-            "year": "2026",
-            "description": {
-                "about": "A 10-seat fleet upgrade assessment delivering hardware, licensing, and phased migration recommendations under a $10K budget ceiling.",
-                "whatIDid": "Led the assessment and created three hardware and software tiers, producing management-ready recommendation slides, budget tables, and deployment timelines.",
-                "teamSize": "Self",
-                "projectLength": "1 month",
-                "tools": "Microsoft 365, Excel, PowerPoint"
-            }
+          "label": "In-game",
+          "text": "Full Game Showcase (near the end)",
+          "url": "https://www.youtube.com/watch?v=q80qYESNlno"
         }
-    ],
-    "games": [
-        {
-            "name": "Douglas Experience",
-            "year": "2024",
-            "link": "https://www.figma.com/design/9m8HFrQHeQY6vPHxqGz4Py/Changeling-Sites?node-id=0-1&p=f&t=utyH1RhjLF4AHsby-0",
-            "image": {
-                "src": "media/images/douglas_experience.png",
-                "alt": "Douglas Experience Screenshot"
-            },
-            "description": {
-                "about": "Completed the design and development of one of the web based minigames for the Changeling VR Project's official website.",
-                "teamSize": "Self",
-                "projectLength": "4 weeks",
-                "tools": "Figma, Javascript, Howler.js, PixiJS, HTML5, CSS3, Visual Studio Code"
-            }
-        },
-        {
-            "name": "Half-Life 2: Combine Prison Escape",
-            "year": "2023",
-            "link": "https://www.youtube.com/embed/1sFP2Gm9lcQ",
-            "image": {
-                "src": "media/images/halflife.png",
-                "alt": "Half-Life 2 Level Screenshot"
-            },
-            "workshopPage": "https://www.moddb.com/members/og-elgo/downloads/combine-prison-escape-half-life-2",
-            "description": {
-                "about": "Designed and created a Half-Life 2 level where you play as a Resistance member fighting their way out of a small Combine prison/outpost. Responsible for all aspects.",
-                "teamSize": "Self",
-                "projectLength": "3 weeks",
-                "tools": "Hammer++"
-            }
-        },
-        {
-            "name": "Portal 2: Repulsion Gel Trilogy",
-            "link": "https://www.youtube.com/embed/Dvqc_EcZprk",
-            "image": {
-                "src": "media/images/portal_2.png",
-                "alt": "Portal 2 Level Screenshot"
-            },
-            "workshopPage": "https://steamcommunity.com/profiles/76561198367702438/myworkshopfiles/?appid=620",
-            "description": {
-                "about": "Designed and created a trilogy of Portal 2 Levels centered around the repulsion gel mechanic.",
-                "teamSize": "Self",
-                "projectLength": "3 weeks",
-                "tools": "Portal 2 Level editor"
-            }
-        },
-        {
-            "name": "Battleblock Theater: The Level",
-            "year": "2023",
-            "link": "https://www.youtube.com/embed/jgiwf84uNhc",
-            "image": {
-                "src": "media/images/battleblock.jpg",
-                "alt": "Battleblock Theater Level Screenshot"
-            },
-            "workshopPage": "https://steamcommunity.com/sharedfiles/filedetails/?id=2936439139",
-            "description": {
-                "about": "Designed and created a platformer level that would utilize most mechanics/features of Battleblock Theater's level editor.",
-                "teamSize": "Self",
-                "projectLength": "3 weeks",
-                "tools": "Battleblock Theatre level editor"
-            }
-        },
-        {
-            "name": "PotionWorks",
-            "year": "2022",
-            "link": "https://www.youtube.com/watch?v=OQ7aY4HT4TI",
-            "image": {
-                "src": "media/images/potionworks.png",
-                "alt": "PotionWorks"
-            },
-            "description": {
-                "about": "An analog card game set in the fantasy world of Ethshar.",
-                "whatIDid": "Acted as project manager, game/UI programmer, and designer.",
-                "teamSize": "5 students",
-                "projectLength": "5 weeks",
-                "tools": "Unity"
-            }
-        },
-        {
-            "name": "The Rolling Scrolls",
-            "year": "2022",
-            "link": "https://docs.google.com/presentation/d/e/2PACX-1vTNHxk2UnlCU7Rku6t8L7sWJ4L7Lz6_Z9JO0aB7x1RQaYwA8oOJ1pG3mIADhqnEnvwQjtJ6bzutFXpJ/pub?start=false&loop=false&delayms=3000",
-            "image": {
-                "src": "media/images/rolling_scrolls.png",
-                "alt": "The Rolling Scrolls Cover Art"
-            },
-            "description": {
-                "about": "Worked in a team of 5 to create a Casual 2D Puzzle game set in the fantasy world of Ethshar.",
-                "whatIDid": "Acted as project manager, game tester, and game designer.",
-                "teamSize": "5 students",
-                "projectLength": "4 weeks"
-            }
-        },
-        {
-            "name": "Polygon Defense",
-            "year": "2021",
-            "link": "https://theelliotgong.com/235/Polygon_Defense/",
-            "image": {
-                "src": "media/images/polygon_defense.png",
-                "alt": "Polygon Defense Screenshot"
-            },
-            "description": {
-                "about": "Designed and developed a top-down defense game that includes an upgrade system and increasing level difficulty.",
-                "teamSize": "Self",
-                "projectLength": "3 weeks",
-                "tools": "Visual Studio Code, Javascript, HTML, CSS, PixiJS"
-            }
-        }
-    ],
-    "ux": [
-        {
-            "name": "Bakery Delivery App & Website",
-            "year": "2023-2024",
-            "link": "https://www.linkedin.com/pulse/my-first-google-ux-design-certificate-project-elliot-gong-ockgc/?trackingId=jz%2F%2Br2SCRJiCN%2B68NM%2FcHw%3D%3D",
-            "image": {
-                "src": "media/images/website-mockups.png",
-                "alt": "Bakery Website Mockups"
-            },
-            "description": {
-                "about": "Designed and published app and web prototypes for a bakery as part of the Google Professional UX Design Certificate's curriculum.",
-                "teamSize": "Self",
-                "projectLength": "8 months",
-                "tools": "Figma"
-            }
-        },
-        {
-            "name": "RIT Student Information Systems Redesign",
-            "year": "2022",
-            "link": "https://eqzxsk.axshare.com",
-            "image": {
-                "src": "media/images/sis_prototype.png",
-                "alt": "SIS Prototype Screenshot"
-            },
-            "description": {
-                "about": "Conducted a UX design case study aimed toward improving the process of course enrollment at the Rochester Institute of Technology. Responsible for research, design, prototyping, and testing.",
-                "teamSize": "Self",
-                "projectLength": "2 months",
-                "tools": "Figma, Axure RP 10"
-            }
-        }
-    ],
-    "3D": [
-        {
-            "name": "Fantasy Kaijus",
-            "year(s)": "2024 - Present",
-            "link": "https://www.artstation.com/artwork/L448mA",
-            "image": {
-                "src": "media/images/3D_models_and_renders/kaijus.png",
-                "alt": "Fantasy Kaijus Render"
-            },
-            "artstationLink": "https://www.artstation.com/elliot_gong/albums/13953874",
-            "description": {
-                "about": "A personal project reimagining various Toho kaiju characters to fit within a medieval fantasy setting.",
-                "teamSize": "Self",
-                "tools": "Maya, Blender, Substance 3d(Painter & Stager)"
-            }
-        },
-        {
-            "name": "Hanging Church Bell",
-            "year(s)": "2024",
-            "link": "https://www.artstation.com/artwork/LRq6Ev",
-            "image": {
-                "src": "media/images/3D_models_and_renders/church_bell.png",
-                "alt": "Church Bell Render"
-            },
-            "artstationLink": "https://www.artstation.com/artwork/LRq6Ev",
-            "description": {
-                "about": "Designed and modelled a hanging church bell prop during my time on the Changling VR Project.",
-                "teamSize": "Self",
-                "projectLength": "2 weeks",
-                "tools": "Maya, Substance Painter"
-            }
-        },
-        {
-            "name": "Weapons of Warhammer",
-            "year(s)": "2022 - 2024",
-            "link": "https://www.artstation.com/artwork/w0R4mw",
-            "image": {
-                "src": "media/images/3D_models_and_renders/warhammer_weapons.png",
-                "alt": "Warhammer Weapons Render"
-            },
-            "artstationLink": "https://www.artstation.com/elliot_gong/albums/14496343",
-            "description": {
-                "about": "Created and published eight unique weapon models themed after the Chaos gods of the Warhammer franchise.",
-                "teamSize": "Self",
-                "tools": "Maya, Blender, Substance 3D (Painter and Stager)"
-            }
-        }
-    ]
+      ]
+    },
+    {
+      "name": "Weapons of Warhammer",
+      "year(s)": "2022 - 2024",
+      "link": "https://www.artstation.com/artwork/w0R4mw",
+      "image": {
+        "src": "media/images/3D_models_and_renders/warhammer_weapons.png",
+        "alt": "Warhammer Weapons Render"
+      },
+      "artstationLink": "https://www.artstation.com/elliot_gong/albums/14496343",
+      "sketchfabLink": "https://sketchfab.com/ElliotGong/collections/weapons-6562ad06f0ac4174a97c04c502f5dcda",
+      "description": {
+        "about": "Created and published eight unique weapon models themed after the Chaos gods of the Warhammer franchise.",
+        "teamSize": "Self",
+        "tools": "Maya, Blender, Substance 3D (Painter and Stager)"
+      }
+    }
+  ]
 }
