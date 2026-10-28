@@ -88,7 +88,7 @@ function Hero() {
               </a>
               <a
                 className="column"
-                href="https://www.artstation.com/elliot_gong"
+                href="https://elliot_gong.artstation.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
