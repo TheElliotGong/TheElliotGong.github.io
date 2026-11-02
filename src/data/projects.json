@@ -31,7 +31,7 @@
     },
     {
       "name": "Stained Glass Art Genetic Algorithm",
-      "year": "2026 - Present",
+      "year": "2026",
       "link": "https://github.com/TheElliotGong/Stained-Glass-Genetic-Algorithm",
       "image": {
         "src": "media/images/car_final.png",
@@ -40,9 +40,9 @@
       "description": {
         "about": "A genetic algorithm that recreates images as stained glass art, based on Sebastian Proost's implementation.",
         "whatIDid": "Served as project manager and developer; extended the original approach with dataset preprocessing in Pandas and NumPy and a divide-and-conquer implementation.",
-        "impact": "Started as a graduate AI course project; I've kept developing it on my own as a side project since the course ended.",
-        "teamSize": "4",
-        "projectLength": "5-week course project, now an ongoing side project",
+        "impact": "Started as a graduate AI course project; I kept developing it on my own as a side project after the course ended, and have since stopped active development to prioritize my M.S. thesis.",
+        "teamSize": "3",
+        "projectLength": "5-week course project, later continued as a solo side project",
         "tools": "Python, Pandas, NumPy, Pillow, scikit-image, OpenCV, evol, SciPy"
       }
     },
