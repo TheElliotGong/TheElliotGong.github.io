@@ -1,8 +1,11 @@
 import React from 'react';
 import skillsData from '../data/skills.json';
 
-function Skills() {
-  const categories = Object.entries(skillsData);
+function Skills({ only }) {
+  // `only` is an optional list of skill category names, shown in that order.
+  const categories = only
+    ? only.filter((name) => skillsData[name]).map((name) => [name, skillsData[name]])
+    : Object.entries(skillsData);
 
   return (
     <section id="skills">

@@ -4,7 +4,9 @@ import { projectCategories } from '../data/projectCategories';
 
 function Navbar() {
   const [isMenuActive, setIsMenuActive] = useState(false);
-  const [isProjectsDropdownActive, setIsProjectsDropdownActive] = useState(false);
+  // Which dropdown is open: 'projects' or null.
+  const [openDropdown, setOpenDropdown] = useState(null);
+  const isProjectsDropdownActive = openDropdown === 'projects';
   const resolveAssetPath = (assetPath) => {
     if (!assetPath || /^(?:https?:)?\/\//.test(assetPath) || assetPath.startsWith('data:')) {
       return assetPath;
@@ -21,12 +23,12 @@ function Navbar() {
     setIsMenuActive(false);
   };
 
-  const toggleProjectsDropdown = () => {
-    setIsProjectsDropdownActive(!isProjectsDropdownActive);
+  const toggleDropdown = (name) => {
+    setOpenDropdown((current) => (current === name ? null : name));
   };
 
-  const closeProjectsDropdown = () => {
-    setIsProjectsDropdownActive(false);
+  const closeDropdowns = () => {
+    setOpenDropdown(null);
   };
 
   const dropdownRef = useRef(null);
@@ -63,16 +65,13 @@ function Navbar() {
   useEffect(() => {
     function handleClickOutside(event) {
       // Check if dropdown is active and click is outside
-      if (
-        dropdownRef.current &&
-        !dropdownRef.current.contains(event.target)
-      ) {
-        setIsProjectsDropdownActive(false);
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setOpenDropdown(null);
       }
     }
 
-    // Only attach listeners when dropdown is active
-    if (isProjectsDropdownActive) {
+    // Only attach listeners when a dropdown is open
+    if (openDropdown) {
       document.addEventListener('mousedown', handleClickOutside);
       document.addEventListener('touchend', handleClickOutside);
       
@@ -81,24 +80,24 @@ function Navbar() {
         document.removeEventListener('touchend', handleClickOutside);
       };
     }
-  }, [isProjectsDropdownActive]);
+  }, [openDropdown]);
 
   // Handle Escape key to close dropdown
   useEffect(() => {
     function handleEscape(event) {
-      if (event.key === 'Escape' && isProjectsDropdownActive) {
-        setIsProjectsDropdownActive(false);
+      if (event.key === 'Escape' && openDropdown) {
+        setOpenDropdown(null);
       }
     }
 
-    if (isProjectsDropdownActive) {
+    if (openDropdown) {
       document.addEventListener('keydown', handleEscape);
       
       return () => {
         document.removeEventListener('keydown', handleEscape);
       };
     }
-  }, [isProjectsDropdownActive]);
+  }, [openDropdown]);
 
   return (
     <header>
@@ -130,7 +129,7 @@ function Navbar() {
                 className="navbar-link is-size-3-fullhd"
                 onClick={(e) => {
                   e.preventDefault();
-                  toggleProjectsDropdown();
+                  toggleDropdown('projects');
                 }}
               >
                 Projects
@@ -144,7 +143,7 @@ function Navbar() {
                     className="navbar-item is-size-4-fullhd"
                     onClick={() => {
                       closeMenu();
-                      closeProjectsDropdown();
+                      closeDropdowns();
                     }}
                   >
                     {category.label}

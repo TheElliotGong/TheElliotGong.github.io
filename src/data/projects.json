@@ -165,65 +165,70 @@
       "name": "Internal CRM Assistant",
       "year": "2026",
       "description": {
-        "about": "An AI-powered CRM assistant built on top of a company's existing Zoho account, extending the platform with AI-driven functionality instead of rebuilding it from the ground up.",
-        "whatIDid": "Built the assistant and integrated OneDrive and SharePoint for rapid database deployment and ongoing data synchronization.",
-        "impact": "Extended the company's existing Zoho CRM instead of rebuilding it from scratch, and helped migrate 100,000 client profiles into the new system.",
+        "about": "An AI-powered CRM assistant built on top of the company's existing Zoho account, extending the platform the team already used with AI-driven functionality instead of rebuilding it from the ground up.",
+        "whatIDid": "Built the assistant, primarily with Claude Code, and integrated OneDrive and SharePoint for rapid database deployment and ongoing data synchronization. Contributed to its UI and workflow improvements, and helped plan and set up the groundwork for helpdesk ticketing and supply ordering, delivered through this assistant and the Product Configurator.",
+        "impact": "Helped migrate 100,000 client profiles into the new system. Credited by my manager with improving how requests are tracked and resolved through the ticketing system, keeping the team organized and responsive.",
         "teamSize": "3",
         "projectLength": "2 months",
-        "tools": "Zoho CRM, Microsoft 365, SharePoint, OneDrive"
+        "tools": "Zoho CRM, Microsoft 365, SharePoint, OneDrive, Claude Code"
       }
     },
     {
       "name": "Product Configurator",
       "year": "2026",
       "description": {
-        "about": "An AI-powered product configurator connected to an in-house CRM tool that helps sales representatives tailor product recommendations and packages to each customer's needs.",
-        "whatIDid": "Supported planning, testing, and deployment coordination.",
-        "impact": "Built as a joint project with the Sales Director, who uses it along with five sales representatives to configure 37 Xerox and Lexmark devices, plus supplies and add-ons, to each customer's needs.",
+        "about": "An AI-powered product configurator connected to the in-house CRM tool, so sales representatives can tailor product recommendations and packages to each customer's needs.",
+        "whatIDid": "Built it as a joint project with the Sales Director, primarily with Claude Code, adding virtual customization of 37 Xerox and Lexmark devices along with their supplies and add-ons. Supported planning, testing, and coordination for its rebuild and internal deployment.",
+        "impact": "Deployed internally to improve the workflows of five sales representatives, and the Sales Director uses it as well.",
         "teamSize": "3",
         "projectLength": "2 months",
-        "tools": "Zoho CRM, AI-assisted development"
+        "tools": "Zoho CRM, Claude Code"
       }
     },
     {
-      "name": "Infrastructure Consolidation",
+      "name": "Microsoft 365 Administration & Support",
       "year": "2026",
-      "additionalLinks": [
-        {
-          "label": "Site",
-          "text": "Copy Solutions",
-          "url": "https://copysolution.com/"
-        },
-        {
-          "label": "Site",
-          "text": "zQore",
-          "url": "https://zqore.us/"
-        },
-        {
-          "label": "Site",
-          "text": "i-Creatif",
-          "url": "https://i-creatif.com/"
-        }
-      ],
       "description": {
-        "about": "A technical consolidation of a small business's DNS, hosting, and email infrastructure across three business domains.",
-        "whatIDid": "Led the consolidation: Cloudflare DNS setup, a Google Workspace to Microsoft 365 email migration, rebuilds of three legacy WordPress sites, and a sequenced four-to-eight-week execution plan.",
-        "impact": "Migrated 150+ mailboxes across three domains with zero data loss and kept annual infrastructure costs near $1,000. Management and the head of IT were pleased with the rebuilt sites (linked above) and how much easier the backend is to maintain.",
-        "teamSize": "2",
+        "about": "Day-to-day administration of the company's Microsoft 365 environment (email, staff accounts, workstation access, and shared file storage), plus research into the IT tools and AI-assisted workflows staff could adopt.",
+        "whatIDid": "Troubleshot email issues, including isolating a synchronization root cause behind missing attachments on a shared mailbox. Updated DNS records; created and configured Microsoft accounts, workstation access, and credentials for staff; organized project resources on SharePoint and OneDrive, coordinating the migration and storage of project assets; and prepared documentation for account transitions and system handoffs. Researched IT tools, business processes, and AI-assisted workflows, and created the documentation, training, and adoption materials to support them.",
+        "impact": "Credited by my manager with streamlining how the team works and reducing manual setup effort through these Microsoft 365 solutions.",
         "projectLength": "4 months",
-        "tools": "Cloudflare, Microsoft 365, Google Workspace, WordPress, cPanel"
+        "tools": "Microsoft 365, SharePoint, OneDrive, DNS management"
+      }
+    },
+    {
+      "name": "Intern Program & Sales Outreach Supervision",
+      "year": "2026",
+      "description": {
+        "about": "Supervision of the company's intern program and its sales outreach campaigns, a role I was promoted into from IT intern on the strength of my project work.",
+        "whatIDid": "Mentored and managed two interns, including a Data Analytics, CRM & AI intern: delegated tasks, ran progress reviews, assigned research priorities, and gave feedback and professional-development training. Reviewed research findings, consolidated project feedback, and communicated results to stakeholders. Oversaw sales outreach and calls, and coordinated campaign research reviews, prospect analysis, and follow-up communications with the sales team.",
+        "impact": "Outreach reached companies across 14 industries, with 4+ calls made per workday.",
+        "teamSize": "Supervised 2 interns",
+        "projectLength": "2 months"
       }
     },
     {
       "name": "Sales Workstation Upgrade Assessment",
       "year": "2026",
       "description": {
-        "about": "A 10-seat fleet upgrade assessment delivering hardware, licensing, and phased migration recommendations under a $10K budget ceiling.",
-        "whatIDid": "Led the assessment and built three hardware and software tiers, with recommendation slides, budget tables, and deployment timelines.",
-        "impact": "Gave management three ready-to-compare upgrade options for 10 sales workstations, all within a $10K budget ceiling.",
+        "about": "The sales team's 10 workstations needed an upgrade plan covering hardware, licensing, and migration, all under a $10K budget ceiling.",
+        "whatIDid": "Led the assessment and built three hardware and software tiers, with management-ready recommendation slides, budget tables, and deployment timelines, plus phased migration recommendations.",
+        "impact": "Gave management three ready-to-compare upgrade options for the 10-seat fleet, all within the $10K budget ceiling.",
         "teamSize": "Self",
         "projectLength": "1 month",
         "tools": "Microsoft 365, Excel, PowerPoint"
+      }
+    },
+    {
+      "name": "Infrastructure Consolidation",
+      "year": "2026",
+      "description": {
+        "about": "A technical consolidation of a small business's DNS, hosting, email, and CRM accounts across three business domains, to simplify backend administration, reduce costs, and reduce technical debt.",
+        "whatIDid": "Led the consolidation, primarily with Claude Code: audited and consolidated hosting and CRM accounts, set up Cloudflare DNS, ran a Google Workspace to Microsoft 365 email migration, rebuilt three legacy WordPress sites, and authored a sequenced four-to-eight-week execution plan. Tracked budgets, reconciled costs, and managed phased timelines in Excel.",
+        "impact": "Migrated 150+ mailboxes across three domains with zero data loss and kept the new configuration's annual costs around $1,000. Management and the head of IT liked the rebuilt websites and how much easier the consolidated backend is to maintain.",
+        "teamSize": "2",
+        "projectLength": "4 months",
+        "tools": "Cloudflare, Microsoft 365, Google Workspace, WordPress, cPanel, Excel, Claude Code"
       }
     }
   ],
@@ -238,6 +243,7 @@
       },
       "description": {
         "about": "Completed the design and development of one of the web based minigames for the Changeling VR Project's official website.",
+        "impact": "One of the web games on the official Changeling VR website.",
         "teamSize": "Self",
         "projectLength": "4 weeks",
         "tools": "Figma, Javascript, Howler.js, PixiJS, HTML5, CSS3, Visual Studio Code"
@@ -376,7 +382,7 @@
   "3D": [
     {
       "name": "Fantasy Kaijus",
-      "year(s)": "2024 - Present",
+      "year": "2024 - Present",
       "link": "https://elliot_gong.artstation.com/projects/L448mA",
       "image": {
         "src": "media/images/3D_models_and_renders/kaijus.png",
@@ -393,7 +399,7 @@
     },
     {
       "name": "Hanging Church Bell",
-      "year(s)": "2024",
+      "year": "2024",
       "link": "https://elliot_gong.artstation.com/projects/LRq6Ev",
       "image": {
         "src": "media/images/3D_models_and_renders/church_bell.png",
@@ -418,7 +424,7 @@
     },
     {
       "name": "Weapons of Warhammer",
-      "year(s)": "2022 - 2024",
+      "year": "2022 - 2024",
       "link": "https://elliot_gong.artstation.com/projects/w0R4mw",
       "image": {
         "src": "media/images/3D_models_and_renders/warhammer_weapons.png",

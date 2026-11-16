@@ -13,7 +13,9 @@ function Education() {
             <div className="education">
               <h3 className="has-text-weight-bold is-size-3-desktop is-size-4-touch">{item.degree}</h3>
               <h4 className="has-text-weight-bold is-size-4-desktop is-size-5-touch">{item.school}</h4>
-              <p className="is-size-6-touch">{item.detail}</p>
+              {(Array.isArray(item.detail) ? item.detail : [item.detail]).map((line) => (
+                <p key={line} className="is-size-6-touch">{line}</p>
+              ))}
               <p className="is-size-6-touch">{item.date}</p>
             </div>
           </div>

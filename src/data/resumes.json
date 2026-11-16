@@ -1,0 +1,17 @@
+[
+  {
+    "track": "engineering",
+    "label": "Software Engineering",
+    "file": "media/resumes/Elliot-Gong-Resume-Software-Engineering.pdf"
+  },
+  {
+    "track": "creative",
+    "label": "Creative / Technical Art",
+    "file": "media/resumes/Elliot-Gong-Resume-Creative-Technical-Art.pdf"
+  },
+  {
+    "track": "it",
+    "label": "Business IT",
+    "file": "media/resumes/Elliot-Gong-Resume-Business-IT.pdf"
+  }
+]

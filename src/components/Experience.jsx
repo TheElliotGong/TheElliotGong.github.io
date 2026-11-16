@@ -1,11 +1,15 @@
 import React from 'react';
 import employmentData from '../data/employment.json';
 
-function Experience() {
+function Experience({ only }) {
+  // `only` is an optional list of job titles; when given, show just those jobs
+  // (in their original newest-first order).
+  const jobs = only ? employmentData.filter((job) => only.includes(job.jobTitle)) : employmentData;
+
   return (
     <section id="experience">
       <h2 className="has-text-weight-bold is-size-2-desktop is-size-3-touch">EXPERIENCE</h2>
-      {employmentData.map((job, index) => (
+      {jobs.map((job, index) => (
         <div key={index} className="employment block">
           <div className="employmentInfo block">
             <h2 className="has-text-weight-bold is-size-3-desktop is-size-5-touch">

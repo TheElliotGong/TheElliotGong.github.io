@@ -3,26 +3,23 @@
         "jobTitle": "Intern Program Supervisor",
         "company": "Copy Solutions, Inc.",
         "duration": "July 2026 - August 2026",
-        "impact": "Promoted from IT intern to supervisor after two months, based on the strength of my Microsoft 365 and ticketing work. The Sales Director, my manager, uses the product configurator we built together.",
+        "impact": "Promoted from IT intern after two months on the strength of my project work.",
         "duties": [
-            "Mentored and managed two interns, including a Data Analytics, CRM & AI intern, through delegation, progress reviews, research priorities, and professional-development feedback, then consolidated their findings for project stakeholders.",
-            "Oversaw sales outreach to companies across 14 industries (4+ calls per workday), coordinating prospect research reviews and follow-ups with the sales team.",
-            "Administered Microsoft 365 for staff: isolated the synchronization root cause behind missing attachments on a shared mailbox, updated DNS records, and set up accounts, workstation access, and credentials.",
-            "Contributed to internal CRM UI and workflow improvements, and supported testing and deployment of the rebuilt product configurator for five sales representatives.",
-            "Moved project assets into SharePoint and OneDrive and wrote handoff documentation for operational continuity after the internship."
+            "Mentored and managed two interns through delegation, progress reviews, and feedback.",
+            "Oversaw sales outreach to companies across 14 industries, with 4+ calls per workday.",
+            "Administered Microsoft 365 accounts, email, and DNS, and traced a shared-mailbox sync fault to its root cause."
         ]
     },
     {
         "jobTitle": "Computer Science (IT) Intern",
         "company": "Copy Solutions, Inc.",
         "duration": "May 2026 - June 2026",
-        "impact": "Management and the head of IT were pleased with the rebuilt websites and the easier-to-maintain backend services.",
+        "impact": "Credited by my manager with Microsoft 365 solutions that reduced manual setup effort.",
         "learned": "How to function in a corporate setting.",
         "duties": [
-            "Helped design and lay the groundwork for helpdesk ticketing and supply ordering, which improved how the team tracked and resolved requests.",
-            "Developed and configured Microsoft 365 solutions that automated setup and configuration tasks, reducing manual admin effort.",
-            "Audited and consolidated hosting and CRM accounts, leading into a 150+ mailbox email migration with zero data loss and annual infrastructure costs of about $1,000.",
-            "Researched IT tools, business processes, and AI-assisted workflows, and turned the findings into documentation and training materials for staff."
+            "Helped lay the groundwork for helpdesk ticketing and supply ordering, improving how requests are tracked.",
+            "Configured Microsoft 365 solutions that cut manual setup and configuration work.",
+            "Audited and consolidated hosting and CRM accounts to reduce costs and technical debt."
         ]
     },
     {
@@ -31,47 +28,43 @@
         "duration": "June 2025 - August 2026",
         "impact": "Multiple lead developers approved my assets and confirmed they worked in the game engine.",
         "duties": [
-            "Created production-ready 3D assets for a Mount & Blade II: Bannerlord Warhammer Fantasy conversion mod, matching its art direction, lore references, technical constraints, and pipeline standards.",
-            "Collaborated with designers and lead members to turn faction concepts into 3D models that support player customization, immersion, and roster development.",
-            "Worked across Maya, Blender, Substance 3D Painter, Rodin, and Leonardo AI while following the team's naming conventions and standards."
+            "Created production-ready 3D assets for a Warhammer Fantasy conversion mod of Mount & Blade II: Bannerlord.",
+            "Turned faction concepts into models in Maya, Blender, and Substance 3D Painter, matching the team's art direction and pipeline."
         ]
     },
     {
         "jobTitle": "Game Development/Coding Instructor",
         "company": "Code Ninjas",
         "duration": "October 2024 - Present",
-        "impact": "Parents come in for each camp's demo day, students return for more camps and year-round enrollment, and my camps contributed to a 10% rise in full-time enrollments.",
-        "learned": "How to teach, and how to pass on what I know about game development.",
+        "impact": "Contributed to a 10% rise in full-time enrollment; students return for more camps and year-round classes.",
+        "learned": "How to teach and pass on game development knowledge.",
         "duties": [
-            "Teach programming and game development to 35+ students, covering OOP, data structures, debugging, Unity, JavaScript, Roblox Studio, MakeCode Arcade, MCreator, Tinkercad, Blender, and 3D printing.",
-            "Led 9+ STEM and game development camps where students took 90-100+ projects from concept to final demonstration.",
-            "Grade 100+ JavaScript assignments from an ISTE-certified curriculum and use recurring mistakes to adjust pacing and debugging support.",
-            "Keep 15+ Windows workstations running at 100% uptime, and explain technical topics, including internet safety and cybersecurity, to students and parents."
+            "Teach programming and game development to 35+ students, from OOP and debugging to Unity and Blender.",
+            "Led 9+ STEM and game development camps, guiding 90–100+ student projects from concept to demo day.",
+            "Keep 15+ Windows workstations running at 100% uptime."
         ]
     },
     {
         "jobTitle": "Web Developer Intern",
         "company": "Changeling VR",
         "duration": "January 2024 - May 2024",
-        "impact": "My redesigned home, character, and error pages are part of the project's live website, and the team included my hanging church bell in the game. It appears in the official Spring 2024 Full Game Showcase.",
+        "impact": "My redesigned home, character, and error pages went live, and my hanging church bell made it into the released game.",
         "learned": "Got comfortable with frontend development.",
         "duties": [
-            "Built modular React/JavaScript components and refactored three to four web pages, adding exception handling for missing endpoints and failed API requests.",
-            "Completed a six-level web platformer in PixiJS and Howler.js, replacing placeholder assets and refining level flow, UI hierarchy, and narrative context.",
-            "Worked within a nine-person team of designers, engineers, and narrative designers; as a team leader, tracked sprints in Trello and GitHub and revised onboarding documentation."
+            "Built modular React/JavaScript components and added error handling for failed API requests.",
+            "Completed a six-level web platformer in PixiJS and Howler.js, refining its level flow and UI."
         ]
     },
     {
         "jobTitle": "3D Modeling & Animation Intern, Freelance 3D Artist",
         "company": "Great Lakes Gaming",
         "duration": "May 2022 - June 2024",
-        "impact": "Produced 12+ CG renders and 10+ textures and materials for Valorant-related marketing and promotional materials.",
-        "learned": "Learned Blender and how to navigate a remote job.",
+        "impact": "Produced 30+ CG renders and 20+ textures and materials for Valorant-related marketing.",
+        "learned": "Learned Blender and how to work effectively in a remote job.",
         "duties": [
-            "Created, optimized, and validated 30-50+ 3D models, textures, and renders, handling topology cleanup, UV unwrapping, texturing, rendering, and quality checks.",
-            "Built asset-management scripts and automated procedures that cut maintenance time by 50%.",
-            "Maintained three test levels for rendering, development, and compositing workflows.",
-            "Coordinated remotely with developers, stakeholders, and marketing teams to meet milestone deadlines on two client contracts."
+            "Created, optimized, and validated 30–50+ 3D assets, from topology cleanup and UVs to texturing and rendering.",
+            "Built asset-management scripts that cut maintenance time by 50%.",
+            "Coordinated remotely with developers and marketing to meet deadlines on two client contracts."
         ]
     },
     {
@@ -80,8 +73,8 @@
         "duration": "October 2020 - May 2024",
         "impact": "Two of the new team members I trained later moved into student management roles.",
         "duties": [
-            "Served up to 100 guests per shift while coordinating service flow with up to four peers.",
-            "Managed inventory and restocking for 50+ items and resolved customer concerns."
+            "Served up to 100 guests per shift alongside up to four peers.",
+            "Managed inventory for 50+ items and resolved customer concerns."
         ]
     }
 ]

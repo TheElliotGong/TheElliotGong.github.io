@@ -1,13 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import QuickContact from './QuickContact';
+import ResumeDownloads from './ResumeDownloads';
 
 function Hero() {
-  const [decodedEmail, setDecodedEmail] = useState('');
-
-  useEffect(() => {
-    const encodedEmail = 'dGhlZWxsaW90Z29uZ0Bob3RtYWlsLmNvbQ==';
-    setDecodedEmail(atob(encodedEmail));
-  }, []);
-
   return (
     <section id="about">
       <div className="container">
@@ -18,23 +13,29 @@ function Hero() {
             </figure>
           </div>
           <div className="column">
-            <h1 className="has-text-weight-bold is-size-1-desktop is-size-3-touch">Hi, I'm Elliot Gong!
-              <br/>And welcome to my Portfolio!
+            <p className="project-page-kicker has-text-weight-bold">Elliot Gong</p>
+            {/*
+              Headline options (swap one in below):
+              1. I build where code meets craft: software and AI, 3D and games, backed by IT and systems.
+              2. Engineer by training, artist by instinct: software, AI, 3D, and the systems behind them.
+              3. From AI tools to 3D characters, I build things that are well engineered and well made.
+            */}
+            <h1 className="has-text-weight-bold is-size-2-desktop is-size-4-touch hero-headline">
+              I build where code meets craft: software and AI, 3D and games, backed by IT and systems.
             </h1>
 
             <h3 className="has-text-weight-bold is-size-3-desktop is-size-5-touch">About Me</h3>
             <p className="is-size-6-touch">
-              I'm a Computer Science master's student and cross-disciplinary technical builder with experience across
-              full-stack development, IT support, AI-assisted workflows, UX design, and 3D/game production. After
-              completing my bachelor's in Game Design and Development at RIT, I returned to school to deepen my
-              knowledge of AI, cybersecurity, and systems. I most recently interned in IT at Copy Solutions, where I was
-              promoted to supervise the intern program. In my free time, I like to create 3D models, make digital
-              illustrations, read, watch TV, game, and play badminton.
+              I'm a Computer Science master's student at Cal State LA with a bachelor's in Game Design and Development
+              from RIT, and I most recently interned in IT at Copy Solutions, where I was promoted to supervise the
+              intern program. Outside of work, I create 3D models and digital illustrations, read, watch TV, game, and
+              play badminton.
             </p>
             <h3 className="has-text-weight-bold is-size-3-desktop is-size-5-touch">Objective</h3>
             <p className="is-size-6-touch">
-              Seeking opportunities to apply my skills across software engineering, web development, AI, IT/technical
-              support, UX/UI, and project management.
+              A creative technologist looking for roles that combine engineering and artistry, whether that means
+              building software and AI tools, producing 3D and game content, or keeping the systems behind them
+              running. Available full-time from June 2027.
             </p>
             <a
               className="has-text-weight-bold is-size-2-desktop is-size-3-touch"
@@ -43,71 +44,8 @@ function Hero() {
             >
               Get in Touch!
             </a>
-            <div id="quickContact" className="columns is-1 is-mobile">
-              <a className="column" href="https://github.com/TheElliotGong" target="_blank" rel="noopener noreferrer">
-                <img
-                  className="socialMedia"
-                  width="50"
-                  src="media/images/logos_and_icons/github.png"
-                  alt="GitHub"
-                />
-              </a>
-              <a
-                className="column email-link"
-                href={decodedEmail ? `mailto:${decodedEmail}` : '#'}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className="socialMedia"
-                  width="50"
-                  src="media/images/logos_and_icons/email_2.png"
-                  alt="Email"
-                />
-              </a>
-              <a
-                className="column"
-                href="https://www.linkedin.com/in/elliot-gong/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className="socialMedia"
-                  width="50"
-                  src="media/images/logos_and_icons/linkedin.png"
-                  alt="LinkedIn"
-                />
-              </a>
-              <a className="column" href="https://sketchfab.com/ElliotGong" target="_blank" rel="noopener noreferrer">
-                <img
-                  className="socialMedia"
-                  width="50"
-                  src="media/images/logos_and_icons/sketchfab.png"
-                  alt="Sketchfab"
-                />
-              </a>
-              <a
-                className="column"
-                href="https://elliot_gong.artstation.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className="socialMedia"
-                  width="50"
-                  src="media/images/logos_and_icons/artstation.png"
-                  alt="ArtStation"
-                />
-              </a>
-              <a
-                className="column"
-                href="https://www.figma.com/@elliotgong"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img className="socialMedia"width="50" src="media/images/logos_and_icons/Figma.png" alt="Figma" />
-              </a>
-            </div>
+            <QuickContact />
+            <ResumeDownloads />
           </div>
         </div>
       </div>

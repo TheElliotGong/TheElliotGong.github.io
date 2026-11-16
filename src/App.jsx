@@ -3,11 +3,15 @@ import { BrowserRouter, Navigate, Route, Routes, useLocation } from 'react-route
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
+import FeaturedWork from './components/FeaturedWork';
 import Experience from './components/Experience';
+import Recommendations from './components/Recommendations';
 import Skills from './components/Skills';
 import Education from './components/Education';
 import Certifications from './components/Certifications';
 import ProjectCategoryPage from './components/ProjectCategoryPage';
+import TrackPage from './components/TrackPage';
+import { tracks } from './data/tracks';
 import Contact from './components/Contact';
 import Copyright from './components/Copyright';
 import './styles/bulma_version.css';
@@ -54,10 +58,14 @@ function HomePage() {
   return (
     <main>
       <Hero />
-      <Projects mode="home" />
+      <FeaturedWork />
       <hr className="my-6 mx-auto section-divider" />
       <div className="container" id="experience-section">
         <Experience />
+      </div>
+      <hr className="my-6 mx-auto section-divider" />
+      <div className="container" id="recommendations-section">
+        <Recommendations />
       </div>
       <hr className="my-6 mx-auto section-divider" />
       <div className="container" id="skills-section">
@@ -99,6 +107,9 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/projects/:categorySlug" element={<ProjectCategoryPage />} />
+          {tracks.map((track) => (
+            <Route key={track.slug} path={`/${track.slug}`} element={<TrackPage track={track} />} />
+          ))}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         <footer>
